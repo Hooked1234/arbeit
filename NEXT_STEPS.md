@@ -1,26 +1,13 @@
 # Next Steps
 
+## Offen
+
+1. HSBA-Praesentations-Skill mit echten Beispielaufgaben weiter schaerfen.
+2. HSBA-Textschreiben-Skill mit bevorzugten Formulierungen und Tonvarianten erweitern.
+3. Projektanweisung-, Dokumentpruefung- und Kurze-E-Mail-Skills anhand echter Nutzungsbeispiele pruefen.
+4. Weitere Skills fuer Power BI/Excel und KI-Dokumente bei Bedarf ausbauen.
+5. Optional: Git-Repository im echten lokalen Projektordner pruefen, falls Codex/Claude dort versioniert arbeiten sollen.
+
 ## Naechster sinnvoller Schritt
 
-1. Workspace mit einem Beispielauftrag testen:
-   - kurze Praesentation
-   - kurze Schreibaufgabe
-   - Excel/Pivot-Frage
-   - KI-Dokument-Abschnitt
-
-2. Optional echte Formatvorgaben ergaenzen, sobald sie vorliegen:
-   - EOS Design- oder CI-Regeln
-   - HSBA formale Vorgaben
-   - bevorzugte Folienstruktur
-   - Beispiele fuer gute bisherige Outputs
-
-3. Bei kuenftigen Aenderungen GitHub-Stand und lokalen Stand vor Arbeitsbeginn abgleichen.
-   - In der Codex-Sandbox Git-Befehle ueber `./gitw` nutzen.
-   - Im normalen lokalen Checkout kann regulaeres Git genutzt werden.
-   - Vor groesseren Aenderungen einen thematischen Branch erstellen.
-
-## Offene Punkte
-
-- Es liegen noch keine echten EOS- oder HSBA-Designrichtlinien im Workspace.
-- Der Workspace ist vorbereitet, aber noch nicht mit Beispieloutputs getestet.
-- Claude-spezifische Dateien unter `.claude/` und agentenuebergreifende Dateien unter `skills/` sollten bei spaeteren groesseren Aenderungen synchron gehalten werden.
+Mit einer konkreten HSBA-Praesentationsaufgabe oder einem typischen HSBA-Text starten und das passende Template daran nachschaerfen.
