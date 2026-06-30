@@ -1,40 +1,22 @@
-# Template: EOS-Praesentation
+# Template · EOS-Präsentation
 
-## Zweck
+**Design/Wie:** `standards/praesentation-eos.md` (EOS-Rot/Dot, Tokens, reduziertes Layout).
+**Zweck:** Corporate-Folien, Pitch, Statusbericht im EOS-Kontext.
 
-Nutze dieses Template fuer EOS-interne Praesentationen, Abteilungsunterlagen, Projektupdates und praxisnahe Entscheidungsvorlagen.
+## Standardstruktur (8–12 Folien, reduziert)
+1. Titel (Dot-Akzent, Logo)
+2. Agenda
+3. Ausgangslage / Anlass
+4. Kernbotschaft (eine Aussage, Kernzahl in Rot)
+5. Lösung / Vorgehen
+6. Ergebnis / Nutzen
+7. Call-to-Action / nächste Schritte
+8. Kontakt / Quellen
 
-## Standardstruktur
+## Ausgabe (wenn keine Datei verlangt)
+Foliennummer · prägnanter Aussage-Titel · ~3 Stichpunkte (~25–30 Wörter/Folie) ·
+Kernzahl/Botschaft hervorgehoben.
 
-1. Titel und Anlass
-2. Ausgangslage
-3. Ziel / Fragestellung
-4. Aktueller Stand
-5. Analyse / Beobachtungen
-6. Auswirkungen fuer die Praxis
-7. Empfehlung / naechste Schritte
-8. Risiken oder offene Punkte
-9. Fazit
-
-## Stil
-
-- klar und intern verstaendlich
-- praxisnah statt akademisch
-- keine uebertriebenen Marketingformulierungen
-- Empfehlungen konkret formulieren
-- sensible Daten vermeiden oder anonymisieren
-
-## Datenschutz
-
-- Keine echten Kunden-, Vertrags-, Bank-, Bonitaets- oder Scoringdaten verwenden.
-- Keine internen Richtlinien erfinden.
-- Wenn Freigaben oder Ansprechpartner unklar sind, als offener Punkt markieren.
-
-## Ausgabe
-
-Wenn keine Datei verlangt ist:
-
-- Folientitel
-- kurze Stichpunkte
-- optional Sprecherhinweis
-- konkrete naechste Schritte
+## Qualitätscheck
+- Eine Kernbotschaft pro Folie? Rot als Fokus, nicht flächig hinter Text?
+- Bold & reduziert (kein akademischer Fußnotenapparat)?

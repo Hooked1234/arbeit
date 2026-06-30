@@ -1,39 +1,18 @@
-# Template: HSBA-Textschreiben
+# Template · HSBA-Textschreiben
 
-## Zweck
+**Stil/Wie:** `standards/schreiben-akademisch.md` (Argumentation, Chicago, Aufbau).
+**Zweck:** Bericht, Hausarbeit, Praxisbericht-Abschnitt.
 
-Nutze dieses Template fuer HSBA-Texte, Hausarbeitsabschnitte, Reflexionen, kurze Ausarbeitungen und wissenschaftsnahe Formulierungen.
-
-## Standardaufbau
-
-1. Einordnung: Worum geht es?
-2. Kernaussage: Was soll gezeigt werden?
-3. Begruendung: Warum ist das plausibel?
-4. Praxisbezug oder Beispiel
-5. kurze Schlussfolgerung
-
-## Stil
-
-- sachlich und klar
-- nicht kuenstlich kompliziert
-- keine leeren Floskeln
-- Begriffe praezise verwenden
-- Annahmen markieren
-- keine Quellen erfinden
-
-## Gute Formulierungslogik
-
-- Erst Aussage, dann Begruendung.
-- Abschnitte kurz halten.
-- Jeder Absatz soll eine Funktion haben.
-- Bewertungen begruenden, nicht nur behaupten.
+## Aufbau
+1. Einleitung: Problem, Ziel, Vorgehen.
+2. Hauptteil: gegliedert, je Abschnitt eine Leitfrage; Behauptung → Beleg → Einordnung.
+3. Fazit: Antwort auf Zielsetzung, kein neues Material.
+4. Verzeichnisse: Literatur (Chicago), ggf. Anhang inkl. KI-Dokumentation.
 
 ## Ausgabe
+Direkt kopierbarer Fließtext, sachlich-neutral, einheitliche Terminologie,
+jede Aussage belegt. Annahmen markieren.
 
-Direkt einen kopierbaren Text liefern.
-
-Wenn sinnvoll:
-
-- kurze Variante
-- etwas akademischere Variante
-- Hinweis, wo Quellen oder Beispiele fehlen
+## Qualitätscheck
+- Roter Faden + Überleitungen? Jede Aussage belegt (Chicago korrekt)?
+- Literaturverzeichnis vollständig und formattreu?

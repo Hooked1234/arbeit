@@ -1,30 +1,10 @@
 ---
 name: kurze-email
-description: Nutze diesen Skill fuer kurze berufliche, hochschulbezogene oder interne E-Mails mit natuerlichem, professionellem und direkt kopierbarem Ton.
+description: Nutze diesen Skill fuer kurze, geschaeftliche E-Mails und Anschreiben.
 ---
 
-# Kurze-E-Mail-Skill
+# Auslöser · Kurze E-Mail
 
-## Ziel
-
-Schreibe kurze, professionelle und direkt kopierbare E-Mails.
-
-## Vorgehen
-
-1. Anlass und Empfaenger erkennen.
-2. Wenn Ton oder Ziel unklar sind und entscheidend sind: kurz nachfragen.
-3. Sonst direkt Betreff und E-Mail-Text liefern.
-4. `templates/allgemein/kurze-email.md` als Standard verwenden.
-
-## Stil
-
-- kurz
-- freundlich
-- professionell
-- keine uebertriebenen Floskeln
-- kein unnoetig formeller Ton
-
-## Ausgabe
-
-- Betreff
-- E-Mail-Text
+1. **Standard laden:** `standards/email.md`.
+2. **Struktur:** `templates/allgemein/kurze-email.md`.
+3. Ein Thema, Anliegen in den ersten zwei Sätzen, konkreter nächster Schritt.

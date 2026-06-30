@@ -1,29 +1,11 @@
 ---
 name: hsba-textschreiben
-description: Nutze diesen Skill fuer HSBA-Texte, Hausarbeitsabschnitte, Reflexionen, wissenschaftsnahe Formulierungen und kurze akademische Schreibaufgaben fuer Felix.
+description: Nutze diesen Skill fuer akademische Texte, Berichte, Hausarbeiten und Praxisbericht-Abschnitte im HSBA-Kontext.
 ---
 
-# HSBA-Textschreiben-Skill
+# Auslöser · HSBA-Textschreiben
 
-## Ziel
-
-Erstelle kopierbare HSBA-Texte, die klar, sachlich und nachvollziehbar argumentieren.
-
-## Vorgehen
-
-1. Kontext erkennen: Hausarbeit, Reflexion, Praesentation, Projekttext oder kurze Abgabe.
-2. Wenn Ziel, Ton oder Umfang unklar sind und das Ergebnis davon abhaengt: kurz nachfragen.
-3. Sonst direkt einen nutzbaren Text schreiben.
-4. `templates/hsba/hsba-textschreiben.md` als Standard verwenden.
-
-## Stil
-
-- sachlich
-- klar
-- nicht ueberakademisch
-- keine leeren Floskeln
-- Bewertungen begruenden
-
-## Ausgabe
-
-Direkt kopierbar. Wenn sinnvoll, eine kurze und eine etwas akademischere Variante liefern.
+1. **Standard laden:** `standards/schreiben-akademisch.md` (Argumentation, Chicago, Aufbau).
+2. **Struktur:** `templates/hsba/hsba-textschreiben.md`.
+3. Bei Org-Bezug `context/hsba.md` lesen.
+4. Direkt kopierbaren Text liefern; jede Aussage belegen.

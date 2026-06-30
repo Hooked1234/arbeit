@@ -2,12 +2,16 @@
 
 ## Offen
 
-1. HSBA-Praesentations-Skill mit echten Beispielaufgaben weiter schaerfen.
-2. HSBA-Textschreiben-Skill mit bevorzugten Formulierungen und Tonvarianten erweitern.
-3. Projektanweisung-, Dokumentpruefung- und Kurze-E-Mail-Skills anhand echter Nutzungsbeispiele pruefen.
-4. Weitere Skills fuer Power BI/Excel und KI-Dokumente bei Bedarf ausbauen.
-5. Optional: Git-Repository im echten lokalen Projektordner pruefen, falls Codex/Claude dort versioniert arbeiten sollen.
+1. HSBA-Tokens gesetzt (web-abgeleitet). Offen: EOS-Markenschrift/Logo aus dem
+   EOS-Designportal (`standards/praesentation-eos.md`) sowie HSBA-Titelblatt-Daten
+   Datum/Matrikelnummer/Kurs/Dozent:in (`context/felix.md`).
+2. PPTX-Master aus den Tokens erzeugen — HSBA jetzt möglich, EOS sobald Marke gefüllt.
+3. Skills mit echten Beispielaufgaben nachschärfen (HSBA-Präsentation, -Textschreiben).
+4. `standards/excel-pivot.md` mit echten (anonymisierten) Feldnamen/Modellen ausbauen.
+5. Projektanweisung-, Dokumentprüfung- und Kurze-E-Mail-Skills an echten Fällen prüfen.
+6. Optional: Git initialisieren (`gitw`) und Stand versionieren.
 
-## Naechster sinnvoller Schritt
+## Nächster sinnvoller Schritt
 
-Mit einer konkreten HSBA-Praesentationsaufgabe oder einem typischen HSBA-Text starten und das passende Template daran nachschaerfen.
+Mit einer konkreten HSBA-Präsentations- oder Textaufgabe starten und das passende
+Standard+Template daran nachschärfen.

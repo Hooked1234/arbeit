@@ -2,3 +2,6 @@ _git/
 .cache/
 .agents/
 .codex/
+_unzipped/
+*.zip
+.claude/settings.local.json

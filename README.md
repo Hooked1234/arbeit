@@ -1,106 +1,76 @@
-# Claude/Codex Workspace
+# Workspace · Felix (HSBA / EOS)
 
-Dieser Workspace ist fuer zwei Agenten gedacht:
+Gemeinsames Arbeitsgedächtnis für KI-Agenten (**Claude Code** und **Codex**).
+Ziel: **Kein Chat startet bei null.** Die Agenten lesen hier, *wie* Felix
+arbeitet, *welche* Standards gelten und *welche* Entscheidungen schon getroffen
+sind. Andere Tools nur auf ausdrücklichen Wunsch.
 
-- Codex
-- Claude / Claude Code
+## Architektur (3 Schichten + Steuerung)
 
-Andere Tools werden nur beruecksichtigt, wenn der Nutzer sie ausdruecklich fordert.
+```text
+Steuerung   AGENTS.md (Codex) / CLAUDE.md (Claude)  → eine Routing-Tabelle
+   │
+   ├─ WAS    templates/   strukturelle Vorlagen (Gliederung, Ablauf)
+   ├─ WIE    standards/   Quelle der Wahrheit: Design-Tokens & harte Regeln
+   └─ TRIGGER skills/      schlanke Auslöser (Frontmatter) → laden Standard+Template
+```
 
-Ziel: Beide Agenten sollen denselben Projektstand verstehen und weiterbearbeiten koennen, ohne Arbeit zu doppeln, zu ueberschreiben oder ohne Kontext fortzusetzen.
+Du sagst nur *was* — der Workspace liefert das *wie*. Beide Agenten nutzen
+dieselbe Routing-Tabelle (`AGENTS.md` §1).
 
 ## Struktur
 
 ```text
 /
-├── README.md              # Ueberblick, Ziel und Nutzung des Workspaces
-├── AGENTS.md              # Hauptanweisung fuer Codex
-├── CLAUDE.md              # Hauptanweisung fuer Claude
-├── WORKLOG.md             # laufende Aenderungen und Entscheidungen
-├── NEXT_STEPS.md          # offene Aufgaben und naechster sinnvoller Schritt
-├── CHANGELOG.md           # abgeschlossene groessere Aenderungen
-├── skills/                # gemeinsame wiederverwendbare Arbeitsweisen
-├── agents/                # spezialisierte Agentenrollen
-├── templates/             # Vorlagen fuer HSBA, EOS und allgemeine Aufgaben
-└── .claude/               # Claude-Code-kompatible Spiegelung wichtiger Skills
+├── README.md            # dieser Überblick
+├── AGENTS.md            # Hauptanweisung Codex (+ gemeinsame Routing-Tabelle)
+├── CLAUDE.md            # Hauptanweisung Claude (verweist auf dieselbe Logik)
+├── WORKLOG.md           # laufende Änderungen und Entscheidungen
+├── NEXT_STEPS.md        # offene Aufgaben + nächster sinnvoller Schritt
+├── CHANGELOG.md         # abgeschlossene größere Änderungen
+├── standards/           # WIE: Design-Tokens, harte Regeln pro Aufgabentyp
+├── templates/           # WAS: strukturelle Vorlagen (hsba / eos / allgemein)
+├── skills/              # Auslöser je Aufgabentyp (für Codex sichtbar)
+├── .claude/skills/      # identische Auslöser mit Frontmatter (Claude-Autotrigger)
+├── agents/              # spezialisierte Rollen (qualitaetspruefer)
+├── .claude/agents/      # Claude-Spiegelung der Agenten
+├── context/             # Wer ist Felix, EOS, HSBA — Arbeitsweise & Tonalität
+└── decisions/           # Entscheidungs-Logbuch — was gilt, warum
 ```
 
-## Arbeitskontext
+## Routing (Kurzfassung)
 
-Der Workspace ist auf Felix, EOS und HSBA optimiert.
+| Felix sagt …          | Standard (Wie)                      |
+|------------------------|-------------------------------------|
+| „HSBA-Präsentation"    | `standards/praesentation-hsba.md`   |
+| „EOS-Präsentation"     | `standards/praesentation-eos.md`    |
+| „Akademischer Text"    | `standards/schreiben-akademisch.md` |
+| „Projektanweisung"     | `standards/projektanweisung.md`     |
+| „E-Mail"               | `standards/email.md`                |
+| „Dokumentprüfung"      | `standards/dokumentpruefung.md`     |
+| „Excel / Pivot / BI"   | `standards/excel-pivot.md`          |
+| „KI-Dokument"          | `standards/ki-dokument.md`          |
 
-Aktuelle Prioritaet:
-
-1. HSBA-Praesentationen
-2. HSBA-Textschreiben
-3. Projektanweisungen
-4. EOS-Praesentationen
-5. Dokumentpruefung
-6. kurze E-Mails
-
-Praesentationen und Schreibaufgaben werden zuerst praezisiert. Danach soll fuer jede wiederkehrende Aufgabenart ein eigener, passender Skill oder ein klares Template existieren.
-
-Aktuell angelegte Spezial-Skills:
-
-- `skills/hsba-praesentation/`
-- `skills/hsba-textschreiben/`
-- `skills/projektanweisung/`
-- `skills/eos-praesentation/`
-- `skills/dokumentpruefung/`
-- `skills/kurze-email/`
+Vollständige Tabelle mit Templates & Auslösern: `AGENTS.md` §1.
 
 ## Nutzung
 
-Zu Beginn einer Arbeitssitzung soll der Agent diese Dateien pruefen:
+1. Diesen Ordner als Projekt-Wurzel ablegen.
+2. Claude Code / Codex im Ordner starten → `CLAUDE.md` / `AGENTS.md` laden automatisch.
+3. **`⟦…⟧`-Platzhalter** in den `standards/`-Dateien an echte Vorgaben anpassen —
+   v. a. exakte Farb-Codes, Markenschrift, Logo-Pfade.
 
-1. `README.md`
-2. eigene Hauptanweisung:
-   - Codex: `AGENTS.md`
-   - Claude: `CLAUDE.md`
-3. `WORKLOG.md`
-4. `NEXT_STEPS.md`
-5. relevante Dateien aus `skills/`, `agents/` oder `templates/`
+## Erweitern
+
+Neuer wiederkehrender Aufgabentyp?
+1. `standards/<aufgabe>.md` anlegen (bestehende Datei als Vorlage).
+2. Optional `templates/<…>.md` für die Struktur.
+3. Schlanken Auslöser in `skills/<aufgabe>/SKILL.md` **und**
+   `.claude/skills/<aufgabe>/SKILL.md` ergänzen (Frontmatter + Verweis auf Standard).
+4. Zeile in der Routing-Tabelle (`AGENTS.md` §1) ergänzen.
 
 ## Grundprinzip
 
-Der gemeinsame Kontext entsteht ueber Dateien im Workspace, nicht ueber automatisch geteiltes Chat-Gedaechtnis.
-
-Vor Aenderungen:
-
-- bestehende Dateien lesen
-- aktuellen Stand verstehen
-- keine unbekannten Aenderungen ueberschreiben
-- keine Dateien loeschen, ohne dass es ausdruecklich verlangt wurde
-- Aenderungen eng am Ziel halten
-
-Nach relevanten Aenderungen:
-
-- `WORKLOG.md` kurz aktualisieren
-- offene Punkte in `NEXT_STEPS.md` eintragen
-- groessere abgeschlossene Aenderungen in `CHANGELOG.md` dokumentieren
-
-## Standard-Arbeitsmodus
-
-Wenn der Nutzer keinen Plan verlangt, soll direkt umgesetzt werden.
-
-Bei Unsicherheiten soll kurz nachgefragt werden, bevor falsche Annahmen zu unstimmigen Ergebnissen fuehren.
-
-## Rollen
-
-Codex eignet sich besonders fuer:
-
-- Dateien und Ordnerstrukturen anlegen
-- Skills technisch vorbereiten
-- README, AGENTS.md und CLAUDE.md pflegen
-- Projektstruktur umsetzen
-- Arbeitslogik versionierbar machen
-
-Claude eignet sich besonders fuer:
-
-- laengere Textarbeit
-- Stil- und Praesentationslogik
-- konzeptionelle Ausarbeitung
-- Skill-Inhalte formulieren
-- Schreib- und Praesentationsvorlagen verbessern
-
-Diese Rollen sind Orientierung, keine harte Grenze.
+Gemeinsamer Kontext entsteht über **Dateien**, nicht über geteiltes Chat-Gedächtnis.
+Vor Änderungen lesen & verstehen, nichts Unbekanntes überschreiben, nichts ohne
+Auftrag löschen. Übergabe-Disziplin: `WORKLOG.md` / `NEXT_STEPS.md` / `CHANGELOG.md`.

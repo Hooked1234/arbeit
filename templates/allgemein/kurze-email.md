@@ -1,29 +1,14 @@
-# Template: Kurze E-Mail
+# Template · Kurze E-Mail
 
-## Zweck
+**Regeln/Wie:** `standards/email.md`.
 
-Nutze dieses Template fuer kurze berufliche oder hochschulbezogene E-Mails.
+## Struktur
+- **Betreff:** konkret, handlungsorientiert.
+- **Anrede** (Sie-Form).
+- **Anliegen** in den ersten zwei Sätzen.
+- **Kern:** Bitte / Info / Frage (ggf. knappe Aufzählung).
+- **Nächster Schritt / Erwartung** (konkretes Datum/Format).
+- **Gruß** + Signatur.
 
-## Standardstruktur
-
-1. kurze Anrede
-2. direkter Anlass
-3. konkrete Bitte oder Information
-4. kurzer Abschluss
-
-## Stil
-
-- kurz
-- freundlich
-- professionell
-- keine uebertriebenen Floskeln
-- kein unnoetig formeller Ton
-
-## Ausgabe
-
-Direkt kopierbar.
-
-Wenn passend:
-
-- Betreffzeile
-- E-Mail-Text
+## Qualitätscheck
+- Ein Thema? Eindeutige Bitte? Scanbar (kurze Absätze)? Kein Roman?

@@ -1,30 +1,11 @@
 ---
 name: dokumentpruefung
-description: Nutze diesen Skill fuer Reviews von Dokumenten, Praesentationen, Leitfaeden, Hausarbeiten und internen Texten mit Fokus auf roten Faden, Aussagekraft, Plausibilitaet und Datenschutz.
+description: Nutze diesen Skill zum Pruefen, Korrigieren, Gegenlesen und Reviewen von Texten und Dokumenten.
 ---
 
-# Dokumentpruefungs-Skill
+# Auslöser · Dokumentprüfung
 
-## Ziel
-
-Pruefe Dokumente direkt, neutral und konkret.
-
-## Vorgehen
-
-1. Wichtigste Probleme zuerst nennen.
-2. Nach Wirkung ordnen: Muss, Sollte, Optional.
-3. Keine langen Zusammenfassungen vor den Befunden.
-4. `templates/allgemein/dokumentpruefung.md` als Standard verwenden.
-
-## Fokus
-
-- roter Faden
-- Aussagekraft
-- sachliche Richtigkeit
-- Vollstaendigkeit
-- Datenschutz
-- Struktur und Lesbarkeit
-
-## Stil
-
-Klar sagen, was stimmt, was nicht stimmt und was verbessert werden sollte.
+1. **Standard laden:** `standards/dokumentpruefung.md`.
+2. **Struktur:** `templates/allgemein/dokumentpruefung.md`.
+3. Prüfreihenfolge: Inhalt/Logik → Struktur → Sprache → Form (Chicago) → Rechtschreibung.
+4. Für umfassende Reviews den Agenten `qualitaetspruefer` einsetzen.

@@ -2,16 +2,18 @@
 
 ## 2026-06-30
 
-### Geaendert
+### Hinzugefügt
+- 3-Schichten-Architektur: `standards/` (Wie) + `templates/` (Was) + `skills/` (Auslöser).
+- Übergabe-Dateien `WORKLOG.md`, `NEXT_STEPS.md`, `CHANGELOG.md`.
+- `context/` (felix, eos, hsba) und `decisions/` als eigene Dateien.
+- Neue Standards `projektanweisung`, `excel-pivot`, `ki-dokument`.
+- `qualitaetspruefer`-Agent, `gitw`-Wrapper, `.gitignore`.
 
-- Workspace-Struktur auf gemeinsame Nutzung durch Codex und Claude ausgerichtet.
-- Hauptanweisungen fuer Codex und Claude vereinheitlicht.
-- Nutzerfokus auf Felix, EOS und HSBA gesetzt.
-- Standardmodus auf direkte Umsetzung mit Rueckfrage bei Unsicherheit festgelegt.
+### Geändert
+- AGENTS.md (Codex) und CLAUDE.md (Claude) auf schlanke, rollenspezifische Form
+  gekürzt; gemeinsame Routing-Tabelle nur einmal in AGENTS.md §1.
+- Templates verweisen auf ihren Standard, statt Design-Vorgaben zu duplizieren.
+- Skills sind schlanke Auslöser (Frontmatter + Verweis) statt Regel-Kopien.
 
-### Hinzugefuegt
-
-- Gemeinsame Ordner `skills/`, `agents/` und `templates/`.
-- Uebergabe-Dateien `WORKLOG.md`, `NEXT_STEPS.md` und `CHANGELOG.md`.
-- Erste priorisierte Templates fuer HSBA, EOS und allgemeine Schreibaufgaben.
-- Spezial-Skills fuer die sechs priorisierten Aufgabenarten.
+### Entfernt
+- Verschachtelte Workspace-Zips als Altlast (nicht übernommen).

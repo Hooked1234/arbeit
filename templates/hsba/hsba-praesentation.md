@@ -1,43 +1,24 @@
-# Template: HSBA-Praesentation
+# Template · HSBA-Präsentation
 
-## Zweck
+**Design/Wie:** `standards/praesentation-hsba.md` (Tokens, Farben, Folientypen — verbindlich).
+**Zweck:** Seminarvortrag, Fallstudie, Projekt-/Praxisbericht-Folien, prüfungsnaher Vortrag.
 
-Nutze dieses Template fuer HSBA-Praesentationen, Seminarvortraege, Fallstudien, Projektpraesentationen und pruefungsnahe Vortraege.
-
-## Standardstruktur
-
-1. Titel und Thema
+## Standardstruktur (8–12 Folien)
+1. Titel & Thema
 2. Ausgangslage / Problem
-3. Ziel der Praesentation
+3. Ziel der Präsentation (Leitfrage)
 4. Fachlicher Kontext / relevante Begriffe
 5. Analyse oder Vorgehen
 6. Zentrale Ergebnisse
 7. Bewertung / Interpretation
-8. Handlungsempfehlung oder Implikation
+8. Handlungsempfehlung / Implikation
 9. Grenzen / offene Punkte
 10. Fazit
+11. Quellen (Chicago, Vollbelege)
 
-## Stil
+## Ausgabe (wenn keine Datei verlangt)
+Foliennummer · Folientitel (Aussagesatz) · 3–5 Stichpunkte · optional Sprecherhinweis.
 
-- klar, fachlich, aber nicht ueberakademisch
-- kurze Stichpunkte statt Textbloecke
-- Begriffe sauber definieren
-- Argumentation sichtbar machen
-- Praxisbezug einbauen, wenn sinnvoll
-
-## Standardausgabe
-
-Wenn keine Datei verlangt ist:
-
-- Foliennummer
-- Folientitel
-- 3 bis 5 Stichpunkte
-- optional kurzer Sprecherhinweis
-
-## Qualitaetscheck
-
-- Ist die Leitfrage beantwortet?
-- Ist der rote Faden erkennbar?
-- Sind Aussagen begruendet?
-- Gibt es zu viel Text auf einzelnen Folien?
-- Ist das Fazit mehr als eine Wiederholung?
+## Qualitätscheck
+- Leitfrage beantwortet? Roter Faden erkennbar? Aussagen belegt (Chicago)?
+- Keine Folie überladen (≤ ~40 Wörter)? Fazit mehr als Wiederholung?

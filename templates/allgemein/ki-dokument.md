@@ -1,32 +1,16 @@
-# KI-Dokument / Orientierungshilfe
+# Template · KI-Dokumentation
 
-## Zweck
+**Regeln/Wie:** `standards/ki-dokument.md`.
 
-Vorlage fuer interne KI-Dokumente, Datenschutz-Hinweise, Prompting-Grundlagen und kurze Lernpfade.
+## Struktur (als Anhang)
+Tabelle:
 
-## Standardstruktur
+| Tool & Version | Zweck / Einsatz | Umfang | Eigenleistung |
+|----------------|-----------------|--------|---------------|
+| ⟦…⟧            | ⟦…⟧             | ⟦…⟧    | ⟦…⟧           |
 
-1. Worum geht es?
-2. Fuer wen ist das Dokument gedacht?
-3. Was kann KI gut unterstuetzen?
-4. Was darf nicht eingegeben werden?
-5. Gute Prompting-Grundlagen
-6. Sichere Beispielprompts
-7. Grenzen und Risiken
-8. Quellen und offene Punkte
-9. Optional: interner Freigabeweg, falls verifiziert
+Darunter optional: zentrale Prompts / Vorgehensweise.
 
-## Stil
-
-- Sachlich.
-- Praktisch.
-- Nicht dramatisieren.
-- Keine internen Regeln erfinden.
-- Kleine Stichprobe als nicht repraesentativ kennzeichnen.
-
-## Qualitaetscheck
-
-- Sind Datenschutz-Aussagen sauber?
-- Sind Beispiele anonymisiert?
-- Sind Quellen nachvollziehbar?
-- Ist das Dokument als Orientierungshilfe nutzbar?
+## Qualitätscheck
+- Alle genutzten Tools genannt? Umfang ehrlich? Eigenleistung sichtbar?
+- Hochschul-/Prüfungsvorgaben zur KI-Nutzung beachtet?

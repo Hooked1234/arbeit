@@ -1,29 +1,11 @@
 ---
 name: eos-praesentation
-description: Nutze diesen Skill fuer EOS-interne Praesentationen, Projektupdates, Entscheidungsvorlagen, Abteilungsunterlagen und praxisnahe Folien fuer Felix im Arbeitskontext.
+description: Nutze diesen Skill fuer EOS- und Corporate-Folien, Pitches und Statusberichte im EOS-Kontext.
 ---
 
-# EOS-Praesentations-Skill
+# Auslöser · EOS-Präsentation
 
-## Ziel
-
-Erstelle klare, intern nutzbare EOS-Praesentationen mit Praxisbezug und konkreten naechsten Schritten.
-
-## Vorgehen
-
-1. Anlass, Zielgruppe und gewuenschten Output erkennen.
-2. Wenn interne Freigaben, Datenlage oder Ziel unklar sind: kurz nachfragen oder als offenen Punkt markieren.
-3. `templates/eos/eos-praesentation.md` als Standard verwenden.
-4. Datenschutz und interne Sensibilitaet beachten.
-
-## Stil
-
-- intern verstaendlich
-- sachlich
-- praxisnah
-- keine Marketingfloskeln
-- konkrete Empfehlung statt allgemeiner Aussagen
-
-## Datenschutz
-
-Keine echten Kunden-, Vertrags-, Bank-, Bonitaets- oder Scoringdaten verwenden.
+1. **Standard laden:** `standards/praesentation-eos.md` (EOS-Rot/Dot, reduziertes Layout — verbindlich).
+2. **Struktur:** `templates/eos/eos-praesentation.md`.
+3. Bei Org-Bezug `context/eos.md` lesen.
+4. Reduziert, bold, eine Kernbotschaft je Folie.
