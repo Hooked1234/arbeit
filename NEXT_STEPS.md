@@ -14,17 +14,13 @@
    - bevorzugte Folienstruktur
    - Beispiele fuer gute bisherige Outputs
 
-3. Lokalen Initial Commit nach GitHub bringen.
-   - Lokal laeuft Git ueber `/workspace/_git`.
-   - Der lokale Initial Commit ist erstellt.
-   - Git-Befehle muessen ueber `./gitw` ausgefuehrt werden.
-   - Normaler GitHub-Zugriff per Terminal ist aktuell blockiert.
-   - Das GitHub-Repo ist privat, leer und nutzt `main` als Default-Branch.
-   - Push muss in einer Umgebung mit GitHub-Zugriff erfolgen oder ueber eine angebundene GitHub-Integration mit Push-Funktion.
+3. Bei kuenftigen Aenderungen GitHub-Stand und lokalen Stand vor Arbeitsbeginn abgleichen.
+   - In der Codex-Sandbox Git-Befehle ueber `./gitw` nutzen.
+   - Im normalen lokalen Checkout kann regulaeres Git genutzt werden.
+   - Vor groesseren Aenderungen einen thematischen Branch erstellen.
 
 ## Offene Punkte
 
 - Es liegen noch keine echten EOS- oder HSBA-Designrichtlinien im Workspace.
 - Der Workspace ist vorbereitet, aber noch nicht mit Beispieloutputs getestet.
 - Claude-spezifische Dateien unter `.claude/` und agentenuebergreifende Dateien unter `skills/` sollten bei spaeteren groesseren Aenderungen synchron gehalten werden.
-- Das Remote-Repository konnte per Terminal nicht gepusht oder gepullt werden, weil der GitHub-Zugriff mit `403 Forbidden` blockiert wurde.
