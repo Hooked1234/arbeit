@@ -8,7 +8,6 @@ description: Nutze diesen Skill fuer KI-Leitfaeden, interne Orientierungshilfen,
 ## Ziel
 
 Erstelle oder verbessere interne KI-Dokumente, die als Orientierungshilfe und kleiner Lernpfad funktionieren.
-Nutze bei Bedarf passende Vorlagen aus `templates/`.
 
 ## Ton und Struktur
 
