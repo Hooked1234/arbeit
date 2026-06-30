@@ -1,13 +1,19 @@
 ---
 name: praesentation
-description: Nutze diesen Skill fuer PowerPoint-/Praesentationsaufgaben, Gliederungen, Folienstruktur, Sprecherhinweise und kurze fachliche Vortragskonzepte.
+description: Nutze diesen Skill fuer Praesentationen, PowerPoint-Strukturen, Foliengliederungen, Sprecherhinweise und Vortragskonzepte fuer HSBA, EOS, Hochschule, Arbeit oder interne Kommunikation.
 ---
 
 # Praesentations-Skill
 
 ## Ziel
 
-Erstelle klare, vortragsfaehige Praesentationen fuer Hochschule, Arbeit oder interne Kommunikation.
+Erstelle klare, vortragsfaehige Praesentationen fuer Felix im Kontext HSBA, EOS oder Hochschule.
+
+## Prioritaet
+
+1. HSBA-Praesentationen
+2. EOS-Praesentationen
+3. allgemeine Hochschul- oder Arbeits-Praesentationen
 
 ## Standardformat
 
@@ -15,21 +21,39 @@ Erstelle klare, vortragsfaehige Praesentationen fuer Hochschule, Arbeit oder int
 - Jede Folie hat einen klaren Titel.
 - Stichpunkte kurz halten.
 - Keine Folie mit Text ueberladen.
+- Kernaussage pro Folie klar erkennbar machen.
 - Optional Sprecherhinweise, wenn sie den Vortrag verbessern.
 
-## Vorgehen
+## Standardvorgehen
 
-1. Zielgruppe und Zweck klaeren, falls nicht eindeutig.
-2. Relevantes Template aus `templates/` pruefen.
-3. Roter Faden zuerst: Problem, Kontext, Analyse, Ergebnis, Empfehlung.
-4. Folienstruktur liefern.
-5. Danach bei Bedarf Folientexte, Sprecherhinweise oder PowerPoint-Datei erstellen.
+1. Wenn Ziel, Zielgruppe oder Bewertungslogik fehlen und das Ergebnis davon abhaengt: kurz nachfragen.
+2. Wenn genug Kontext vorhanden ist: direkt eine nutzbare Folienstruktur erstellen.
+3. Roter Faden zuerst: Ausgangslage, Problem, Analyse, Ergebnis, Empfehlung.
+4. Danach Folientexte, Sprecherhinweise oder Datei vorbereiten, wenn verlangt.
 
-## Stil
+## HSBA-Praesentationen
 
-- Sachlich, klar, professionell.
-- Keine Marketingfloskeln.
-- Aussagen muessen belegbar oder als Annahme markiert sein.
+Nutze `templates/hsba/hsba-praesentation.md`.
+
+Wichtig:
+
+- wissenschaftlich genug, aber nicht kuenstlich kompliziert
+- klare Argumentationslogik
+- Begriffe sauber verwenden
+- Praxisbezug herstellen, wenn passend
+- Annahmen und offene Punkte markieren
+
+## EOS-Praesentationen
+
+Nutze `templates/eos/eos-praesentation.md`.
+
+Wichtig:
+
+- intern verstaendlich
+- praxisnah und umsetzungsorientiert
+- keine internen Richtlinien erfinden
+- Datenschutz und sensible Daten beachten
+- Empfehlungen konkret formulieren
 
 ## Qualitaetscheck
 
@@ -37,5 +61,6 @@ Pruefe am Ende:
 
 - Ist die Kernaussage erkennbar?
 - Hat jede Folie einen Zweck?
+- Ist der rote Faden logisch?
 - Gibt es zu viel Text?
 - Fehlt eine Abschlussfolie mit Fazit oder Empfehlung?
