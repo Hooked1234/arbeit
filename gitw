@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+exec git --git-dir=/workspace/_git --work-tree=/workspace "$@"
