@@ -23,3 +23,6 @@ Laufende Aenderungen und Entscheidungen werden hier kurz dokumentiert.
 - Branch- und Commit-Workflow im README ergaenzt.
 - Lokale Git-Identitaet fuer diesen Workspace gesetzt: `Codex Workspace <codex-workspace@local>`.
 - Initial Commit lokal auf `main` erstellt.
+- GitHub-Repo `Hooked1234/arbeit` geprueft: privates Repo, Default-Branch `main`, zentrale Workspace-Dateien sind remote vorhanden.
+- `NEXT_STEPS.md` aktualisiert: veralteten Punkt zum initialen GitHub-Push entfernt und naechsten Schritt auf Testaufgaben sowie kuenftigen Standabgleich ausgerichtet.
+- Lokale unversionierte Datei `claude-codex-workspace.zip` als Aufraeumaktion entfernt.
