@@ -35,6 +35,8 @@ Erstelle oder verbessere interne KI-Dokumente, die als Orientierungshilfe und kl
 
 ## Qualitaetscheck
 
+Pruefe:
+
 - Ist der rote Faden klar?
 - Gibt es konkrete Beispiele?
 - Sind Datenschutz-Aussagen sauber?
