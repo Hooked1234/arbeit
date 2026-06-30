@@ -1,13 +1,13 @@
 ---
 name: excel-pivot
-description: Nutze diesen Skill fuer Excel, PivotTables, Power Query, Power BI-nahe Datenauswertung, Feldlogik, Monats-/Jahreslogik und Plan-Ist-Vergleiche.
+description: Nutze diesen Skill fuer Excel, PivotTables, Power Query, Power BI-nahe Datenauswertung, Feldlogik, Monats-/Jahreslogik und Plan-Ist-Vergleiche mit anonymisierten Unternehmensdaten.
 ---
 
 # Excel- und Pivot-Skill
 
 ## Ziel
 
-Hilf dem Nutzer, Excel- und Pivot-Probleme praktisch zu loesen, ohne echte interne Daten zu benoetigen.
+Hilf Felix, Excel- und Pivot-Probleme praktisch zu loesen, ohne echte interne Daten zu benoetigen.
 
 ## Datenschutz
 
