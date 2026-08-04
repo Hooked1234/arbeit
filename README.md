@@ -35,8 +35,15 @@ dieselbe Routing-Tabelle (`AGENTS.md` §1).
 ├── agents/              # spezialisierte Rollen (qualitaetspruefer)
 ├── .claude/agents/      # Claude-Spiegelung der Agenten
 ├── context/             # Wer ist Felix, EOS, HSBA — Arbeitsweise & Tonalität
-└── decisions/           # Entscheidungs-Logbuch — was gilt, warum
+├── decisions/           # Entscheidungs-Logbuch — was gilt, warum
+└── projekte/             # aktive Arbeitsablagen nach Organisation und Semester
 ```
+
+## Aktive Projekte
+
+- [HSBA · 2. Semester](./projekte/HSBA%202.%20Semester/) mit den Fächern
+  Modellierung betrieblicher Informationssysteme, Software Engineering,
+  Wirtschaftsstatistik, Principles of Finance und Marketing Management
 
 ## Routing (Kurzfassung)
 

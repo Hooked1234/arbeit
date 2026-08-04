@@ -1,5 +1,30 @@
 # Worklog
 
+## 2026-08-04
+
+- Die Module `principles of finance` und `marketing management` unter
+  `projekte/HSBA 2. Semester/` in die bestehende sechs Bereiche umfassende
+  Modulstruktur aufgenommen.
+- Neun Ausgangsdateien aus den separaten Kursordnern unverändert nach
+  `02_materialien/` kopiert: fünf Finance-Dateien und vier Marketing-PDFs.
+  Die vier Finance-ZIP-Archive bleiben gemäß bestehender `.gitignore`-Regel
+  ausschließlich lokal; ihre 16 PDF-Inhalte wurden sicher entpackt, geprüft und
+  werden zusammen mit den übrigen Materialien versioniert.
+- Modulbeschreibungen, Folien, Archivverzeichnisse, Praxisberichtsleitfaden,
+  Fallstudien und HSBA-Regeln inhaltlich ausgewertet und bestätigte Angaben in
+  Modulsteckbriefe, Prüfungsordner und Materialübersichten übernommen.
+- Semesterübersicht und zentralen Workspace-Überblick um beide Fächer ergänzt
+  sowie die dringende Marketing-Frist zur Team- und Unternehmensmeldung am
+  10.08.2026 dokumentiert.
+
+## 2026-08-03
+
+- Persönlichen Codex-Template-Skill `artifact-template-1-0-lernzettel` unter
+  `C:/Users/felix/.codex/skills/` erstellt. Der Skill bewahrt den geprüften
+  MOBIS-Lehrplan als Referenz, erzwingt Belegt/Abgeleitet/Offen-Status,
+  prüfungsnahe Übungen und Render-QA und wurde mit `quick_validate.py`
+  erfolgreich validiert.
+
 ## 2026-07-30
 
 - Die neuen Module `software engineering` und `wirtschaftsstatistik` unter

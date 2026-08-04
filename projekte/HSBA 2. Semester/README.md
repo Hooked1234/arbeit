@@ -14,6 +14,8 @@ werden hier nicht dupliziert.
 | [Modellierung betrieblicher Informationssysteme](./modellierung%20betrieblicher%20informationssysteme/) | angelegt | offen | offen |
 | [Software Engineering](./software%20engineering/) | Materialien vorhanden | offen | offen |
 | [Wirtschaftsstatistik](./wirtschaftsstatistik/) | Materialien vorhanden | offen | offen |
+| [Principles of Finance](./principles%20of%20finance/) | Materialien vorhanden | Klausur (Englisch) | offen |
+| [Marketing Management](./marketing%20management/) | Materialien vorhanden | Praxisbericht im Team | 1. Tag der Prüfungswoche |
 
 ## Semesterübergreifende Arbeitsweise
 
