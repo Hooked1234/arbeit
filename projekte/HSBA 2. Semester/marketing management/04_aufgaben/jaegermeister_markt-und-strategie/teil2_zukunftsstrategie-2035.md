@@ -45,14 +45,20 @@ den Erstkontakt.
 
 ### 3. Neuer Claim
 
-**„Seit 1878 eiskalt. Für jede Nacht, die zählt."**
+**„56 Kräuter. Für jede Nacht, die zählt."**
 
-Tradition = Gründungsjahr und Rezeptur; Moderne = Ritual, Erlebnis, Gemeinschaft
-statt Menge. Anschlussfähig an die bestehende Kälte-Kommunikation.
+Tradition = Rezeptur und Handwerk; Moderne = Erlebnis und Gemeinschaft statt
+Menge. Anschlussfähig an die bestehende Kälte-Kommunikation.
+
+**Bewusst ohne Jahreszahl:** 1878 ist laut Fallstudie das Gründungsjahr des
+Essig- und Spirituosenherstellers — nicht das Jahr von Rezeptur oder Marke
+(Produkteinführung erfolgte später; genaues Jahr hier nicht belegt). Ein Claim
+wie „Seit 1878 eiskalt" würde also eine sachlich falsche Gleichsetzung
+transportieren und wäre im Vortrag angreifbar.
 
 Rückfalloptionen:
-- **„56 Kräuter. Unzählige Momente."** — Handwerk plus Anlassvielfalt, ohne den Club zu adressieren.
 - **„Alte Rezeptur. Neue Nächte."** — härter, näher am bisherigen Kult-Ton.
+- **„Aus Wolfenbüttel. Für jede Nacht, die zählt."** — Herkunft statt Jahreszahl; 1878 lässt sich hier mündlich als Unternehmensgründung ergänzen, ohne die Rezeptur damit zu datieren.
 
 ---
 
@@ -70,9 +76,20 @@ vortragende Person schreibt nicht mit).
 | 24–30 | Kommunikation | Wie entsteht Erlebnis statt Werbung? | eine Leitmaßnahme + Kanäle |
 | 30–35 | Zuspitzung | Sind die drei Punkte in je einem Satz sagbar? | Präsentationsergebnis fixiert |
 
-**10 Min Vorbereitung, 90-Sekunden-Skript:** Zielgruppe (20 s) → Maßnahme (30 s)
-→ Claim (10 s) → ein Satz Begründung, warum das die Markenidentität schützt (20 s)
-→ Puffer. Nicht mehr als drei Stichwörter pro Punkt aufschreiben.
+**10 Min Vorbereitung, Vortrag 3 Minuten** (Dauer ist nicht vorgegeben — 3 Min
+angenommen; im Zweifel vor dem Vortrag erfragen):
+
+| Abschnitt | Zeit | Inhalt |
+|---|---:|---|
+| Ausgangslage | 30 s | Kultmarke unter Druck: bewussterer Konsum, Premium-/Craft-Wettbewerb |
+| Zielgruppe | 45 s | „Die Rückkehrer" + warum erweitern statt verschieben |
+| Maßnahme | 60 s | Ice-Cold Residencies + zwei KPIs |
+| Leitplanke | 25 s | ein Risiko und die Gegenmaßnahme (zeigt Markenkonsistenz-Denken) |
+| Claim | 20 s | Claim nennen, in einem Satz begründen |
+
+Puffer 20 s. **Kurzfassung, falls die Zeit gedrückt wird (90 s):** Zielgruppe
+(20 s) → Maßnahme (30 s) → Claim (10 s) → ein Satz, warum die Markenidentität
+geschützt bleibt (20 s). Nicht mehr als drei Stichwörter pro Punkt aufschreiben.
 
 ---
 
@@ -107,15 +124,16 @@ für Kunden wahrnehmbar, dauerhaft verteidigbar):
 
 Neue Bedeutungen bis 2035:
 
-- **Handwerk und Herkunft:** 1878, Wolfenbüttel, Familienunternehmen — Craft-Argument, das die Marke bereits besitzt und bisher kaum nutzt.
+- **Handwerk und Herkunft:** Familienunternehmen aus Wolfenbüttel, Unternehmensgründung 1878 — Craft-Argument, das die Marke bereits besitzt und bisher kaum nutzt (Jahreszahl nur auf das Unternehmen beziehen, nicht auf Rezeptur oder Marke).
 - **Genuss statt Menge:** weniger, aber besser trinken; passt zum veränderten Konsumverhalten und schützt vor dem „Vollrausch"-Image.
 - **Mixability:** vom Shot zur Zutat (Longdrink, Cocktail, Kaffee-Serve) — erweitert Anlässe ohne Rezepturänderung.
 - **Kurator der Nachtkultur:** die Marke ermöglicht Musik und Orte, statt nur dort zu werben.
 
 **Value Proposition (ein Satz):** Für Menschen, die den Abend zu einem Erlebnis
 machen wollen, ist Jägermeister der eiskalt servierte Kräuterlikör aus 56
-Kräutern, der seit 1878 Handwerk mit Gemeinschaft verbindet — und damit Momente
-schafft, die kein Premium-Spirituosen-Neuling kaufen kann.
+Kräutern, der das Handwerk eines Familienunternehmens aus Wolfenbüttel mit
+Gemeinschaft verbindet — und damit Momente schafft, die kein
+Premium-Spirituosen-Neuling kaufen kann.
 
 ### Produkt- und Innovationsstrategie — Kern nicht anfassen, Ränder bespielen
 

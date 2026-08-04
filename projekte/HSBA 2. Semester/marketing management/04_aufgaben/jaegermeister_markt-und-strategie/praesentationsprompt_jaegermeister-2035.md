@@ -11,7 +11,10 @@ Zwei Varianten am Ende: **A** für eine HTML-/Artifact-Präsentation (Claude Des
 
 Du gestaltest eine Kurzpräsentation für eine Gruppenfallstudie im Modul
 Marketing Management (HSBA, 2. Semester, Prof. Dr. Ann-Kristin Hölter).
-Vortragsdauer ca. 3 Minuten, akademischer Kontext, sachlicher Ton.
+Vortragsdauer ca. 3 Minuten (identisch zum Sprechskript in
+`teil2_zukunftsstrategie-2035.md`), akademischer Kontext, sachlicher Ton.
+Richtwert: Folien 2–7 rund 30 Sekunden pro Folie, Titel- und Quellenfolie ohne
+eigene Redezeit.
 
 ## Aufgabenkontext
 
@@ -51,11 +54,12 @@ Marketing mit Trennung über Anlass und Kanal, nicht über zwei Markenbilder.
 
 **Positionierung:** unantastbar bleiben 56-Kräuter-Rezeptur, grüne Flasche,
 Hirsch, das eiskalte Serve-Ritual, Gemeinschaft/Nacht und der selbstironische
-Ton. Neu hinzu: Handwerk und Herkunft (1878, Wolfenbüttel, Familienunternehmen),
-Genuss statt Menge, Mixability (vom Shot zur Zutat), Kurator der Nachtkultur.
+Ton. Neu hinzu: Handwerk und Herkunft (Familienunternehmen aus Wolfenbüttel,
+Unternehmensgründung 1878), Genuss statt Menge, Mixability (vom Shot zur Zutat),
+Kurator der Nachtkultur.
 Value Proposition: „Für Menschen, die den Abend zu einem Erlebnis machen wollen,
-ist Jägermeister der eiskalt servierte Kräuterlikör aus 56 Kräutern, der seit
-1878 Handwerk mit Gemeinschaft verbindet."
+ist Jägermeister der eiskalt servierte Kräuterlikör aus 56 Kräutern, der das
+Handwerk eines Familienunternehmens aus Wolfenbüttel mit Gemeinschaft verbindet."
 
 **Konkrete Maßnahme — „Ice-Cold Residencies":** pro Jahr zehn Bars in Großstädten
 als zeitlich befristete Jägermeister-Residenz; eigenes Kühlkonzept, neue Serves
@@ -77,10 +81,15 @@ Bartender und Musik-Creator als Multiplikatoren statt Reichweiten-Influencer;
 digitale Serve- und Rezeptinhalte führen zum realen Erlebnis hin, ersetzen es nicht;
 Erlebnis entsteht über Orte, Rituale und Zugang — verkauft wird der Abend, nicht der Likör.
 
-**Claim:** „Seit 1878 eiskalt. Für jede Nacht, die zählt."
-Tradition = Gründungsjahr und Rezeptur, Moderne = Ritual, Erlebnis, Gemeinschaft
-statt Menge. Alternativen: „56 Kräuter. Unzählige Momente." und
-„Alte Rezeptur. Neue Nächte."
+**Claim:** „56 Kräuter. Für jede Nacht, die zählt."
+Tradition = Rezeptur und Handwerk, Moderne = Erlebnis und Gemeinschaft statt
+Menge. Alternativen: „Alte Rezeptur. Neue Nächte." und „Aus Wolfenbüttel. Für
+jede Nacht, die zählt."
+Wichtig: **keine Jahreszahl im Claim.** 1878 ist laut Fallstudie das Gründungsjahr
+des Essig- und Spirituosenherstellers, nicht das Jahr von Rezeptur oder Marke —
+Formulierungen wie „seit 1878 eiskalt" wären sachlich falsch. Die Jahreszahl darf
+nur als Unternehmensgründung auftauchen (Folie „Ausgangslage"), nicht als
+Datierung des Produkts.
 
 **Methodischer Rahmen (im Vortrag benennen):** Segmentierung → Targeting →
 Positionierung (STP), Wettbewerbsvorteil nach Porter, Value Proposition,
@@ -90,7 +99,7 @@ Positionierung (STP), Wettbewerbsvorteil nach Porter, Value Proposition,
 durch eigene Marktdaten belegt; keine Umsatz-, Marktanteils- oder Budgetzahlen
 verwendet. Keine Zahlen erfinden.
 
-## Foliengerüst (7 Folien, Titel als Aussagesatz)
+## Foliengerüst (8 Folien, Titel als Aussagesatz)
 
 1. **Titel:** „Jägermeister 2035 — Kultmarke bewahren, Zielgruppe erweitern"; Untertitel: Gruppenfallstudie Teil 2, Marketing Management, HSBA; Platzhalter für Namen/Datum.
 2. **Ausgangslage:** Kultmarke unter Druck — bewussterer Konsum, Premium- und Craft-Wettbewerb (max. 4 Stichpunkte).
@@ -98,7 +107,8 @@ verwendet. Keine Zahlen erfinden.
 4. **Positionierung:** Kern einfrieren, Bedeutung erweitern — zweispaltig „unantastbar" versus „neu bis 2035".
 5. **Maßnahme:** „Ice-Cold Residencies" machen aus Sponsoring Ownership — Beschreibung plus KPI-Zeile.
 6. **Risiken:** Markenkonsistenz braucht Leitplanken — Risiko/Leitplanke als Tabelle, max. vier Zeilen.
-7. **Claim & Fazit:** „Seit 1878 eiskalt. Für jede Nacht, die zählt." — plus ein Satz, warum Tradition und Moderne zusammenkommen.
+7. **Claim & Fazit:** „56 Kräuter. Für jede Nacht, die zählt." — plus ein Satz, warum Tradition und Moderne zusammenkommen.
+8. **Quellen:** Vollbelege alphabetisch, Chicago Author-Date (siehe Abschnitt „Quellen und Belege").
 
 ## Designvorgaben (HSBA, verbindlich einhalten)
 
@@ -124,14 +134,40 @@ Ende. Maximal 30–40 Wörter bzw. 5–6 Stichpunkte pro Folie, ein Kerngedanke 
 Folie, Stichpunkte parallel formuliert, keine ganzen Sätze. Ruhige Farbflächen,
 keine Animationen ohne Funktion, keine Marketing-Sprache in der Foliengestaltung
 (der Claim selbst ist davon ausgenommen), maximal zwei Schriftgrößensprünge pro
-Folie. Fallbezug in der Fußzeile ausweisen; Zitierstil Chicago Author-Date, falls
-Quellen ergänzt werden. Da alle Inhalte aus der Fallstudie und eigener Analyse
-stammen, genügt eine Fußzeile „Eigene Darstellung auf Basis der Fallstudie
-Mast Jägermeister SE" — keine Quellen erfinden.
+Folie.
+
+## Quellen und Belege (verbindlich)
+
+Zitierstil **Chicago Author-Date**. Jede Folie erhält einen Kurzbeleg in der
+Fußzeile, die Präsentation eine Quellenfolie mit Vollbelegen (alphabetisch):
+
+- Unternehmensangaben und Marktentwicklung (Folien 2 und teilweise 3) stammen aus
+  der Fallstudie → Kurzbeleg **(Hölter 2026)**.
+- Zielgruppe, Positionierung, Maßnahme, Risiken und Claim sind eigene Analyse →
+  Fußzeile **„Eigene Darstellung auf Basis der Fallstudie (Hölter 2026)"**.
+- Wird methodische Literatur im Vortrag genannt (STP, Porter, Value Proposition),
+  gehört sie ebenfalls auf die Quellenfolie; sonst weglassen.
+
+Vollbelege für Folie 8 (Angaben vor Abgabe an den Originaldateien prüfen, nichts
+ergänzen, was nicht tatsächlich verwendet wurde):
+
+```
+Hölter, Ann-Kristin. 2026. „Gruppenfallstudien Marketing: Vom Kräuterlikör zur
+    Kultmarke – Die Marketingstrategie der Mast Jägermeister SE." Kursunterlage,
+    Modul Marketing Management, HSBA Hamburg School of Business Administration.
+    ⟦Autorschaft und Jahr prüfen⟧
+Kotler, Philip, und Gary Armstrong. 2020. Principles of Marketing. 18. globale
+    Aufl. ⟦nur aufführen, wenn im Vortrag genutzt⟧
+Meffert, Heribert, et al. 2019. Marketing: Grundlagen marktorientierter
+    Unternehmensführung. 13. Aufl. ⟦nur aufführen, wenn im Vortrag genutzt⟧
+```
+
+Keine Quellen, Zahlen oder Jahreszahlen erfinden. Wenn eine Aussage nicht belegt
+ist, als Annahme kennzeichnen statt zu belegen.
 
 ## Variante A — HTML-Präsentation (Claude Design / Artifact)
 
-Erstelle eine eigenständige HTML-Präsentation im 16:9-Format mit den sieben Folien,
+Erstelle eine eigenständige HTML-Präsentation im 16:9-Format mit den acht Folien,
 Navigation per Pfeiltasten und Klick, Foliennummer unten rechts. Alles inline
 (kein externer Font-/Skript-Aufruf), Titillium Web darf durch eine System-Sans
 ersetzt werden. Hell- und Dunkelmodus unterstützen, Primärblau als Flächenfarbe
@@ -139,6 +175,6 @@ für Titel- und Abschnittsfolien.
 
 ## Variante B — PowerPoint
 
-Erstelle eine .pptx-Datei mit den sieben Folien nach den obigen Tokens, 16:9,
-Titel im Folienmaster linksbündig oben, Fußzeile mit Fallbezug und Foliennummer.
+Erstelle eine .pptx-Datei mit den acht Folien nach den obigen Tokens, 16:9,
+Titel im Folienmaster linksbündig oben, Fußzeile mit Kurzbeleg und Foliennummer.
 Tabellen als echte PowerPoint-Tabellen, nicht als Bild.
