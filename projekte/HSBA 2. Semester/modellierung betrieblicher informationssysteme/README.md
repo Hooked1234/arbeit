@@ -28,4 +28,9 @@ Prüfungsleistung des Moduls.
 ## Aktueller Stand
 
 - Modulordner angelegt
-- Inhalte, Termine und Prüfungsform noch offen
+- Lehrmaterial und Terminserie vorhanden
+- Bewertete Leistung bestätigt: Erstellung einer Übungsaufgabe nach dem Format
+  von `Aufgabe 5 – Reklamation`; 100 % der Modulnote
+- Verbindliche Bestandteile: 2–3er-Gruppe, Musterlösung und Betreuung der
+  bearbeitenden Gruppen
+- Thema, Termin, Bewertungsrubrik, Individualanteil und Abgabeformat noch offen

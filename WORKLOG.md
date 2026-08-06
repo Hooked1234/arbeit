@@ -16,6 +16,35 @@
 - Semesterübersicht und zentralen Workspace-Überblick um beide Fächer ergänzt
   sowie die dringende Marketing-Frist zur Team- und Unternehmensmeldung am
   10.08.2026 dokumentiert.
+- Einseitiges `Semester-Cockpit` für das 2. Semester aus den Originalquellen
+  erstellt. Die Seite bündelt fünf Module, belegte Prüfungsleistungen,
+  Schlüsseltermine, offene Angaben und einen konkreten 90-Minuten-Startfokus.
+- Prüfungs- und Terminangaben gegen 34 PDFs, vier PPTX- und zwei XLSX-Quellen
+  abgeglichen; Widersprüche bei MOBIS, Marketing und Finance sichtbar markiert.
+  Das DOCX wurde in Word auf genau eine Seite gerendert, visuell geprüft und
+  mit fehlerfreiem Barrierefreiheits- und Tabellengeometrie-Audit abgeschlossen.
+- Nutzerklarstellung zu den Prüfungsleistungen eingearbeitet: In Finance bildet
+  die 90-minütige englische Klausur die reguläre Note; eine optionale
+  Buchpräsentation kann 0,3 Notenpunkte gutschreiben. In MOBIS bestimmt die
+  Erstellung der Übungsaufgabe nach dem Format von `Aufgabe 5 – Reklamation`
+  die vollständige Modulnote. Semester-Cockpit, Modulsteckbriefe,
+  Prüfungsordner, Modul-READMEs und offene nächste Schritte wurden konsistent
+  korrigiert; Nutzerangaben bleiben von Primärquellen getrennt gekennzeichnet.
+  Auch der ausführliche persönliche MOBIS-Lehrplan wurde an sieben betroffenen
+  Stellen berichtigt, erneut auf 14 Seiten gerendert und ohne Layout- oder
+  Barrierefreiheitsfehler geprüft.
+- Fünf eigenständige Modulüberblicke für MOBIS, Software Engineering,
+  Wirtschaftsstatistik, Principles of Finance und Marketing Management unter
+  `projekte/HSBA 2. Semester/00_modulueberblicke/` erstellt. Jeder Überblick
+  dokumentiert Prüfungsleistung, vollständigen lokalen Quellenbestand,
+  prüfungsorientierten Inhaltskern, Fehlerfallen, Austrittskriterien,
+  Prioritäten und offene Angaben mit der Statuslogik
+  Belegt/Kursinfo/Abgeleitet/Offen.
+- Die fünf DOCX-Dateien auf zusammen 27 Seiten mit Microsoft Word gerendert und
+  vollständig visuell geprüft. Einen Leerseitenfehler durch Umbruchabsätze sowie
+  eine OOXML-Reihenfolgeabweichung korrigiert. Abschließende Prüfungen melden
+  jeweils 0 Barrierefreiheitsbefunde und konsistente Überschriften-, Abschnitts-
+  und Tabellengeometrie-Strukturen.
 
 ## 2026-08-03
 

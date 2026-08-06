@@ -11,11 +11,17 @@ werden hier nicht dupliziert.
 
 | Modul | Status | Prüfungsleistung | Termin |
 |---|---|---|---|
-| [Modellierung betrieblicher Informationssysteme](./modellierung%20betrieblicher%20informationssysteme/) | angelegt | offen | offen |
+| [Modellierung betrieblicher Informationssysteme](./modellierung%20betrieblicher%20informationssysteme/) | Vorgaben vorhanden | Übungsaufgabe, 100 % | offen |
 | [Software Engineering](./software%20engineering/) | Materialien vorhanden | offen | offen |
-| [Wirtschaftsstatistik](./wirtschaftsstatistik/) | Materialien vorhanden | offen | offen |
-| [Principles of Finance](./principles%20of%20finance/) | Materialien vorhanden | Klausur (Englisch) | offen |
+| [Wirtschaftsstatistik](./wirtschaftsstatistik/) | Materialien vorhanden | Klausur (90 Min.) | offen |
+| [Principles of Finance](./principles%20of%20finance/) | Materialien vorhanden | Klausur (Englisch, 90 Min.) + optionale Buchpräsentation (+0,3) | offen |
 | [Marketing Management](./marketing%20management/) | Materialien vorhanden | Praxisbericht im Team | 1. Tag der Prüfungswoche |
+
+## Modulüberblicke
+
+Die ausführlichen Einzelübersichten zu Prüfungsleistung, Quellenbestand,
+fachlichem Kern und nächsten Arbeitsergebnissen liegen gebündelt unter
+[00_modulueberblicke](./00_modulueberblicke/).
 
 ## Semesterübergreifende Arbeitsweise
 
@@ -30,5 +36,5 @@ werden hier nicht dupliziert.
 ## Noch offen
 
 - Stundenplan und wichtige Termine
-- Prüfungsformen und Abgabefristen
+- offene Prüfungsformen, Bewertungsregeln und Abgabefristen der übrigen Module
 - Verbindliche Vorgaben der jeweiligen Lehrenden

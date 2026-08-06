@@ -14,8 +14,10 @@
 | ECTS | 6 |
 | Workload | 48 Std. Kontaktzeit, 52 Std. Selbststudium, 50 Std. dualer Workload |
 | Prüfungsform | Schriftliche Klausur |
-| Klausurdauer | offen; siehe studiengangsspezifische Bestimmungen |
-| Notengewichtung | offen; siehe studiengangsspezifische Bestimmungen |
+| Klausurdauer | 90 Minuten |
+| Klausurhilfsmittel | Formelanhang wird gestellt; weitere Hilfsmittel offen |
+| Reguläre Benotung | Die schriftliche Klausur bildet die reguläre Modulnote. |
+| Notenverbesserung | Optionale Buchpräsentation; Gutschrift von 0,3 Notenpunkten (Kursinformation von Felix, 04.08.2026) |
 
 ## Voraussetzungen
 
@@ -31,7 +33,9 @@ Fragen, Diskussionen und weiterführende Gruppenübungen.
 
 ## Noch offen
 
-- Veranstaltungs- und Klausurtermine
+- Klausurtermin
 - Raum und organisatorischer Ablauf
-- Klausurdauer und zugelassene Hilfsmittel
-- Verbindliche Notengewichtung
+- Weitere zugelassene Hilfsmittel
+- Buchauswahl, Termin, Dauer, Anforderungen und formale Anrechnungsregel der Buchpräsentation
+- Formale Bestätigung, dass der Juli–September-Plan der B-Track-Terminplan ist;
+  der ebenfalls enthaltene April–Juni-Plan bildet keine zweite Prüfungsleistung ab
