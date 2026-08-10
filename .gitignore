@@ -5,3 +5,12 @@ _git/
 _unzipped/
 *.zip
 .claude/settings.local.json
+.claude/scratch_case.txt
+
+# Arbeitsverzeichnisse der Build-Laeufe (regenerierbar, enthalten node_modules)
+.tmp/
+tmp/
+.tmp_*/
+
+# Office-Sperrdateien
+~$*
