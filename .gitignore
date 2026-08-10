@@ -5,3 +5,5 @@ _git/
 _unzipped/
 *.zip
 .claude/settings.local.json
+# Office-Sperrdateien
+~$*

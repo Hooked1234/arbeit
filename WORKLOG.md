@@ -1,5 +1,74 @@
 # Worklog
 
+## 2026-08-10
+
+- `MOBIS`-Prüfungsleistung Auflage 2 (UML-Klassendiagramme) bewertet. Befund:
+  Artefakte und Bewertungsraster sind belastbar, das Zeitbudget von 115–135
+  Minuten kollidiert aber mit dem laut Konzeptfolie und Prüfungsordner
+  vorgesehenen Format `3 × 20 Min`. Das Studierendenblatt gibt Pflichtklassen und
+  Pflichtbeziehungen inklusive Beziehungstyp vor und nimmt damit die Lösung
+  vorweg; die Musterlösungen antworten auf identische Formulierungen in Aufgabe 2
+  und 3 unterschiedlich; die Hinweisstaffel und der Moderationsteil aus Auflage 1
+  fehlen, obwohl die Betreuung der Gruppen bewerteter Bestandteil ist.
+- Aufgabenformat des Dozenten aus `Aufgaben_EPK_Keine_Lösung.pptx` rekonstruiert:
+  eine Folie je Aufgabe, Titel plus durchgehender Fließtext aus Szene und
+  genauerer Beschreibung, keine Arbeitsaufträge oder Vorgabelisten. Die
+  Steigerung erfolgt über Konstruktvielfalt, nicht über Modellgröße.
+- Umsetzungsplan für Auflage 3 erstellt:
+  `05_pruefungsleistung/03_entwurf/2026-08-10_Umsetzungsplan_aufl.3.md`. Enthält
+  Konstruktkatalog mit Abdeckungsmatrix über alle drei Aufgaben, Zuschnitt auf
+  je 20 Minuten, Textregeln für die Szenarien, elf Arbeitsschritte mit Aufwand
+  und Abnahmekriterien. Auflage 2 bleibt als Archiv und als Grundlage für den
+  Vertiefungstermin am 02.09.2026 (`3 × 30 Min`) erhalten.
+- Schritte 2 und 3 des Plans umgesetzt:
+  `05_pruefungsleistung/03_entwurf/Szenarien_aufl.3.md`. Drei Szenariotexte im
+  Format des Dozenten (210–250 Wörter Fließtext, keine UML-Begriffe, keine
+  Arbeitsaufträge) samt Rückführbarkeitsmatrix, die jeden Satz auf genau ein
+  Modellelement abbildet. Alle 22 Konstrukte des Katalogs sind belegt.
+  Drei Abweichungen vom Plan dokumentiert: Rollennamen nur in Aufgabe 3,
+  `Ticket` in Aufgabe 3 zugunsten von `anzahlPlätze` gestrichen, Aggregation
+  zusätzlich in Aufgabe 3. Modellgrößen 5, 8 und 8 Klassen.
+- Schritte 4 und 5 des Plans umgesetzt:
+  `05_abgabe/UML-Klassendiagramme_aufl.3/Diagramme/`. Drei Musterdiagramme als
+  editierbare drawio-Quelle, SVG-Vektorfassung und PNG mit 288 dpi. Erzeugt
+  werden sie aus einem Layoutmodell unter `_generator/`, das vor jedem Export
+  Kastenüberlappungen, Seitenüberläufe, zu schmale Kästen und Kantenendpunkte
+  abseits der Klassenrahmen prüft. Abdeckungsprüfung: 22 von 22 Konstrukten
+  belegt; `{disjoint, complete}` fehlte zunächst im Diagramm zu Aufgabe 3 und
+  wurde als Beschriftung an der Generalisierungsmenge ergänzt. Drei Sätze in
+  den Szenarien nachgezogen, damit Bestellung, Reservierung und
+  Buchungsposition eine im Text begründete Operation erhalten.
+  Offen: PDF-Export der Diagramme (in dieser Umgebung keine drawio-CLI und kein
+  SVG-nach-PDF-Konverter verfügbar) sowie der Zeittest.
+- Schritte 8 und 9 des Plans umgesetzt: `MOBIS_UML_Lehrendenfassung.docx` und
+  `.pdf`, 13 Seiten, davon drei A3-Querseiten mit den Musterdiagrammen. Je
+  Aufgabe Szenariotext, Moderation, Beziehungsübersicht, Prüfinstanzen,
+  typische Fehler, zulässige Alternativen, Bewertungsraster und die
+  vollständige Rückführbarkeitstabelle. Der Moderationsteil holt die in
+  Auflage 2 verlorene Hinweisstaffel zurück: je Aufgabe eine offene Frage nach
+  Minute 5, ein eingrenzender Hinweis nach Minute 10 und ein Checkpoint-Satz
+  zur Auflösung, dazu ein Ablaufplan für die 20 Minuten und eine
+  Priorisierungsregel bei Zeitnot.
+- Zwei Layoutfehler im ersten Durchlauf behoben: Leerseiten vor den
+  Abschnittswechseln und fehlende Kopfzeilenwiederholung der langen
+  Rückführbarkeitstabellen. PDF-Prüfung anschließend ohne Befund.
+- Schritte 6 und 7 des Plans umgesetzt: `MOBIS_UML_Aufgaben.pptx` mit drei
+  Folien im Format des Dozenten (Titel plus Fließtext, 18 pt, volle Breite) und
+  `MOBIS_UML_Aufgaben_Druckfassung.docx/.pdf` mit identischem Text auf zwei
+  Seiten. Die Folien bauen auf seiner Vorlage `Aufgaben_EPK_Keine_Lösung.pptx`
+  auf; Master, Theme und Layout bleiben unverändert, Folien 4 und 5 entfallen,
+  Dokumenteigenschaften neu gesetzt. Ein aus dem Layout geerbtes
+  Aufzählungszeichen auf Folie 1 wurde unterdrückt. Textgleichheit zwischen
+  Folien und Quelle automatisiert geprüft.
+- Werkzeugnotiz: PowerPoint kann in dieser Umgebung nicht nach PDF speichern
+  (`SaveAs`, `SaveCopyAs` und `ExportAsFixedFormat` scheitern), wohl aber
+  einzelne Folien über `Slide.Export` als PNG. Die visuelle Abnahme lief
+  darüber.
+- Werkzeugnotiz: Word `ExportAsFixedFormat` hängt hier reproduzierbar,
+  `SaveAs2` mit Format 17 funktioniert. Bei hängendem Word hilft das Löschen
+  des Resiliency-Schlüssels. Das erklärt auch den entsprechenden Befund in der
+  Qualitätsprüfung der Auflage 2.
+
 ## 2026-08-04
 
 - Die Module `principles of finance` und `marketing management` unter

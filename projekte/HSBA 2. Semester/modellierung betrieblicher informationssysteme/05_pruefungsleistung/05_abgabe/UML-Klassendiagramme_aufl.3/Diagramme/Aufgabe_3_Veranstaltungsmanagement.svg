@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1010" viewBox="0 0 1800 1010" font-family="Arial, Helvetica, sans-serif">
+<rect width="1800" height="1010" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1800" height="46" fill="#173B57"/>
+<text x="16" y="30" fill="#FFFFFF" font-size="20" font-weight="bold">Aufgabe 3 - Veranstaltungsmanagement</text>
+<path d="M290.0,232.0 L290.0,420.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<polygon points="290.0,232.0 296.0,240.0 290.0,248.0 284.0,240.0" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="302" y="330" font-size="11" fill="#173B57" text-anchor="start" font-style="italic">beschäftigt</text>
+<text x="281" y="256" font-size="11" fill="#173B57" text-anchor="end">1</text>
+<text x="281" y="396" font-size="11" fill="#173B57" text-anchor="end">0..*</text>
+<path d="M440.0,169.0 L680.0,169.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<text x="560" y="158" font-size="11" fill="#173B57" text-anchor="middle" font-style="italic">organisiert</text>
+<text x="466" y="187" font-size="11" fill="#173B57" text-anchor="middle">1</text>
+<text x="654" y="187" font-size="11" fill="#173B57" text-anchor="middle">0..*</text>
+<path d="M440.0,471.0 L760.0,471.0 L760.0,232.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<text x="600" y="460" font-size="11" fill="#173B57" text-anchor="middle" font-style="italic">betreut</text>
+<text x="455" y="460" font-size="11" fill="#173B57" text-anchor="middle">0..*</text>
+<text x="770" y="250" font-size="11" fill="#173B57" text-anchor="middle">0..*</text>
+<path d="M570.0,370.0 L570.0,471.0" fill="none" stroke="#173B57" stroke-width="1.6" stroke-dasharray="6 4"/>
+<path d="M745.0,580.0 L745.0,530.0 L900.0,530.0 L900.0,232.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<polygon points="900.0,232.0 908.0,248.0 892.0,248.0" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<path d="M1085.0,580.0 L1085.0,530.0 L900.0,530.0 L900.0,232.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<polygon points="900.0,232.0 908.0,248.0 892.0,248.0" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<path d="M745.0,670.0 L745.0,730.0 L650.0,730.0 L650.0,790.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<text x="700" y="745" font-size="11" fill="#173B57" text-anchor="middle" font-style="italic">findet statt an</text>
+<text x="762" y="700" font-size="11" fill="#173B57" text-anchor="middle">0..*</text>
+<text x="665" y="778" font-size="11" fill="#173B57" text-anchor="middle">1</text>
+<path d="M1460.0,216.0 L1460.0,420.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<text x="1472" y="322" font-size="11" fill="#173B57" text-anchor="start" font-style="italic">tätigt</text>
+<text x="1451" y="240" font-size="11" fill="#173B57" text-anchor="end">1</text>
+<text x="1451" y="396" font-size="11" fill="#173B57" text-anchor="end">0..*</text>
+<path d="M1310.0,495.0 L1250.0,495.0 L1250.0,169.0 L980.0,169.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<text x="1262" y="340" font-size="11" fill="#173B57" text-anchor="middle" font-style="italic">bezieht sich auf</text>
+<text x="1295" y="483" font-size="11" fill="#173B57" text-anchor="middle">0..*</text>
+<text x="995" y="157" font-size="11" fill="#173B57" text-anchor="middle">1</text>
+<path d="M140.0,430.0 L30.0,430.0 L30.0,520.0 L140.0,520.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<text x="85" y="479" font-size="11" fill="#173B57" text-anchor="middle" font-style="italic">berichtet an</text>
+<text x="130" y="417" font-size="11" fill="#173B57" text-anchor="end">0..1</text>
+<text x="130" y="537" font-size="11" fill="#173B57" text-anchor="end">0..*</text>
+<text x="130" y="449" font-size="11" fill="#173B57" text-anchor="end">vorgesetzter</text>
+<text x="130" y="509" font-size="11" fill="#173B57" text-anchor="end">unterstellte</text>
+<rect x="140" y="110" width="300" height="122" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="290" y="130" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Veranstalter</text>
+<line x1="140" y1="140" x2="440" y2="140" stroke="#173B57" stroke-width="1.2"/>
+<line x1="140" y1="186" x2="440" y2="186" stroke="#173B57" stroke-width="1.2"/>
+<text x="147" y="159" font-size="11" fill="#173B57">-veranstalterId: String</text>
+<text x="147" y="175" font-size="11" fill="#173B57">-name: String</text>
+<text x="147" y="205" font-size="11" fill="#173B57">+mitarbeiterAufnehmen(m: Mitarbeiter): void</text>
+<text x="147" y="221" font-size="11" fill="#173B57">+mitarbeiterAbgeben(m: Mitarbeiter): void</text>
+<rect x="140" y="420" width="300" height="106" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="290" y="440" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Mitarbeiter</text>
+<line x1="140" y1="450" x2="440" y2="450" stroke="#173B57" stroke-width="1.2"/>
+<line x1="140" y1="496" x2="440" y2="496" stroke="#173B57" stroke-width="1.2"/>
+<text x="147" y="469" font-size="11" fill="#173B57">-personalnummer: String</text>
+<text x="147" y="485" font-size="11" fill="#173B57">-name: String</text>
+<text x="147" y="515" font-size="11" fill="#173B57">+veranstaltungÜbernehmen(v: Veranstaltung): void</text>
+<rect x="680" y="110" width="300" height="122" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="830" y="130" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle" font-style="italic">Veranstaltung {abstract}</text>
+<line x1="680" y1="140" x2="980" y2="140" stroke="#173B57" stroke-width="1.2"/>
+<line x1="680" y1="202" x2="980" y2="202" stroke="#173B57" stroke-width="1.2"/>
+<text x="687" y="159" font-size="11" fill="#173B57">-titel: String</text>
+<text x="687" y="175" font-size="11" fill="#173B57">-zeitraum: Zeitraum</text>
+<text x="687" y="191" font-size="11" fill="#173B57">-ticketpreis: Money</text>
+<text x="687" y="221" font-size="11" fill="#173B57">+absagen(grund: String): void</text>
+<rect x="620" y="580" width="250" height="90" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="745" y="600" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Präsenzveranstaltung</text>
+<line x1="620" y1="610" x2="870" y2="610" stroke="#173B57" stroke-width="1.2"/>
+<line x1="620" y1="640" x2="870" y2="640" stroke="#173B57" stroke-width="1.2"/>
+<text x="627" y="629" font-size="11" fill="#173B57">-einlassAb: DateTime</text>
+<text x="627" y="659" font-size="11" fill="#173B57">+freiePlätzeErmitteln(): Integer</text>
+<rect x="960" y="580" width="250" height="90" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="1085" y="600" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Onlineveranstaltung</text>
+<line x1="960" y1="610" x2="1210" y2="610" stroke="#173B57" stroke-width="1.2"/>
+<line x1="960" y1="656" x2="1210" y2="656" stroke="#173B57" stroke-width="1.2"/>
+<text x="967" y="629" font-size="11" fill="#173B57">-plattform: String</text>
+<text x="967" y="645" font-size="11" fill="#173B57">-zugangsUrl: URL</text>
+<rect x="500" y="790" width="300" height="122" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="650" y="810" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Veranstaltungsort</text>
+<line x1="500" y1="820" x2="800" y2="820" stroke="#173B57" stroke-width="1.2"/>
+<line x1="500" y1="882" x2="800" y2="882" stroke="#173B57" stroke-width="1.2"/>
+<text x="507" y="839" font-size="11" fill="#173B57">-name: String</text>
+<text x="507" y="855" font-size="11" fill="#173B57">-adresse: String</text>
+<text x="507" y="871" font-size="11" fill="#173B57">-kapazität: Integer</text>
+<text x="507" y="901" font-size="11" fill="#173B57">+istVerfügbar(zeitraum: Zeitraum): Boolean</text>
+<rect x="1310" y="110" width="320" height="106" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="1470" y="130" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Teilnehmer</text>
+<line x1="1310" y1="140" x2="1630" y2="140" stroke="#173B57" stroke-width="1.2"/>
+<line x1="1310" y1="186" x2="1630" y2="186" stroke="#173B57" stroke-width="1.2"/>
+<text x="1317" y="159" font-size="11" fill="#173B57">-teilnehmerId: String</text>
+<text x="1317" y="175" font-size="11" fill="#173B57">-name: String</text>
+<text x="1317" y="205" font-size="11" fill="#173B57">+buchen(v: Veranstaltung, plätze: Integer): Buchung</text>
+<rect x="1310" y="420" width="280" height="154" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="1450" y="440" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Buchung</text>
+<line x1="1310" y1="450" x2="1590" y2="450" stroke="#173B57" stroke-width="1.2"/>
+<line x1="1310" y1="528" x2="1590" y2="528" stroke="#173B57" stroke-width="1.2"/>
+<text x="1317" y="469" font-size="11" fill="#173B57">-buchungsId: String</text>
+<text x="1317" y="485" font-size="11" fill="#173B57">-anzahlPlätze: Integer</text>
+<text x="1317" y="501" font-size="11" fill="#173B57">-status: Buchungsstatus</text>
+<text x="1317" y="517" font-size="11" fill="#173B57">/betrag: Money</text>
+<text x="1317" y="547" font-size="11" fill="#173B57">+bestätigen(): void</text>
+<text x="1317" y="563" font-size="11" fill="#173B57">+stornieren(): void</text>
+<rect x="460" y="280" width="220" height="90" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="570" y="300" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Betreuung</text>
+<line x1="460" y1="310" x2="680" y2="310" stroke="#173B57" stroke-width="1.2"/>
+<line x1="460" y1="356" x2="680" y2="356" stroke="#173B57" stroke-width="1.2"/>
+<text x="467" y="329" font-size="11" fill="#173B57">-rolle: String</text>
+<text x="467" y="345" font-size="11" fill="#173B57">-einsatzzeitraum: Zeitraum</text>
+<rect x="1310" y="680" width="220" height="108" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="1420" y="700" font-size="11" fill="#173B57" text-anchor="middle">&#171;enumeration&#187;</text>
+<text x="1420" y="716" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Buchungsstatus</text>
+<line x1="1310" y1="726" x2="1530" y2="726" stroke="#173B57" stroke-width="1.2"/>
+<text x="1317" y="745" font-size="11" fill="#173B57">ANGELEGT</text>
+<text x="1317" y="761" font-size="11" fill="#173B57">BESTÄTIGT</text>
+<text x="1317" y="777" font-size="11" fill="#173B57">STORNIERT</text>
+<text x="915" y="504" font-size="11" fill="#173B57">{disjoint, complete}</text>
+<text x="915" y="520" font-size="11" fill="#173B57">Generalisierungsmenge Durchführungsform</text>
+<path d="M940,800 L1626,800 L1640,814 L1640,884 L940,884 Z" fill="#FFFFFF" stroke="#173B57" stroke-width="1.4"/>
+<path d="M1626,800 L1626,814 L1640,814" fill="none" stroke="#173B57" stroke-width="1.4"/>
+<text x="947" y="819" font-size="11" fill="#173B57">{Onlineveranstaltung hat keine Beziehung zu Veranstaltungsort}</text>
+<text x="947" y="835" font-size="11" fill="#173B57">{Summe der Plätze bestätigter Buchungen einer</text>
+<text x="947" y="851" font-size="11" fill="#173B57"> Präsenzveranstaltung &lt;= Veranstaltungsort.kapazität}</text>
+<text x="947" y="867" font-size="11" fill="#173B57">/betrag = anzahlPlätze * Veranstaltung.ticketpreis</text>
+</svg>

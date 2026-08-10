@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="700" viewBox="0 0 1280 700" font-family="Arial, Helvetica, sans-serif">
+<rect width="1280" height="700" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1280" height="46" fill="#173B57"/>
+<text x="16" y="30" fill="#FFFFFF" font-size="20" font-weight="bold">Aufgabe 1 - Bestellsystem eines Onlineshops</text>
+<path d="M330.0,171.0 L480.0,171.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<text x="405" y="160" font-size="11" fill="#173B57" text-anchor="middle" font-style="italic">gibt auf</text>
+<text x="356" y="189" font-size="11" fill="#173B57" text-anchor="middle">1</text>
+<text x="454" y="189" font-size="11" fill="#173B57" text-anchor="middle">0..*</text>
+<path d="M630.0,232.0 L630.0,380.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<polygon points="630.0,232.0 636.0,240.0 630.0,248.0 624.0,240.0" fill="#173B57" stroke="#173B57" stroke-width="1.6"/>
+<text x="642" y="310" font-size="11" fill="#173B57" text-anchor="start" font-style="italic">besteht aus</text>
+<text x="621" y="256" font-size="11" fill="#173B57" text-anchor="end">1</text>
+<text x="621" y="356" font-size="11" fill="#173B57" text-anchor="end">1..*</text>
+<path d="M780.0,433.0 L930.0,433.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<text x="855" y="422" font-size="11" fill="#173B57" text-anchor="middle" font-style="italic">bezieht sich auf</text>
+<text x="806" y="451" font-size="11" fill="#173B57" text-anchor="middle">0..*</text>
+<text x="904" y="451" font-size="11" fill="#173B57" text-anchor="middle">1</text>
+<path d="M1080.0,216.0 L1080.0,380.0" fill="none" stroke="#173B57" stroke-width="1.6"/>
+<polygon points="1080.0,216.0 1086.0,224.0 1080.0,232.0 1074.0,224.0" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="1092" y="302" font-size="11" fill="#173B57" text-anchor="start" font-style="italic">führt</text>
+<text x="1071" y="240" font-size="11" fill="#173B57" text-anchor="end">0..*</text>
+<text x="1071" y="356" font-size="11" fill="#173B57" text-anchor="end">0..*</text>
+<rect x="60" y="110" width="270" height="122" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="195" y="130" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Kunde</text>
+<line x1="60" y1="140" x2="330" y2="140" stroke="#173B57" stroke-width="1.2"/>
+<line x1="60" y1="202" x2="330" y2="202" stroke="#173B57" stroke-width="1.2"/>
+<text x="67" y="159" font-size="11" fill="#173B57">-kundennummer: String</text>
+<text x="67" y="175" font-size="11" fill="#173B57">-name: String</text>
+<text x="67" y="191" font-size="11" fill="#173B57">-eMailAdresse: String</text>
+<text x="67" y="221" font-size="11" fill="#173B57">+eMailAdresseÄndern(neu: String): void</text>
+<rect x="480" y="110" width="300" height="122" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="630" y="130" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Bestellung</text>
+<line x1="480" y1="140" x2="780" y2="140" stroke="#173B57" stroke-width="1.2"/>
+<line x1="480" y1="202" x2="780" y2="202" stroke="#173B57" stroke-width="1.2"/>
+<text x="487" y="159" font-size="11" fill="#173B57">-bestellnummer: String</text>
+<text x="487" y="175" font-size="11" fill="#173B57">-bestelldatum: Date</text>
+<text x="487" y="191" font-size="11" fill="#173B57">-status: String = "offen"</text>
+<text x="487" y="221" font-size="11" fill="#173B57">+stornieren(): void</text>
+<rect x="480" y="380" width="300" height="106" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="630" y="400" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Bestellposition</text>
+<line x1="480" y1="410" x2="780" y2="410" stroke="#173B57" stroke-width="1.2"/>
+<line x1="480" y1="456" x2="780" y2="456" stroke="#173B57" stroke-width="1.2"/>
+<text x="487" y="429" font-size="11" fill="#173B57">-menge: Integer</text>
+<text x="487" y="445" font-size="11" fill="#173B57">-einzelpreis: Decimal</text>
+<text x="487" y="475" font-size="11" fill="#173B57">+positionsbetragBerechnen(): Decimal</text>
+<rect x="930" y="380" width="280" height="122" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="1070" y="400" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Produkt</text>
+<line x1="930" y1="410" x2="1210" y2="410" stroke="#173B57" stroke-width="1.2"/>
+<line x1="930" y1="472" x2="1210" y2="472" stroke="#173B57" stroke-width="1.2"/>
+<text x="937" y="429" font-size="11" fill="#173B57">-produktnummer: String</text>
+<text x="937" y="445" font-size="11" fill="#173B57">-bezeichnung: String</text>
+<text x="937" y="461" font-size="11" fill="#173B57">-aktuellerPreis: Decimal</text>
+<text x="937" y="491" font-size="11" fill="#173B57">+preisÄndern(neu: Decimal): void</text>
+<rect x="930" y="110" width="300" height="106" fill="#FFFFFF" stroke="#173B57" stroke-width="1.6"/>
+<text x="1080" y="130" font-size="12" font-weight="bold" fill="#173B57" text-anchor="middle">Sortiment</text>
+<line x1="930" y1="140" x2="1230" y2="140" stroke="#173B57" stroke-width="1.2"/>
+<line x1="930" y1="170" x2="1230" y2="170" stroke="#173B57" stroke-width="1.2"/>
+<text x="937" y="159" font-size="11" fill="#173B57">-name: String</text>
+<text x="937" y="189" font-size="11" fill="#173B57">+produktAufnehmen(p: Produkt): void</text>
+<text x="937" y="205" font-size="11" fill="#173B57">+produktEntfernen(p: Produkt): void</text>
+<path d="M60,560 L746,560 L760,574 L760,628 L60,628 Z" fill="#FFFFFF" stroke="#173B57" stroke-width="1.4"/>
+<path d="M746,560 L746,574 L760,574" fill="none" stroke="#173B57" stroke-width="1.4"/>
+<text x="67" y="579" font-size="11" fill="#173B57">{menge &gt;= 1}</text>
+<text x="67" y="595" font-size="11" fill="#173B57">Bestellposition.einzelpreis bleibt bei späteren</text>
+<text x="67" y="611" font-size="11" fill="#173B57">Preisänderungen am Produkt unverändert.</text>
+</svg>

@@ -11,6 +11,13 @@
    Buchpräsentation bestätigen.
 4. Für `MOBIS` Thema, Termin, Bewertungsrubrik, Individualanteil und Abgabeformat
    der Übungsaufgabe bestätigen.
+4a. `MOBIS` Auflage 3 nach
+   `05_pruefungsleistung/03_entwurf/2026-08-10_Umsetzungsplan_aufl.3.md` umsetzen.
+   Vorab zu klären: UML-Foliensatz des Dozenten beschaffen, um den
+   Konstruktkatalog zu bestätigen (Interface, n-äre Assoziation, Abhängigkeit
+   sind bis dahin als optional geführt); Werkzeug für die Studierenden
+   festlegen (handgezeichnet oder diagrams.net). Zwingend vor der Freigabe:
+   gemessener Zeittest je Aufgabe, Zielwert 14 Minuten Bearbeitung.
 5. Für `Software Engineering` Prüfungsform, Termin, Sprache, Hilfsmittel,
    Gewichtung und Stoffabgrenzung bestätigen sowie die fehlende Datei 04
    beschaffen.
