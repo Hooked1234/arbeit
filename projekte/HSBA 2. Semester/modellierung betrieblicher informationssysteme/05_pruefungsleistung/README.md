@@ -2,6 +2,11 @@
 
 ## Bestätigt
 
+- Das zugeteilte Thema für den ersten Prüfungstermin ist das
+  **UML-Klassendiagramm** (Kursinformation von Felix, 07.08.2026).
+- Der erste Termin findet am **12.08.2026** statt und umfasst drei progressive
+  Kurzübungen zu je 20 Minuten. Die Vertiefungsleistung am **02.09.2026** wird
+  separat vorbereitet.
 - Die Erstellung der Übungsaufgabe bestimmt die vollständige Modulnote
   (Kursinformation von Felix, 04.08.2026).
 - Formale Prüfungsbezeichnung laut Moduleinleitung: Präsentation, 100 %.
@@ -27,10 +32,23 @@
 └── 05_abgabe/
 ```
 
+## Abgabe für den 12.08.2026
+
+Unter `05_abgabe/` liegen die drei geprüften Endprodukte:
+
+- `2026-08-12_UML-Klassendiagramme_Aufgaben.pptx`
+- `2026-08-12_UML-Klassendiagramme_Loesung-und-Moderation.docx`
+- `2026-08-12_UML-Klassendiagramme_Loesung-und-Moderation.pdf`
+
+Die Aufgaben verwenden einen durchgehenden Onlinehandel-Fall: Klassen und
+Generalisierung, anschließend Multiplizitäten und zuletzt die fachliche
+Auflösung über `Bestellposition`. Da die Kursfolien keine UML-Detailnotation
+enthalten, sind diese Elemente im Begleitdokument ausdrücklich als allgemeines
+UML-Wissen und nicht als zusätzliche offizielle Prüfungsvorgaben gekennzeichnet.
+
 ## Noch offen
 
-- zugeteiltes Thema, genaue Aufgabenanzahl und erwartete Bearbeitungsdauer
-- Termin, Abgabeformat und Abgabeweg
+- Abgabeweg und gegebenenfalls zusätzlich gefordertes Uploadformat
 - Bewertungsrubrik und Individualanteil innerhalb der Gruppenleistung
 - konkrete Anforderungen an Eigenständigkeit, Quellen und Modellierungswerkzeug
 - formale Bedingungen der Bonus-Projektmodellierung
