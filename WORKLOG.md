@@ -1,5 +1,22 @@
 # Worklog
 
+## 2026-08-10
+
+- Gruppenfallstudie `GreenGlow — Nachhaltige Körperpflege zwischen Anspruch und
+  Akzeptanz` (Abschnitt 2.4, Sustainable Marketing und Marketingethik) aus
+  `02_materialien/Gruppenfallstudien_Marketing.pdf` bearbeitet und unter
+  `projekte/HSBA 2. Semester/marketing management/04_aufgaben/greenglow_sustainable-marketing/greenglow_loesung.md`
+  abgelegt. Das Dokument beantwortet alle drei Aufgabenteile (Konsumentenverhalten,
+  Norm-Aktivierungs-Modell mit drei Maßnahmen, Theory of Reasoned Action) sowie
+  den geforderten Plenumsblock und visualisiert beide Modelle als Mermaid-Diagramme.
+- Kernbefund der Analyse: Die 63 % „zu teuer" sind überwiegend ein Wert- und
+  Nachweisproblem, nicht ein Preisproblem — Glaubwürdigkeitslücke (47 %) und
+  fehlende wahrgenommene Differenzierung (38 %) entwerten den Aufpreis von +141 %.
+- Einschränkung dokumentiert: Die Modellgrafiken auf S. 60 und 61 der
+  Vorlesungsunterlagen liegen nur als Bild ohne Textebene vor. Die Phasen- und
+  Konstruktbezeichnungen stammen daher aus der Primärliteratur (Meffert et al.
+  2019; Ajzen/Fishbein 1973) und sind vor der Abgabe mit den Folien abzugleichen.
+
 ## 2026-08-04
 
 - Die Module `principles of finance` und `marketing management` unter
