@@ -1,5 +1,66 @@
 # Worklog
 
+## 2026-08-30
+
+- MOBIS-Vertiefungstermin 02.09.2026 geplant: `05_pruefungsleistung/03_entwurf/
+  2026-08-30_Umsetzungsplan_vertiefung.md`. Format 2 × 45 Minuten, zwei Personen,
+  eine Aufgabe in zwei Stufen mit Änderungsauftrag und Zielkonflikt. Termin,
+  Format und Thema aus `Themen_Zeitplan_2026_BI-2.xlsx` (W6, Zeile 15) belegt.
+- Kriterium 9 „Alle Themen wiederholt" ohne Folienwiederholung gelöst: Die
+  Konzeptfolie ordnet die 10-Minuten-Wiederholung dem Dozenten zu (`KS`), der
+  studentische Anteil ist ausdrücklich nur `STD` Übungen. Nachweis läuft über
+  eine Konstruktabdeckungsmatrix.
+- Drei Materiallieferungen ausgewertet. Wichtigster Befund: Der Foliensatz
+  `7-UML-KD.pptx` behandelt nur fünf Sprachkonstrukte, und der eigene
+  Aufgabensatz vom 12.08. (`OneDrive_2026-08-30.zip`) verwendet keine
+  Sichtbarkeiten, Datentypen, abstrakten Klassen, Enumerationen oder
+  Assoziationsklassen. Der 22-Konstrukte-Katalog der Auflage 3 war nie gegen
+  die Realität geprüft.
+- `Szenarien_vertiefung.md` deshalb in Fassung 2 neu geschrieben, strikt im
+  belegten Rahmen. Die erste Fassung hätte sieben ungedeckte Konstrukte
+  eingeführt und Kriterium 8 verletzt. Vertiefung entsteht jetzt über
+  Modellgröße, Vernetzung, Umbau und Zielkonflikt statt über neue Notation.
+- Auflage-3-Branch `claude/uml-klassendiagramme-bewertung-5d35e8` per
+  Fast-Forward integriert; Diagramm- und Dokumentgeneratoren übernommen.
+- Diagrammgenerator nach `05_abgabe/UML-Vertiefung_02-09/Diagramme/_generator/`
+  kopiert und angepasst: farbige Kopfzeile im Hausstil vom 12.08., `tone` für
+  die Differenzansicht, Dateinamen aus dem Modell. Die Attributunterstreichung
+  der Auflage 3 entfernt — bei präfixloser Notation hätte sie jedes Attribut
+  unterstrichen.
+- Drei Musterdiagramme gebaut (Ist-Modell 9 Klassen, Endmodell 14 Klassen,
+  Differenzansicht) als SVG, PNG, A3-PDF und drawio. Geometrieprüfung ohne
+  Befund. Neu gegenüber Auflage 3: `build_pdf.py` erzeugt eigenständige
+  A3-Quer-PDFs ohne drawio-CLI, was dort offen geblieben war.
+- `check_konsistenz.py` ergänzt und bestanden: Stufe 1 ist bis auf die drei
+  angekündigten Umbauten vollständig in Stufe 2 enthalten, Kardinalitäten
+  übernommener Kanten unverändert, keine isolierte Klasse.
+- Block 2 auf Idee von Felix umgestellt: statt Änderungsauftrag jetzt die
+  Kritik eines KI-erzeugten Diagramms zum Text von Aufgabe 1. Der
+  Änderungsauftrag bleibt als Reserve gepflegt, falls das Werkzeug ausfällt.
+  Live-Erzeugung durch die Gruppen verworfen: Der KI-Output ist nicht
+  reproduzierbar, damit gäbe es keine vorbereitete Musterlösung.
+- Präsentationsarten von Stufe 2 nach Aufgabe 1 gezogen. Ohne sie fehlte die
+  mehrstufige Vererbung in der Abdeckungsmatrix, weil Block 2 als Fremdprüfung
+  keine Konstruktabdeckung mehr garantiert. Aufgabe 1 deckt jetzt alle neun
+  Konstrukte allein ab, Modell 11 Klassen. Auslösender Satz im Szenariotext
+  ergänzt und Rückführbarkeit nachgezogen.
+- KI-Entwurf als vierte Diagrammseite gebaut: acht kuratierte Fehler nach den
+  typischen Ausfallmustern eines Sprachmodells, dazu zwei zulässige
+  Abweichungen. Die Unterscheidung falsch gegen bloß anders ist der Kern der
+  Aufgabe. Herkunft in der Lehrendenfassung offengelegt.
+- Dokumente gebaut: Aufgabenfolien (2 Folien im Dozentenformat), Aufgabenblatt
+  mit Protokollbogen und Schlussfrage, Lehrendenfassung mit beiden
+  Musterlösungen, Fundliste, zwei Rastern à 20 Punkten, Rollenteilung,
+  wörtlicher Hinweisstaffel und FAQ-Katalog.
+- `check_dokumente.py` ergänzt: 51 Prüfungen ohne Befund, darunter zwei
+  Sprachprüfungen. Lösungswörter sind überall auf dem Blatt verboten,
+  Notationswörter nur im Szenariotext — „Kardinalität" ist im Arbeitsauftrag
+  erwünscht, es ist das Wort des Dozenten von Folie 6.
+- Word-COM-Export hängt wie in Auflage 3; Prozess abgebrochen, PDF-Export der
+  Word-Dateien bleibt Handarbeit. Strukturprüfung ersetzt die Sichtprüfung
+  nicht vollständig.
+- Offen: Zeittest am 31.08. durch Felix und den Abgabepartner.
+
 ## 2026-08-10
 
 - `MOBIS`-Prüfungsleistung Auflage 2 (UML-Klassendiagramme) bewertet. Befund:

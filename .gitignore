@@ -7,3 +7,9 @@ _unzipped/
 .claude/settings.local.json
 # Office-Sperrdateien
 ~$*
+
+# Python-Bytecode der Generatoren
+__pycache__/
+*.pyc
+# Kontrollbilder der Diagrammgeneratoren, keine Abgabeartefakte
+preview_*.png
