@@ -151,6 +151,18 @@
 
 ## 2026-08-04
 
+- Gruppenfallstudie Jägermeister, Teil 2 („Zukunftsstrategie 2035") unter
+  `projekte/HSBA 2. Semester/marketing management/04_aufgaben/jaegermeister_markt-und-strategie/`
+  bearbeitet: `teil2_zukunftsstrategie-2035.md` enthält Taktplan für die
+  35 Minuten Gruppenarbeit, die inhaltliche Ausarbeitung entlang STP,
+  Wettbewerbsvorteil und Marketing-Mix sowie die drei geforderten
+  Präsentationsergebnisse (neue Zielgruppe „Die Rückkehrer" 30–45, Maßnahme
+  „Ice-Cold Residencies", Claim „56 Kräuter. Für jede Nacht, die zählt.").
+  Ergänzend `praesentationsprompt_jaegermeister-2035.md` als selbsttragender
+  Prompt für eine HSBA-konforme Kurzpräsentation (8 Folien inkl. Quellenfolie,
+  Design-Tokens aus `standards/praesentation-hsba.md`). Marktzahlen bewusst nicht
+  erfunden, Annahmen im Dokument ausgewiesen; 1878 wird ausschließlich als
+  Unternehmensgründung geführt, nicht als Datierung von Rezeptur oder Marke.
 - Die Module `principles of finance` und `marketing management` unter
   `projekte/HSBA 2. Semester/` in die bestehende sechs Bereiche umfassende
   Modulstruktur aufgenommen.
