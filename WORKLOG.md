@@ -14,12 +14,26 @@
   liegt nichts vor. Ablageort dafür ist `05_pruefungsleistung/04_feedback/`.
 - Die Vertiefungsübung „TherapistHive" (Punkt 4b) bleibt offen; sie ist eine
   Übung anderer Gruppen und läuft als Nachbereitung weiter.
-- Repository aufgeräumt und auf einen Stand gebracht. Drei bis dahin nur lokal
-  vorhandene Arbeitsstände sind nach `main` integriert: die MOBIS-Auflagen 1
-  und 2 samt Software-Engineering-Handbuch, die Marketing-Fallstudie
-  `GreenGlow` und der TherapistHive-Statusvermerk. Konflikte gab es nur in
-  `WORKLOG.md` (Reihenfolge, GreenGlow in den bestehenden 10.08.-Abschnitt
-  eingegliedert) und in `.gitignore` (Vereinigung beider Regelsätze).
+- Repository aufgeräumt und vollständig auf einen Stand gebracht. Neun bis
+  dahin nur lokal vorhandene Arbeitsstände sind nach `main` integriert:
+  MOBIS-Auflagen 1 und 2 samt Software-Engineering-Handbuch, Marketing-
+  Fallstudie `GreenGlow`, TherapistHive-Statusvermerk, Spotify-Praxisbericht
+  (vier Fassungen plus Vergleichsnotiz), EOS-Auslandseinsatz (englischer CV und
+  Motivationsschreiben), MOBIS Aufgabe 3 inklusive Prüfberichten, Aufgabe 5
+  „Einordnung" und Generatorskript, HSBA-Skill-Logoablage, UML-Übungsfoliensatz
+  Aufgabe 1/2 sowie die Waterdrop-Präsentation.
+- Konflikte betrafen ausschließlich `WORKLOG.md`, `NEXT_STEPS.md` und
+  `.gitignore`. `WORKLOG.md` wurde nach Datum zusammengeführt und wieder
+  chronologisch sortiert — drei EOS-/Spotify-Abschnitte standen am Dateiende
+  statt an ihrer Position. In `NEXT_STEPS.md` gilt für MOBIS der neuere Stand
+  („Prüfungsleistung erbracht"), für den Praxisbericht der spätere
+  Arbeitsstand vom 25.08. `.gitignore` ist die Vereinigung aller Regelsätze,
+  ergänzt um verschachtelte `.claude/worktrees/`, `*.stackdump` und
+  `_preview_*.html`.
+- Auf GitHub verbleibt nur noch `main`. Die drei gemergten Remote-Branches
+  (`codex/hsba-semesterstruktur`, `claude/jaegermeister-2035-strategy-ee357e`,
+  `claude/therapisthive-online-therapie-f83a38`) sind gelöscht; ihr Inhalt war
+  vollständig in `main` enthalten.
 
 ## 2026-09-02
 
