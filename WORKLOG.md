@@ -39,6 +39,35 @@
 - Diagrammweg vorbereitet und im Browser verifiziert: draw.io lädt ein Modell
   reproduzierbar aus dem URL-Fragment. Werkzeugfrage bleibt offen, weil Folie 2
   der Aufgabenstellung Visual Paradigm Online empfiehlt.
+- Finale Abgabe `Modellierung betrieblicher Informationssysteme Abgabe.pptx`
+  (11 Folien) vollständig geprüft: jede Kardinalität, jedes Attribut und jede
+  Methode beider Musterlösungen gegen den jeweiligen Szenariotext, dazu ein
+  Pixelvergleich von Fehlerbild und Musterlösung zu Aufgabe 1. Ergebnis: exakt
+  sechs Unterschiede, alle sechs Legendeneinträge korrekt, keine
+  Modellierungsfehler. Die Fehler des Prüfberichts vom 01.09. sind behoben.
+- Sechs offene Punkte dokumentiert, davon einer ein Widerspruch zwischen
+  Antwortpanel/Folie 11 (Kleinschreibung) und den Diagrammen (Großschreibung).
+  Bericht: `05_pruefungsleistung/06_aufgabe3/2026-09-02_Pruefbericht_finale-Abgabe.md`.
+- Kriterium-9-Lücke belegt: Von den sechs Agendapunkten der Dozenten-
+  präsentation sind „Einordnung in ARIS" (Folie 5) und „Historie" (Folie 3) in
+  keiner der vier Aufgaben aufgegriffen.
+- Aufgabe 5 „Einordnung und Herkunft" dafür gebaut (7 Minuten, Ende Block 1):
+  `06_aufgabe3/Aufgabe_5_Einordnung.md` plus zwei einfügefertige Folien mit
+  Notizenseiten in `Aufgabe_5_Einordnung.pptx`, aus der Abgabedatei geklont,
+  daher identisches Layout und identische Schriftgrade.
+- ARIS-Einordnung belegt statt geraten: `Konzept.pptx`, Folie 2, führt das
+  Klassendiagramm zweimal — Datensicht und Funktionssicht, jeweils auf Höhe der
+  DV-Konzept-Zeile. Die frühere Annahme „Fachkonzept" war falsch.
+- Der Entwurf `Aufgabe_3_Fitnessstudio.md` vom 01.09. ist überholt: Aufgabe 3
+  und 4 existieren inzwischen in der Abgabe.
+- Entscheidung Felix: Aufgabe 3 und 4 werden selbst vorgetragen, nicht als Frage
+  gestellt. Deshalb statt der Aufgabenfassung eine reine Vortragsfolie gebaut:
+  `06_aufgabe3/Antwortfolie_ARIS.pptx`. Sie klont Folie 5 des Dozentenfoliensatzes
+  (ARIS-Haus nach Scheer 2011) und ergänzt zwei Beschriftungen auf Höhe der
+  DV-Konzept-Zeile in Daten- und Funktionssicht, einen Aussagesatz und die
+  Quellenzeile im Stil von Folie 2 der Abgabe. Moderationstext samt
+  Historie-Anschlusssatz liegt in den Notizen.
+- `Aufgabe_5_Einordnung.pptx` (Frageform) ist damit hinfällig, bleibt aber liegen.
 
 ## 2026-08-30
 
