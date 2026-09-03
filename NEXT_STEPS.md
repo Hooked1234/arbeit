@@ -9,21 +9,18 @@
 3. Für `Principles of Finance` Klausurtermin, weitere zugelassene Hilfsmittel,
    gültigen B-Track-Terminplan und die formalen Regeln der optionalen
    Buchpräsentation bestätigen.
-4. Für `MOBIS` Thema, Termin, Bewertungsrubrik, Individualanteil und Abgabeformat
-   der Übungsaufgabe bestätigen.
-4a. `MOBIS` Auflage 3 nach
-   `05_pruefungsleistung/03_entwurf/2026-08-10_Umsetzungsplan_aufl.3.md` umsetzen.
-   Vorab zu klären: UML-Foliensatz des Dozenten beschaffen, um den
-   Konstruktkatalog zu bestätigen (Interface, n-äre Assoziation, Abhängigkeit
-   sind bis dahin als optional geführt); Werkzeug für die Studierenden
-   festlegen (handgezeichnet oder diagrams.net). Zwingend vor der Freigabe:
-   gemessener Zeittest je Aufgabe, Zielwert 14 Minuten Bearbeitung.
+4. Für `MOBIS` die Bewertung und die Rückmeldung des Dozenten zur erbrachten
+   Prüfungsleistung erfassen und in `05_pruefungsleistung/04_feedback/` ablegen.
+   (Die Prüfungsleistung selbst ist abgegeben, der Termin 02.09.2026 hat
+   stattgefunden — siehe „Erledigt".)
 4b. `MOBIS` Use-Case-Vertiefungsübung Aufgabe 1 „TherapistHive" fertigstellen:
    Mehr-Agenten-Lauf ab der Synthesestufe fortsetzen (Rohmaterial liegt in
    `04_aufgaben/aufgabe-uc-01-therapisthive/arbeitsstand/entwuerfe.json`),
    danach das Diagramm bauen und nach `abgabe/` legen. Vorab zu entscheiden:
    Werkzeug — Folie 2 empfiehlt Visual Paradigm Online, das Repo nutzt bisher
    `.drawio`. Aufgabe 2 „CNC-Onlineshop" derselben Übung ist noch offen.
+   Der zugehörige Übungstermin hat am 02.09.2026 stattgefunden; die Bearbeitung
+   läuft als Nachbereitung weiter.
 5. Für `Software Engineering` Prüfungsform, Termin, Sprache, Hilfsmittel,
    Gewichtung und Stoffabgrenzung bestätigen sowie die fehlende Datei 04
    beschaffen.
@@ -45,3 +42,13 @@
 
 Team und zulässiges Unternehmen für den Marketing-Praxisbericht festlegen und
 fristgerecht bis 10.08.2026, 18:00 Uhr, melden.
+
+## Erledigt
+
+- `MOBIS` Prüfungsleistung abgegeben und Termin durchgeführt (02.09.2026,
+  bestätigt am 03.09.2026). Damit erledigt: Thema, Termin, Individualanteil und
+  Abgabeformat der Übungsaufgabe klären sowie Auflage 3 nach
+  `05_pruefungsleistung/03_entwurf/2026-08-10_Umsetzungsplan_aufl.3.md` umsetzen
+  (vormals Punkte 4 und 4a). Abgabestände:
+  `05_pruefungsleistung/05_abgabe/UML-Klassendiagramme_aufl.3/` und
+  `05_pruefungsleistung/05_abgabe/UML-Vertiefung_02-09/`.

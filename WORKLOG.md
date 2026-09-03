@@ -1,5 +1,20 @@
 # Worklog
 
+## 2026-09-03
+
+- **MOBIS-Prüfungsleistung ist erbracht und abgegeben** (Rückmeldung Felix).
+  Der zugehörige Vertiefungstermin am 02.09.2026 hat stattgefunden. Vermerkt in
+  `05_pruefungsleistung/README.md` (neuer Statusblock), im Modul-README unter
+  „Aktueller Stand" und in `NEXT_STEPS.md`.
+- `NEXT_STEPS.md` umgebaut: die Punkte 4 (Thema/Termin/Individualanteil/
+  Abgabeformat klären) und 4a (Auflage 3 umsetzen) sind damit erledigt und in
+  einen neuen Abschnitt „Erledigt" verschoben. Punkt 4 führt jetzt nur noch das,
+  was tatsächlich offen ist: Bewertung und Rückmeldung des Dozenten erfassen.
+- Bewusst *nicht* eingetragen: Note, Bewertung oder Dozentenfeedback — dazu
+  liegt nichts vor. Ablageort dafür ist `05_pruefungsleistung/04_feedback/`.
+- Die Vertiefungsübung „TherapistHive" (Punkt 4b) bleibt offen; sie ist eine
+  Übung anderer Gruppen und läuft als Nachbereitung weiter.
+
 ## 2026-09-02
 
 - Neue Vertiefungsübung `UML Use Case Vertiefungsübungen.pptx` (Christodoulou /
