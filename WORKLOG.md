@@ -1,5 +1,24 @@
 # Worklog
 
+## 2026-09-02
+
+- Neue Vertiefungsübung `UML Use Case Vertiefungsübungen.pptx` (Christodoulou /
+  Knoll) ausgewertet. Aufgabe 1 „Online-Therapie TherapistHive" unter
+  `04_aufgaben/aufgabe-uc-01-therapisthive/` abgelegt: Aufgabentext wörtlich in
+  `aufgabe.md`, dazu die sechs Sprachkonstrukte aus Folie 3 als verbindlicher
+  Regelsatz (inklusive Pfeilrichtung bei `include` und `extend`).
+- Mehr-Agenten-Lauf für das Use-Case-Modell: fünf unabhängige Entwürfe aus den
+  Perspektiven `lehrbuch`, `purist`, `granular`, `akteure`, `fallen`, je gegen
+  Texttreue, UML-Korrektheit und Prüfungstauglichkeit geprüft. Rohmaterial in
+  `arbeitsstand/entwuerfe.json` (5 Entwürfe, 15 Kritiken).
+- Lauf **unvollständig**: Synthese, Kritik und Finalisierung sind am
+  Session-Limit abgebrochen. Es gibt daher noch kein abgestimmtes Modell und
+  kein Diagramm; `abgabe/` ist leer. Details und offene Streitpunkte in
+  `arbeitsstand/README.md`.
+- Diagrammweg vorbereitet und im Browser verifiziert: draw.io lädt ein Modell
+  reproduzierbar aus dem URL-Fragment. Werkzeugfrage bleibt offen, weil Folie 2
+  der Aufgabenstellung Visual Paradigm Online empfiehlt.
+
 ## 2026-08-30
 
 - MOBIS-Vertiefungstermin 02.09.2026 geplant: `05_pruefungsleistung/03_entwurf/
