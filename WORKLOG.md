@@ -14,6 +14,12 @@
   liegt nichts vor. Ablageort dafür ist `05_pruefungsleistung/04_feedback/`.
 - Die Vertiefungsübung „TherapistHive" (Punkt 4b) bleibt offen; sie ist eine
   Übung anderer Gruppen und läuft als Nachbereitung weiter.
+- Repository aufgeräumt und auf einen Stand gebracht. Drei bis dahin nur lokal
+  vorhandene Arbeitsstände sind nach `main` integriert: die MOBIS-Auflagen 1
+  und 2 samt Software-Engineering-Handbuch, die Marketing-Fallstudie
+  `GreenGlow` und der TherapistHive-Statusvermerk. Konflikte gab es nur in
+  `WORKLOG.md` (Reihenfolge, GreenGlow in den bestehenden 10.08.-Abschnitt
+  eingegliedert) und in `.gitignore` (Vereinigung beider Regelsätze).
 
 ## 2026-09-02
 
