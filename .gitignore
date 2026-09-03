@@ -12,5 +12,13 @@ _unzipped/
 tmp/
 .tmp_*/
 
+/projekte/Trading/
+
 # Office-Sperrdateien
 ~$*
+
+# Worktree-Metadaten in Unterordnern (kein Repo-Inhalt)
+**/.claude/worktrees/
+
+# Absturzprotokolle der Shell
+*.stackdump

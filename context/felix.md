@@ -5,7 +5,9 @@
 ## Rolle
 - Name: **Felix Heinsius**.
 - Duales Studium an der **HSBA** (Hamburg School of Business Administration).
-- Praxisphase bei **EOS Field Services** (Forderungsmanagement), Innendienst-Sachbearbeitung.
+- Arbeitgeber: **EOS** (Forderungsmanagement). Bisherige Einsätze: Sachbearbeitung,
+  EOS Field Service (Tochterunternehmen), Cloud Services (AWS + Daten),
+  Finance (Prognosen).
 
 ## Aktueller Praxisbericht (für Titelblatt/Folien direkt nutzbar)
 - **Thema:** Optimierung des fachlichen Einarbeitungsprozesses neuer
