@@ -76,6 +76,29 @@
   Transparenz). Skill und `standards/praesentation-hsba.md` verweisen jetzt auf die
   Datei statt nur auf die SVG-URL — Folien binden das Logo direkt ein.
 
+## 2026-08-31
+
+- Abgabe-Präsentation zu den MOBIS-Übungsaufgaben 1 (Hochschulverwaltung) und 2
+  (Finanzbuchhaltung) erstellt: 14 Folien, 16:9, strikt nach den Design-Tokens
+  aus `standards/praesentation-hsba.md`. Da *Titillium Web* lokal nicht
+  installiert ist, wurde der im Standard hinterlegte Fallback Arial gesetzt.
+  Ablage unter `04_aufgaben/uml-klassendiagramme-aufgabe-1-2/`.
+- Beide Klassendiagramme als native, editierbare PowerPoint-Formen nachgebaut
+  (nicht als Bild): Klassenkästen mit drei Kompartimenten, gefüllte und offene
+  Rauten, Generalisierungsdreiecke, Multiplizitäten und Beziehungsnamen.
+- Alle 14 Folien mit PowerPoint nach PNG exportiert und visuell geprüft; drei
+  Befunde korrigiert (zwei umbrechende Folientitel, ein überlaufender
+  Hinweiskasten) und die Textmenge auf zwei Folien auf die Standardgrenze von
+  rund 40 Wörtern zurückgeführt.
+- Fünf Abweichungen zwischen Aufgabentext 2 und dem gezeichneten Modell
+  dokumentiert (Zahlung 1..*, Buchungsposition 2..*, Buchungsperiode 0..1:0..*,
+  fehlender {xor}-Constraint, redundante Fremdschlüsselattribute). Das Modell
+  wurde bewusst unverändert dargestellt und die Punkte auf einer eigenen
+  Prüfpunkte-Folie ausgewiesen.
+- Prompt für Claude Design ergänzt (`claude-design-prompt.md`), der Kontext,
+  Designsystem, Folienstruktur, beide Diagrammspezifikationen und die
+  fachlichen Kernaussagen für einen Neuaufbau der Abgabe bündelt.
+
 ## 2026-08-30
 
 - MOBIS-Vertiefungstermin 02.09.2026 geplant: `05_pruefungsleistung/03_entwurf/
@@ -168,33 +191,6 @@
 - Hinweis: Der Prompt-Anhang muss beide Werkzeuge führen (Codex und Claude),
   bisher steht dort nur der Codex-Auftrag.
 
-## 2026-08-15 — EOS Auslandseinsatz (Bewerbung)
-
-- Englisches Motivationsschreiben für den internen Auslandseinsatz erstellt:
-  `projekte/EOS Auslandseinsatz/motivation-letter_international-assignment.md`
-  (273 Wörter, länderneutral für Spanien/Rumänien, natürliches Business English).
-- Grundlage: EOS-Einsätze Sachbearbeitung, EOS Field Service, Cloud Services
-  (AWS + Daten), Finance (Prognosen); belegte EOS-Group-Aussage „more than
-  20 countries" (eos-solutions.com).
-- Korrektur nach Review: EOS Field Service ist Tochterunternehmen, nicht der
-  Arbeitgeber — Arbeitgeber ist EOS. In `context/felix.md` zu korrigieren.
-- Offen: Name der Ansprechpartnerin, ggf. Länderfassung, englischer CV.
-- Überarbeitete Endfassung (ca. 340 Wörter): Rücktransfer ergänzt (was EOS
-  nach der Rückkehr davon hat), Absatz zur interkulturellen Anpassung
-  konkretisiert, „patience" durch aktive Formulierung ersetzt, Dopplung
-  „case handling" entfernt, Gedankenstriche auf zwei reduziert.
-- Faktencheck bestanden: EPP-Studie 2025 nennt Spanien, Rumänien und Slowenien
-  als Vorreiter bei digitalisierten Mahnprozessen, Deutschland als Nachzügler;
-  „more than 20 countries" deckt sich mit Geschäftsbericht 2025/26.
-- Bewusst weggelassen: Wunschzeitraum/Dauer, Sprachkenntnisse (keine
-  Spanischkenntnisse vorhanden — Englisch-Argumentation trägt allein).
-- Semikolon-Aufzählung der vier Einsatzbereiche auf Kommas + Klammern
-  umgestellt (Cloud Services (AWS and data), Finance (forecasting)).
-- Länder-Nennung umformuliert: „Both countries under discussion, Spain and
-  Romania, …" — greift den Vorschlag der Ansprechpartnerin auf, statt eigene
-  Auswahl zu suggerieren; Flexibilität für beide Optionen bleibt erhalten.
-  Keine Präferenz genannt, da tatsächlich keine besteht.
-
 ## 2026-08-15 — EOS Auslandseinsatz (englischer CV)
 
 - Englischen CV erstellt: `projekte/EOS Auslandseinsatz/Felix_Heinsius_CV_EN.docx`
@@ -237,6 +233,33 @@
 - Rückbau auf Wunsch: Die vier Abteilungen stehen wieder als einzelne fette
   Überschriften untereinander, aber ohne Tätigkeitsbeschreibung — der Inhalt
   ergibt sich aus dem EOS-Kontext. Werkzeugliste und Zusammenfassung bleiben.
+
+## 2026-08-15 — EOS Auslandseinsatz (Bewerbung)
+
+- Englisches Motivationsschreiben für den internen Auslandseinsatz erstellt:
+  `projekte/EOS Auslandseinsatz/motivation-letter_international-assignment.md`
+  (273 Wörter, länderneutral für Spanien/Rumänien, natürliches Business English).
+- Grundlage: EOS-Einsätze Sachbearbeitung, EOS Field Service, Cloud Services
+  (AWS + Daten), Finance (Prognosen); belegte EOS-Group-Aussage „more than
+  20 countries" (eos-solutions.com).
+- Korrektur nach Review: EOS Field Service ist Tochterunternehmen, nicht der
+  Arbeitgeber — Arbeitgeber ist EOS. In `context/felix.md` zu korrigieren.
+- Offen: Name der Ansprechpartnerin, ggf. Länderfassung, englischer CV.
+- Überarbeitete Endfassung (ca. 340 Wörter): Rücktransfer ergänzt (was EOS
+  nach der Rückkehr davon hat), Absatz zur interkulturellen Anpassung
+  konkretisiert, „patience" durch aktive Formulierung ersetzt, Dopplung
+  „case handling" entfernt, Gedankenstriche auf zwei reduziert.
+- Faktencheck bestanden: EPP-Studie 2025 nennt Spanien, Rumänien und Slowenien
+  als Vorreiter bei digitalisierten Mahnprozessen, Deutschland als Nachzügler;
+  „more than 20 countries" deckt sich mit Geschäftsbericht 2025/26.
+- Bewusst weggelassen: Wunschzeitraum/Dauer, Sprachkenntnisse (keine
+  Spanischkenntnisse vorhanden — Englisch-Argumentation trägt allein).
+- Semikolon-Aufzählung der vier Einsatzbereiche auf Kommas + Klammern
+  umgestellt (Cloud Services (AWS and data), Finance (forecasting)).
+- Länder-Nennung umformuliert: „Both countries under discussion, Spain and
+  Romania, …" — greift den Vorschlag der Ansprechpartnerin auf, statt eigene
+  Auswahl zu suggerieren; Flexibilität für beide Optionen bleibt erhalten.
+  Keine Präferenz genannt, da tatsächlich keine besteht.
 
 ## 2026-08-10
 
