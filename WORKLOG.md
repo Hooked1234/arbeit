@@ -34,6 +34,30 @@
   (`codex/hsba-semesterstruktur`, `claude/jaegermeister-2035-strategy-ee357e`,
   `claude/therapisthive-online-therapie-f83a38`) sind gelöscht; ihr Inhalt war
   vollständig in `main` enthalten.
+- `NEXT_STEPS.md` neu geschrieben. Die alte Fassung hatte eine gebrochene
+  Nummerierung (1–6, dann 4, 4b, 5, dann 9–16), führte erledigte Punkte weiter
+  und nannte als „nächsten Schritt" den 25.08.2026. Neu: nach Modulen gegliedert,
+  Stand datiert, erledigte Punkte in den „Erledigt"-Block verschoben. Ein
+  Abschnitt „Zuerst" führt die drei verstrichenen Fristen (Teammeldung 10.08.,
+  Leitfadenfragen 25.08., EOS-Abgabe 15.08.), deren Ergebnis im Repo nirgends
+  vermerkt ist — bewusst als offene Frage formuliert statt als Annahme.
+- Dabei aufgefallen: `Spotify_Praxisbericht_Arbeitsstand_final.pdf` ist der
+  PDF-Stand von Arbeitsstand 1 vom 24.08.2026 und bezeichnet sich auf dem
+  Deckblatt selbst als „noch kein abgabefertiger Praxisbericht"; das Titelblatt
+  enthält nur Platzhalter. Der Name `_final` führt in die Irre, im README der
+  Prüfungsleistung ist die Datei nicht aufgeführt. Als offener Punkt vermerkt,
+  nicht eigenmächtig umbenannt.
+- EOS-Projektanweisung aus `AGENTS.md` herausgelöst und nach
+  `projekte/EOS Auslandseinsatz/projektanweisung_auslandseinsatz.md` verschoben
+  (147 Zeilen, unverändert übernommen). `AGENTS.md` ist damit wieder reine
+  Steuerungsdatei; projektspezifische Anweisungen gehören zum Projekt. Der
+  Ordner hat jetzt ein `README.md` nach der Konvention der übrigen
+  Projektordner.
+- Worktree-Reste beseitigt: Das nach dem Aufräumen verbliebene, von einem
+  Prozess gehaltene Verzeichnis unter `modellierung betrieblicher
+  informationssysteme/.claude/` ist inzwischen freigegeben und samt leerer
+  Elternordner entfernt, ebenso das leere `.worktrees/`. Der Ordner unter
+  `projekte/Trading/` gehört zum separaten Trading-Repo und blieb unangetastet.
 
 ## 2026-09-02
 
