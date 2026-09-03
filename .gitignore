@@ -12,6 +12,8 @@ _unzipped/
 tmp/
 .tmp_*/
 
+/projekte/Trading/
+
 # Office-Sperrdateien
 ~$*
 
@@ -21,3 +23,12 @@ __pycache__/
 
 # Kontrollbilder der Diagrammgeneratoren, keine Abgabeartefakte
 preview_*.png
+
+# Worktree-Metadaten in Unterordnern (kein Repo-Inhalt)
+**/.claude/worktrees/
+
+# Absturzprotokolle der Shell
+*.stackdump
+
+# Vorschau-/Kontrollartefakte der Generatoren
+_preview_*.html

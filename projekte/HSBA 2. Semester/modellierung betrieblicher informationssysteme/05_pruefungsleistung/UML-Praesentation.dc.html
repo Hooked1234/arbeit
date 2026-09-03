@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet" />
+<style>
+  html, body { margin: 0; padding: 0; background: #FFFFFF; }
+  a { color: #4779AE; text-decoration: none; }
+  a:hover { color: #002C58; text-decoration: underline; }
+</style>
+</helmet>
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%">
+
+<section data-label="Titel" data-screen-label="01" data-speaker-notes="Begrüßung, Vorstellung beider Präsentanten, Nennung der beiden Aufgaben. Ziel: zwei Klassendiagramme aus Anforderungstexten ableiten." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:120px 113px 85px;display:flex;flex-direction:column;justify-content:center;">
+  <div style="font-size:22px;letter-spacing:0.18em;text-transform:uppercase;color:#4779AE;font-weight:600;">Modellierung betrieblicher Informationssysteme</div>
+  <h1 style="font-size:64px;line-height:1.15;font-weight:700;color:#002C58;margin:26px 0 0;max-width:1500px;text-wrap:pretty;">UML-Klassendiagramme für Hochschulverwaltung und Finanzbuchhaltung</h1>
+  <div style="width:238px;height:3px;background:#4779AE;margin:34px 0 0;"></div>
+  <div style="font-size:30px;line-height:1.2;color:#212121;margin-top:34px;">Aufgabe 1 · Studiengänge, Module und Prüfungen</div>
+  <div style="font-size:30px;line-height:1.2;color:#212121;margin-top:10px;">Aufgabe 2 · Finanzbuchhaltung eines Unternehmens</div>
+  <div style="display:flex;flex-direction:column;gap:8px;margin-top:70px;font-size:22px;line-height:1.2;color:#6B6B6B;">
+    <div style="color:#212121;font-size:26px;font-weight:600;">Felix Heinsius · Timo Menzel</div>
+    <div>Matrikelnummer ⟦offen⟧ · ⟦offen⟧</div>
+    <div>HSBA Hamburg School of Business Administration · 2. Semester</div>
+    <div>Dozent:in ⟦offen⟧ · Abgabe ⟦Abgabedatum⟧</div>
+  </div>
+</section>
+
+<section data-label="Agenda" data-screen-label="02" data-speaker-notes="Roter Faden: Notation zuerst, dann Aufgabe 1, dann Aufgabe 2, Prüfungsfrage und Fazit." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:85px 113px 85px;display:flex;flex-direction:column;">
+  <h2 style="font-size:60px;line-height:1.15;font-weight:700;color:#002C58;margin:0;">Der Weg vom Anforderungstext zu zwei geprüften Modellen</h2>
+  <div style="width:238px;height:3px;background:#4779AE;margin:20px 0 56px;"></div>
+  <ol style="margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:34px 80px;">
+    <li style="display:flex;gap:26px;align-items:baseline;"><span style="font-size:34px;font-weight:700;color:#4779AE;min-width:52px;">01</span><span style="font-size:36px;line-height:1.2;">Vorgehen und Notation</span></li>
+    <li style="display:flex;gap:26px;align-items:baseline;"><span style="font-size:34px;font-weight:700;color:#4779AE;min-width:52px;">05</span><span style="font-size:36px;line-height:1.2;">Klassendiagramm Finanzbuchhaltung</span></li>
+    <li style="display:flex;gap:26px;align-items:baseline;"><span style="font-size:34px;font-weight:700;color:#4779AE;min-width:52px;">02</span><span style="font-size:36px;line-height:1.2;">Klassendiagramm Hochschulverwaltung</span></li>
+    <li style="display:flex;gap:26px;align-items:baseline;"><span style="font-size:34px;font-weight:700;color:#4779AE;min-width:52px;">06</span><span style="font-size:36px;line-height:1.2;">Kernentscheidungen des Modells</span></li>
+    <li style="display:flex;gap:26px;align-items:baseline;"><span style="font-size:34px;font-weight:700;color:#4779AE;min-width:52px;">03</span><span style="font-size:36px;line-height:1.2;">Beziehungen und Multiplizitäten</span></li>
+    <li style="display:flex;gap:26px;align-items:baseline;"><span style="font-size:34px;font-weight:700;color:#4779AE;min-width:52px;">07</span><span style="font-size:36px;line-height:1.2;">Zugriff der Klasse Administrator</span></li>
+    <li style="display:flex;gap:26px;align-items:baseline;"><span style="font-size:34px;font-weight:700;color:#4779AE;min-width:52px;">04</span><span style="font-size:36px;line-height:1.2;">Vererbung der Prüfungsformen</span></li>
+    <li style="display:flex;gap:26px;align-items:baseline;"><span style="font-size:34px;font-weight:700;color:#4779AE;min-width:52px;">08</span><span style="font-size:36px;line-height:1.2;">Prüfpunkte, Fazit und Quellen</span></li>
+  </ol>
+  <div style="position:absolute;left:113px;right:113px;bottom:38px;display:flex;justify-content:space-between;font-size:18px;color:#6B6B6B;">
+    <span>Felix Heinsius · Timo Menzel · Modellierung betrieblicher Informationssysteme · HSBA</span><span>2</span>
+  </div>
+</section>
+
+<section data-label="Trenner Aufgabe 1" data-screen-label="03" data-speaker-notes="Überleitung zur ersten Aufgabe." style="background:#002C58;font-family:'Titillium Web',Arial,sans-serif;color:#FFFFFF;padding:85px 113px;display:flex;flex-direction:column;justify-content:center;">
+  <div style="font-size:26px;letter-spacing:0.18em;text-transform:uppercase;color:#4779AE;font-weight:600;">Aufgabe 1</div>
+  <div style="font-size:72px;line-height:1.15;font-weight:700;margin-top:24px;">Hochschulverwaltung</div>
+  <div style="width:238px;height:3px;background:#4779AE;margin-top:34px;"></div>
+  <div style="font-size:30px;line-height:1.2;color:#E4ECF4;margin-top:34px;">Studiengänge, Module, Prüfungen und Prüfungsversuche</div>
+</section>
+
+<section data-label="Vorgehen und Notation" data-screen-label="04" data-speaker-notes="Kurz das Vorgehen erläutern: Substantive werden Klassen, Verben werden Methoden, Formulierungen werden Multiplizitäten. Legende rechts einmal durchgehen, damit die Notation auf den folgenden Folien nicht mehr erklärt werden muss." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:85px 113px;display:flex;flex-direction:column;">
+  <h2 style="font-size:60px;line-height:1.15;font-weight:700;color:#002C58;margin:0;">Substantive werden Klassen, Verben werden Methoden</h2>
+  <div style="width:238px;height:3px;background:#4779AE;margin:20px 0 48px;"></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;">
+    <div>
+      <div style="font-size:24px;font-weight:600;color:#4779AE;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:26px;">Vorgehen</div>
+      <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:22px;">
+        <li style="display:flex;gap:18px;font-size:34px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Substantive des Textes als Klassenkandidaten sammeln</span></li>
+        <li style="display:flex;gap:18px;font-size:34px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Eigenschaften als Attribute, Tätigkeiten als Methoden zuordnen</span></li>
+        <li style="display:flex;gap:18px;font-size:34px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Beziehungstyp über die Bestandsregel bestimmen</span></li>
+        <li style="display:flex;gap:18px;font-size:34px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Multiplizitäten wörtlich aus dem Text ableiten</span></li>
+        <li style="display:flex;gap:18px;font-size:34px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Gemeinsame Merkmale in Oberklassen zusammenfassen</span></li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-size:24px;font-weight:600;color:#4779AE;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:26px;">Legende</div>
+      <div style="display:flex;flex-direction:column;gap:30px;">
+        <div style="display:flex;align-items:center;gap:28px;">
+          <svg width="240" height="34" viewBox="0 0 240 34"><line x1="8" y1="17" x2="232" y2="17" stroke="#002C58" stroke-width="1.5" /></svg>
+          <div><div style="font-size:30px;line-height:1.15;font-weight:600;color:#002C58;">Assoziation</div><div style="font-size:22px;line-height:1.15;color:#6B6B6B;">Klassen kennen einander, beide bestehen eigenständig</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:28px;">
+          <svg width="240" height="34" viewBox="0 0 240 34"><line x1="34" y1="17" x2="232" y2="17" stroke="#002C58" stroke-width="1.5" /><polygon points="8,17 21,9 34,17 21,25" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" /></svg>
+          <div><div style="font-size:30px;line-height:1.15;font-weight:600;color:#002C58;">Aggregation</div><div style="font-size:22px;line-height:1.15;color:#6B6B6B;">Teil-Ganzes, Teil existiert ohne das Ganze weiter</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:28px;">
+          <svg width="240" height="34" viewBox="0 0 240 34"><line x1="34" y1="17" x2="232" y2="17" stroke="#002C58" stroke-width="1.5" /><polygon points="8,17 21,9 34,17 21,25" fill="#002C58" stroke="#002C58" stroke-width="1.5" /></svg>
+          <div><div style="font-size:30px;line-height:1.15;font-weight:600;color:#002C58;">Komposition</div><div style="font-size:22px;line-height:1.15;color:#6B6B6B;">Teil existiert ohne das Ganze nicht</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:28px;">
+          <svg width="240" height="34" viewBox="0 0 240 34"><line x1="36" y1="17" x2="232" y2="17" stroke="#002C58" stroke-width="1.5" /><polygon points="8,17 36,4 36,30" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" /></svg>
+          <div><div style="font-size:30px;line-height:1.15;font-weight:600;color:#002C58;">Vererbung</div><div style="font-size:22px;line-height:1.15;color:#6B6B6B;">Unterklasse erbt Attribute und Methoden</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="position:absolute;left:113px;right:113px;bottom:38px;display:flex;justify-content:space-between;font-size:18px;color:#6B6B6B;">
+    <span>Felix Heinsius · Timo Menzel · Modellierung betrieblicher Informationssysteme · HSBA</span><span>4</span>
+  </div>
+</section>
+
+<section data-label="Klassendiagramm 1" data-screen-label="05" data-speaker-notes="Diagramm im Uhrzeigersinn erläutern: Studiengang fasst Module zusammen, Module setzen Prüfungen an, Studenten unternehmen Prüfungsversuche. Auf die beiden Kompositionen und die drei Prüfungsformen hinweisen." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:60px 113px 40px;display:flex;flex-direction:column;">
+  <h2 style="font-size:56px;line-height:1.1;font-weight:700;color:#002C58;margin:0;">Neun Klassen bilden Studium, Lehre und Prüfung ab</h2>
+  <div style="width:238px;height:3px;background:#4779AE;margin:16px 0 20px;"></div>
+  <div style="position:relative;width:1694px;height:780px;">
+    <svg style="position:absolute;left:0;top:0;width:1694px;height:780px;overflow:visible;" viewBox="0 0 1694 780">
+      <g stroke="#002C58" stroke-width="1.5" fill="none">
+        <line x1="312" y1="80" x2="600" y2="80" />
+        <line x1="880" y1="80" x2="1414" y2="80" />
+        <line x1="740" y1="176" x2="740" y2="300" />
+        <line x1="140" y1="184" x2="140" y2="300" />
+        <polyline points="1554,136 1554,420 880,420" />
+        <line x1="140" y1="500" x2="140" y2="596" />
+        <polyline points="296,660 440,660 440,440 600,440" />
+        <line x1="740" y1="504" x2="740" y2="545" />
+        <line x1="740" y1="545" x2="1490" y2="545" />
+        <line x1="740" y1="545" x2="740" y2="640" />
+        <line x1="1100" y1="545" x2="1100" y2="640" />
+        <line x1="1490" y1="545" x2="1490" y2="640" />
+      </g>
+      <polygon points="280,80 296,71 312,80 296,89" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" />
+      <polygon points="280,660 289,651 298,660 289,669" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" />
+      <polygon points="740,160 749,168 740,176 731,168" fill="#002C58" stroke="#002C58" stroke-width="1.5" />
+      <polygon points="140,484 149,492 140,500 131,492" fill="#002C58" stroke="#002C58" stroke-width="1.5" />
+      <polygon points="740,484 725,504 755,504" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" />
+      <g font-family="Titillium Web, Arial, sans-serif" font-size="17" fill="#212121">
+        <text x="322" y="102">0..*</text>
+        <text x="592" y="102" text-anchor="end">1..*</text>
+        <text x="888" y="102">0..*</text>
+        <text x="1406" y="102" text-anchor="end">1..*</text>
+        <text x="728" y="200" text-anchor="end">1</text>
+        <text x="728" y="292" text-anchor="end">1..*</text>
+        <text x="128" y="208" text-anchor="end">1</text>
+        <text x="128" y="292" text-anchor="end">0..*</text>
+        <text x="1542" y="162" text-anchor="end">0..1</text>
+        <text x="890" y="410">0..*</text>
+        <text x="128" y="524" text-anchor="end">1</text>
+        <text x="128" y="590" text-anchor="end">0..*</text>
+        <text x="302" y="684">0..*</text>
+        <text x="590" y="430" text-anchor="end">1</text>
+      </g>
+      <g font-family="Titillium Web, Arial, sans-serif" font-size="17" font-style="italic" fill="#4779AE">
+        <text x="456" y="66" text-anchor="middle">fasst zusammen</text>
+        <text x="1147" y="66" text-anchor="middle">lehrt</text>
+        <text x="756" y="246">setzt an</text>
+        <text x="156" y="252">ist eingeschrieben in</text>
+        <text x="1200" y="408" text-anchor="middle">beaufsichtigt</text>
+        <text x="156" y="556">unternimmt</text>
+        <text x="452" y="592">bezieht sich auf</text>
+      </g>
+    </svg>
+
+    <div style="position:absolute;left:0px;top:0px;width:280px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Studiengang</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;">kuerzel<br />bezeichnung<br />regelstudienzeit</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">modulAufnehmen()<br />studienplanDrucken()</div>
+    </div>
+    <div style="position:absolute;left:600px;top:0px;width:280px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Modul</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;">modulnummer<br />titel<br />credits</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">prüfungAnsetzen()</div>
+    </div>
+    <div style="position:absolute;left:1414px;top:0px;width:280px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Dozent</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;">personalnummer<br />name</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">noteEintragen()</div>
+    </div>
+    <div style="position:absolute;left:0px;top:300px;width:280px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Student</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;">matrikelnummer<br />name<br />email</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">zuPrüfungAnmelden()<br />notenspiegelAbrufen()</div>
+    </div>
+    <div style="position:absolute;left:600px;top:300px;width:280px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Prüfung</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;">prüfungsnummer<br />datum<br />raum</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">anmeldungÖffnen()<br />prüfungAbsagen()</div>
+    </div>
+    <div style="position:absolute;left:0px;top:596px;width:280px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Prüfungsversuch</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;">versuchsnummer<br />datum<br />note</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">alsBestandenVerbuchen()<br />versuchZurücktreten()</div>
+    </div>
+    <div style="position:absolute;left:610px;top:640px;width:260px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Klausur</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;">bearbeitungsdauer</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">aufsichtEinteilen()</div>
+    </div>
+    <div style="position:absolute;left:960px;top:640px;width:280px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">MündlichePrüfung</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;">dauer<br />beisitzer</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">protokollAnlegen()</div>
+    </div>
+    <div style="position:absolute;left:1360px;top:640px;width:260px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Präsentation</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;">vortragsdauer</div>
+      <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">technikPrüfen()</div>
+    </div>
+  </div>
+  <div style="font-size:18px;color:#6B6B6B;margin-top:8px;">Abb. 1: Klassendiagramm Hochschulverwaltung (eigene Darstellung, Notation nach OMG 2017)</div>
+</section>
+
+<section data-label="Beziehungen Tabelle" data-screen-label="06" data-speaker-notes="Jede Zeile zeigt, welche Textstelle die Notation erzwingt. Besonders die beiden Kompositionen begründen." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:70px 113px 85px;display:flex;flex-direction:column;">
+  <h2 style="font-size:56px;line-height:1.15;font-weight:700;color:#002C58;margin:0;">Jede Beziehung lässt sich auf eine Textstelle zurückführen</h2>
+  <div style="width:238px;height:3px;background:#4779AE;margin:16px 0 32px;"></div>
+  <table style="border-collapse:collapse;width:100%;font-size:22px;line-height:1.2;table-layout:fixed;">
+    <thead>
+      <tr style="background:#002C58;color:#FFFFFF;">
+        <th style="text-align:left;padding:14px 16px;font-weight:600;width:270px;">Beziehung</th>
+        <th style="text-align:left;padding:14px 16px;font-weight:600;width:200px;">Typ</th>
+        <th style="text-align:left;padding:14px 16px;font-weight:600;width:150px;">Multiplizität</th>
+        <th style="text-align:left;padding:14px 16px;font-weight:600;">Begründung aus dem Aufgabentext</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#FFFFFF;"><td style="padding:12px 16px;">Studiengang – Modul</td><td style="padding:12px 16px;">Aggregation</td><td style="padding:12px 16px;">0..* : 1..*</td><td style="padding:12px 16px;">Modul bleibt bestehen, wenn ein Studiengang eingestellt wird</td></tr>
+      <tr style="background:#F2F5F9;"><td style="padding:12px 16px;">Modul – Dozent</td><td style="padding:12px 16px;">Assoziation</td><td style="padding:12px 16px;">0..* : 1..*</td><td style="padding:12px 16px;">Modul wird von mindestens einem Dozenten gelehrt</td></tr>
+      <tr style="background:#FFFFFF;"><td style="padding:12px 16px;">Modul – Prüfung</td><td style="padding:12px 16px;">Komposition</td><td style="padding:12px 16px;">1 : 1..*</td><td style="padding:12px 16px;">Prüfungstermin existiert ohne das Modul nicht</td></tr>
+      <tr style="background:#F2F5F9;"><td style="padding:12px 16px;">Studiengang – Student</td><td style="padding:12px 16px;">Assoziation</td><td style="padding:12px 16px;">1 : 0..*</td><td style="padding:12px 16px;">Student ist in genau einem Studiengang eingeschrieben</td></tr>
+      <tr style="background:#FFFFFF;"><td style="padding:12px 16px;">Dozent – Prüfung</td><td style="padding:12px 16px;">Assoziation</td><td style="padding:12px 16px;">0..1 : 0..*</td><td style="padding:12px 16px;">Termin wird von höchstens einem Dozenten beaufsichtigt</td></tr>
+      <tr style="background:#F2F5F9;"><td style="padding:12px 16px;">Student – Prüfungsversuch</td><td style="padding:12px 16px;">Komposition</td><td style="padding:12px 16px;">1 : 0..*</td><td style="padding:12px 16px;">Versuch existiert ohne den Studenten nicht</td></tr>
+      <tr style="background:#FFFFFF;"><td style="padding:12px 16px;">Prüfungsversuch – Prüfung</td><td style="padding:12px 16px;">Aggregation</td><td style="padding:12px 16px;">0..* : 1</td><td style="padding:12px 16px;">Termin bleibt bestehen, wenn ein Versuch gelöscht wird</td></tr>
+    </tbody>
+  </table>
+  <div style="position:absolute;left:113px;right:113px;bottom:38px;display:flex;justify-content:space-between;font-size:18px;color:#6B6B6B;">
+    <span>Felix Heinsius · Timo Menzel · Modellierung betrieblicher Informationssysteme · HSBA</span><span>6</span>
+  </div>
+</section>
+
+<section data-label="Vererbung Prüfungsformen" data-screen-label="07" data-speaker-notes="Die drei Prüfungsformen teilen Nummer, Datum, Raum und die Absage-Methode; nur die Spezifika unterscheiden sich." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:70px 113px 85px;display:flex;flex-direction:column;">
+  <h2 style="font-size:56px;line-height:1.15;font-weight:700;color:#002C58;margin:0;">Drei Prüfungsformen erben Termin, Raum und Absage</h2>
+  <div style="width:238px;height:3px;background:#4779AE;margin:16px 0 36px;"></div>
+  <div style="display:grid;grid-template-columns:900px 1fr;gap:70px;align-items:start;">
+    <div>
+      <div style="position:relative;width:900px;height:470px;">
+        <svg style="position:absolute;left:0;top:0;width:900px;height:470px;" viewBox="0 0 900 470">
+          <g stroke="#002C58" stroke-width="1.5" fill="none">
+            <line x1="450" y1="200" x2="450" y2="250" />
+            <line x1="150" y1="250" x2="750" y2="250" />
+            <line x1="150" y1="250" x2="150" y2="300" />
+            <line x1="450" y1="250" x2="450" y2="300" />
+            <line x1="750" y1="250" x2="750" y2="300" />
+          </g>
+          <polygon points="450,180 435,200 465,200" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" />
+        </svg>
+        <div style="position:absolute;left:310px;top:0px;width:280px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+          <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Prüfung</div>
+          <div style="padding:8px 12px;font-size:17px;line-height:24px;">prüfungsnummer<br />datum<br />raum</div>
+          <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">anmeldungÖffnen()<br />prüfungAbsagen()</div>
+        </div>
+        <div style="position:absolute;left:20px;top:300px;width:260px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+          <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Klausur</div>
+          <div style="padding:8px 12px;font-size:17px;line-height:24px;">bearbeitungsdauer</div>
+          <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">aufsichtEinteilen()</div>
+        </div>
+        <div style="position:absolute;left:315px;top:300px;width:270px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+          <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">MündlichePrüfung</div>
+          <div style="padding:8px 12px;font-size:17px;line-height:24px;">dauer<br />beisitzer</div>
+          <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">protokollAnlegen()</div>
+        </div>
+        <div style="position:absolute;left:620px;top:300px;width:260px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+          <div style="height:32px;line-height:32px;text-align:center;font-weight:700;font-size:19px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Präsentation</div>
+          <div style="padding:8px 12px;font-size:17px;line-height:24px;">vortragsdauer</div>
+          <div style="padding:8px 12px;font-size:17px;line-height:24px;border-top:1.5px solid #002C58;">technikPrüfen()</div>
+        </div>
+      </div>
+      <div style="font-size:18px;color:#6B6B6B;margin-top:12px;">Abb. 2: Vererbungshierarchie der Prüfungsformen (eigene Darstellung, Notation nach OMG 2017)</div>
+    </div>
+    <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:26px;">
+      <li style="display:flex;gap:18px;font-size:32px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Gemeinsame Attribute nur einmal modelliert</span></li>
+      <li style="display:flex;gap:18px;font-size:32px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Beziehungen der Oberklasse gelten für alle Formen</span></li>
+      <li style="display:flex;gap:18px;font-size:32px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Neue Prüfungsform ohne Eingriff ins Bestandsmodell ergänzbar</span></li>
+      <li style="display:flex;gap:18px;font-size:32px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Prüfungsversuch verweist unabhängig von der Form auf den Termin</span></li>
+    </ul>
+  </div>
+  <div style="position:absolute;left:113px;right:113px;bottom:38px;display:flex;justify-content:space-between;font-size:18px;color:#6B6B6B;">
+    <span>Felix Heinsius · Timo Menzel · Modellierung betrieblicher Informationssysteme · HSBA</span><span>7</span>
+  </div>
+</section>
+
+<section data-label="Trenner Aufgabe 2" data-screen-label="08" data-speaker-notes="Überleitung zur zweiten Aufgabe." style="background:#002C58;font-family:'Titillium Web',Arial,sans-serif;color:#FFFFFF;padding:85px 113px;display:flex;flex-direction:column;justify-content:center;">
+  <div style="font-size:26px;letter-spacing:0.18em;text-transform:uppercase;color:#4779AE;font-weight:600;">Aufgabe 2</div>
+  <div style="font-size:72px;line-height:1.15;font-weight:700;margin-top:24px;">Finanzbuchhaltung</div>
+  <div style="width:238px;height:3px;background:#4779AE;margin-top:34px;"></div>
+  <div style="font-size:30px;line-height:1.2;color:#E4ECF4;margin-top:34px;">Geschäftspartner, Rechnungen, Buchungssätze und Rollen</div>
+</section>
+
+<section data-label="Klassendiagramm 2" data-screen-label="09" data-speaker-notes="Drei Stränge: Beleg (Geschäftspartner bis Zahlung), Buchung (Buchungssatz, Position, Sachkonto, Periode) und Rolle (Mitarbeiter, Buchhalter, Administrator)." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:60px 113px 40px;display:flex;flex-direction:column;">
+  <h2 style="font-size:56px;line-height:1.1;font-weight:700;color:#002C58;margin:0;">Zwölf Klassen führen Beleg, Buchung und Rolle zusammen</h2>
+  <div style="width:238px;height:3px;background:#4779AE;margin:16px 0 20px;"></div>
+  <div style="position:relative;width:1694px;height:770px;">
+    <svg style="position:absolute;left:0;top:0;width:1694px;height:770px;overflow:visible;" viewBox="0 0 1694 770">
+      <g stroke="#002C58" stroke-width="1.5" fill="none">
+        <line x1="180" y1="177" x2="180" y2="190" />
+        <line x1="120" y1="190" x2="400" y2="190" />
+        <line x1="120" y1="190" x2="120" y2="215" />
+        <line x1="400" y1="190" x2="400" y2="215" />
+        <line x1="1520" y1="147" x2="1520" y2="215" />
+        <line x1="1520" y1="320" x2="1520" y2="420" />
+        <polyline points="120,309 120,380 200,380 200,420" />
+        <polyline points="400,309 400,380 320,380 320,420" />
+        <polyline points="200,576 200,590 120,590 120,610" />
+        <polyline points="320,556 320,590 400,590 400,610" />
+        <line x1="380" y1="486" x2="620" y2="486" />
+        <line x1="740" y1="362" x2="740" y2="420" />
+        <line x1="740" y1="576" x2="740" y2="610" />
+        <line x1="860" y1="660" x2="900" y2="660" />
+        <polyline points="1400,258 1180,258 1180,520 860,520" />
+      </g>
+      <polygon points="180,157 166,177 194,177" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" />
+      <polygon points="1520,127 1506,147 1534,147" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" />
+      <polygon points="1520,300 1506,320 1534,320" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" />
+      <polygon points="740,342 749,352 740,362 731,352" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" />
+      <polygon points="200,556 209,566 200,576 191,566" fill="#002C58" stroke="#002C58" stroke-width="1.5" />
+      <polygon points="740,556 749,566 740,576 731,566" fill="#002C58" stroke="#002C58" stroke-width="1.5" />
+      <g font-family="Titillium Web, Arial, sans-serif" font-size="16" fill="#212121">
+        <text x="110" y="334" text-anchor="end">1</text>
+        <text x="190" y="412" text-anchor="end">0..*</text>
+        <text x="410" y="334">1</text>
+        <text x="330" y="412">0..*</text>
+        <text x="330" y="576">1</text>
+        <text x="410" y="606">0..*</text>
+        <text x="390" y="478">1..*</text>
+        <text x="612" y="478" text-anchor="end">1</text>
+        <text x="852" y="652" text-anchor="end">0..*</text>
+        <text x="906" y="652">1</text>
+        <text x="1390" y="250" text-anchor="end">1</text>
+        <text x="870" y="512">0..*</text>
+      </g>
+    </svg>
+
+    <div style="position:absolute;left:60px;top:0px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Geschäftspartner</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;">name<br />adresse<br />telefonnummer</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">löschen()<br />duplizieren()</div>
+    </div>
+    <div style="position:absolute;left:0px;top:215px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Kunde</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;">sepaMandat</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">abmahnen()</div>
+    </div>
+    <div style="position:absolute;left:280px;top:215px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Lieferant</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;">iban</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">bezahlen()</div>
+    </div>
+    <div style="position:absolute;left:620px;top:215px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Buchungsperiode</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;">beginn<br />ende<br />status</div>
+      <div style="height:24px;border-top:1.5px solid #002C58;"></div>
+    </div>
+    <div style="position:absolute;left:1400px;top:0px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Mitarbeiter</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;">personalnummer<br />name<br />e-mail</div>
+      <div style="height:24px;border-top:1.5px solid #002C58;"></div>
+    </div>
+    <div style="position:absolute;left:1400px;top:215px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Buchhalter</div>
+      <div style="height:24px;"></div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">buchen()</div>
+    </div>
+    <div style="position:absolute;left:1400px;top:420px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Administrator</div>
+      <div style="height:24px;"></div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">benutzerVerwalten()<br />einstellungenVerwalten()</div>
+    </div>
+    <div style="position:absolute;left:140px;top:420px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Rechnung</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;">rechnungsnummer<br />rechnungsdatum<br />gesamtbetrag</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">gesamtbetragBerechnen()</div>
+    </div>
+    <div style="position:absolute;left:620px;top:420px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Buchungssatz</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;">buchungsdatum<br />rechnungsnummer<br />buchungstext</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">wiederholen()</div>
+    </div>
+    <div style="position:absolute;left:0px;top:610px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Rechnungsposition</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;">produkt<br />menge<br />einzelpreis</div>
+      <div style="height:24px;border-top:1.5px solid #002C58;"></div>
+    </div>
+    <div style="position:absolute;left:280px;top:610px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Zahlung</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;">zahlungsdatum<br />betrag</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">wiederholen()</div>
+    </div>
+    <div style="position:absolute;left:620px;top:610px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Buchungsposition</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;">betrag<br />sachkonto</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">wiederholen()</div>
+    </div>
+    <div style="position:absolute;left:900px;top:610px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+      <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Sachkonto</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;">kontonummer<br />bezeichnung<br />kontotyp</div>
+      <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">löschen()<br />duplizieren()</div>
+    </div>
+  </div>
+  <div style="font-size:18px;color:#6B6B6B;margin-top:8px;">Abb. 3: Klassendiagramm Finanzbuchhaltung (eigene Darstellung, Notation nach OMG 2017)</div>
+</section>
+
+<section data-label="Kernentscheidungen" data-screen-label="10" data-speaker-notes="Die fünf Entscheidungen, die das zweite Modell prägen." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:85px 113px;display:flex;flex-direction:column;">
+  <h2 style="font-size:56px;line-height:1.15;font-weight:700;color:#002C58;margin:0;">Bestandsregel und Rollenmodell bestimmen die Struktur</h2>
+  <div style="width:238px;height:3px;background:#4779AE;margin:20px 0 52px;"></div>
+  <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:34px;max-width:1500px;">
+    <li style="display:flex;gap:20px;font-size:36px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Rechnungsposition und Buchungsposition als Komposition modelliert</span></li>
+    <li style="display:flex;gap:20px;font-size:36px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Buchungsperiode als Aggregation, Buchungssatz bleibt eigenständig</span></li>
+    <li style="display:flex;gap:20px;font-size:36px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Kunde und Lieferant als Spezialisierungen des Geschäftspartners</span></li>
+    <li style="display:flex;gap:20px;font-size:36px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Rollen zweistufig vererbt: Mitarbeiter, Buchhalter, Administrator</span></li>
+    <li style="display:flex;gap:20px;font-size:36px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Sachkonto über die Buchungsposition angebunden, nicht direkt am Satz</span></li>
+  </ul>
+  <div style="position:absolute;left:113px;right:113px;bottom:38px;display:flex;justify-content:space-between;font-size:18px;color:#6B6B6B;">
+    <span>Felix Heinsius · Timo Menzel · Modellierung betrieblicher Informationssysteme · HSBA</span><span>10</span>
+  </div>
+</section>
+
+<section data-label="Administrator-Zugriff" data-screen-label="11" data-speaker-notes="Antwort auf die Prüfungsfrage: drei geerbte Attribute, eine geerbte Methode, zwei eigene Methoden. Sichtbarkeiten werden als public angenommen." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:70px 113px 85px;display:flex;flex-direction:column;">
+  <h2 style="font-size:56px;line-height:1.15;font-weight:700;color:#002C58;margin:0;">Administrator greift auf drei Attribute und drei Methoden zu</h2>
+  <div style="width:238px;height:3px;background:#4779AE;margin:16px 0 36px;"></div>
+  <div style="display:grid;grid-template-columns:560px 1fr;gap:80px;align-items:start;">
+    <div>
+      <div style="position:relative;width:400px;height:520px;">
+        <svg style="position:absolute;left:0;top:0;width:400px;height:520px;" viewBox="0 0 400 520">
+          <g stroke="#002C58" stroke-width="1.5" fill="none">
+            <line x1="140" y1="147" x2="140" y2="190" />
+            <line x1="140" y1="320" x2="140" y2="365" />
+          </g>
+          <polygon points="140,127 126,147 154,147" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" />
+          <polygon points="140,300 126,320 154,320" fill="#FFFFFF" stroke="#002C58" stroke-width="1.5" />
+        </svg>
+        <div style="position:absolute;left:20px;top:0px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+          <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Mitarbeiter</div>
+          <div style="padding:6px 10px;font-size:15px;line-height:21px;">personalnummer<br />name<br />e-mail</div>
+          <div style="height:24px;border-top:1.5px solid #002C58;"></div>
+        </div>
+        <div style="position:absolute;left:20px;top:190px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+          <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Buchhalter</div>
+          <div style="height:24px;"></div>
+          <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">buchen()</div>
+        </div>
+        <div style="position:absolute;left:20px;top:365px;width:240px;box-sizing:border-box;border:1.5px solid #002C58;background:#FFFFFF;">
+          <div style="height:28px;line-height:28px;text-align:center;font-weight:700;font-size:17px;color:#002C58;background:#E4ECF4;border-bottom:1.5px solid #002C58;">Administrator</div>
+          <div style="height:24px;"></div>
+          <div style="padding:6px 10px;font-size:15px;line-height:21px;border-top:1.5px solid #002C58;">benutzerVerwalten()<br />einstellungenVerwalten()</div>
+        </div>
+      </div>
+      <div style="font-size:18px;color:#6B6B6B;margin-top:12px;width:400px;">Abb. 4: Zweistufige Vererbung der Rollen (eigene Darstellung, Notation nach OMG 2017)</div>
+    </div>
+    <div>
+      <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:22px;">
+        <li style="display:flex;gap:18px;font-size:32px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Geerbt von Mitarbeiter: personalnummer, name, e-mail</span></li>
+        <li style="display:flex;gap:18px;font-size:32px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Geerbt von Buchhalter: buchen()</span></li>
+        <li style="display:flex;gap:18px;font-size:32px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Eigene Methoden: benutzerVerwalten(), einstellungenVerwalten()</span></li>
+        <li style="display:flex;gap:18px;font-size:32px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Summe: drei Attribute und drei Methoden</span></li>
+      </ul>
+      <div style="background:#E4ECF4;padding:26px 30px;margin-top:40px;font-size:26px;line-height:1.2;color:#212121;">Voraussetzung ist die Sichtbarkeit public oder protected. Das Diagramm gibt keine Sichtbarkeiten an; sie werden hier als public angenommen.</div>
+    </div>
+  </div>
+  <div style="position:absolute;left:113px;right:113px;bottom:38px;display:flex;justify-content:space-between;font-size:18px;color:#6B6B6B;">
+    <span>Felix Heinsius · Timo Menzel · Modellierung betrieblicher Informationssysteme · HSBA</span><span>11</span>
+  </div>
+</section>
+
+<section data-label="Prüfpunkte" data-screen-label="12" data-speaker-notes="Offene Stellen im zweiten Modell transparent machen: fünf Punkte, jeweils mit Textbeleg und Anpassung." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:70px 113px 85px;display:flex;flex-direction:column;">
+  <h2 style="font-size:56px;line-height:1.15;font-weight:700;color:#002C58;margin:0;">Fünf Stellen im Modell 2 sind noch nachzuschärfen</h2>
+  <div style="width:238px;height:3px;background:#4779AE;margin:16px 0 32px;"></div>
+  <table style="border-collapse:collapse;width:100%;font-size:22px;line-height:1.2;table-layout:fixed;">
+    <thead>
+      <tr style="background:#002C58;color:#FFFFFF;">
+        <th style="text-align:left;padding:14px 16px;font-weight:600;width:330px;">Stelle im Modell</th>
+        <th style="text-align:left;padding:14px 16px;font-weight:600;">Aufgabentext</th>
+        <th style="text-align:left;padding:14px 16px;font-weight:600;width:420px;">Anpassung</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#FFFFFF;"><td style="padding:14px 16px;">Rechnung – Zahlung</td><td style="padding:14px 16px;">„eine oder mehrere Zahlungen"</td><td style="padding:14px 16px;">1..* statt 0..*</td></tr>
+      <tr style="background:#F2F5F9;"><td style="padding:14px 16px;">Buchungssatz – Buchungsposition</td><td style="padding:14px 16px;">„mindestens zwei Buchungspositionen"</td><td style="padding:14px 16px;">2..* ergänzen (Soll und Haben)</td></tr>
+      <tr style="background:#FFFFFF;"><td style="padding:14px 16px;">Buchungsperiode – Buchungssatz</td><td style="padding:14px 16px;">„können Teil einer Buchungsperiode sein"</td><td style="padding:14px 16px;">0..1 zu 0..* ergänzen</td></tr>
+      <tr style="background:#F2F5F9;"><td style="padding:14px 16px;">Kunde / Lieferant – Rechnung</td><td style="padding:14px 16px;">„genau zu einem Kunden oder einem Lieferanten"</td><td style="padding:14px 16px;">{xor}-Constraint setzen</td></tr>
+      <tr style="background:#FFFFFF;"><td style="padding:14px 16px;">rechnungsnummer, sachkonto</td><td style="padding:14px 16px;">bereits als Assoziation modelliert</td><td style="padding:14px 16px;">Redundante Attribute entfernen</td></tr>
+    </tbody>
+  </table>
+  <div style="position:absolute;left:113px;right:113px;bottom:38px;display:flex;justify-content:space-between;font-size:18px;color:#6B6B6B;">
+    <span>Felix Heinsius · Timo Menzel · Modellierung betrieblicher Informationssysteme · HSBA</span><span>12</span>
+  </div>
+</section>
+
+<section data-label="Fazit" data-screen-label="13" data-speaker-notes="Zusammenfassung, keine neuen Informationen. Danach Übergang zu Fragen." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:85px 113px;display:flex;flex-direction:column;">
+  <h2 style="font-size:56px;line-height:1.15;font-weight:700;color:#002C58;margin:0;">Beide Modelle sind vollständig aus dem Text ableitbar</h2>
+  <div style="width:238px;height:3px;background:#4779AE;margin:20px 0 52px;"></div>
+  <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:34px;max-width:1500px;">
+    <li style="display:flex;gap:20px;font-size:36px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Bestandsregel trennt Aggregation von Komposition</span></li>
+    <li style="display:flex;gap:20px;font-size:36px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Multiplizitäten folgen wörtlich den Formulierungen des Textes</span></li>
+    <li style="display:flex;gap:20px;font-size:36px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Vererbung bündelt gemeinsame Merkmale von Prüfungen und Rollen</span></li>
+    <li style="display:flex;gap:20px;font-size:36px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Administrator verfügt über drei Attribute und drei Methoden</span></li>
+    <li style="display:flex;gap:20px;font-size:36px;line-height:1.2;"><span style="color:#4779AE;font-weight:700;">·</span><span>Fünf Prüfpunkte bleiben für die Überarbeitung von Modell 2 offen</span></li>
+  </ul>
+  <div style="position:absolute;left:113px;right:113px;bottom:38px;display:flex;justify-content:space-between;font-size:18px;color:#6B6B6B;">
+    <span>Felix Heinsius · Timo Menzel · Modellierung betrieblicher Informationssysteme · HSBA</span><span>13</span>
+  </div>
+</section>
+
+<section data-label="Quellen" data-screen-label="14" data-speaker-notes="Quellen nach Chicago Author-Date, alphabetisch." style="background:#FFFFFF;font-family:'Titillium Web',Arial,sans-serif;color:#212121;padding:85px 113px;display:flex;flex-direction:column;">
+  <h2 style="font-size:56px;line-height:1.15;font-weight:700;color:#002C58;margin:0;">Quellen</h2>
+  <div style="width:238px;height:3px;background:#4779AE;margin:20px 0 48px;"></div>
+  <div style="display:flex;flex-direction:column;gap:28px;max-width:1550px;font-size:26px;line-height:1.2;color:#212121;">
+    <div>Balzert, Heide. 2011. <em>Lehrbuch der Objektmodellierung: Analyse und Entwurf mit der UML 2</em>. 2. Aufl. Heidelberg: Spektrum Akademischer Verlag.</div>
+    <div>Fowler, Martin. 2004. <em>UML Distilled: A Brief Guide to the Standard Object Modeling Language</em>. 3rd ed. Boston: Addison-Wesley.</div>
+    <div>Object Management Group. 2017. <em>OMG Unified Modeling Language (OMG UML), Version 2.5.1</em>. Needham, MA: Object Management Group.</div>
+    <div>Oestereich, Bernd. 2012. <em>Analyse und Design mit der UML 2.5: Objektorientierte Softwareentwicklung</em>. 10. Aufl. München: Oldenbourg.</div>
+    <div>Rumbaugh, James, Ivar Jacobson, und Grady Booch. 2005. <em>The Unified Modeling Language Reference Manual</em>. 2nd ed. Boston: Addison-Wesley.</div>
+  </div>
+  <div style="position:absolute;left:113px;right:113px;bottom:38px;display:flex;justify-content:space-between;font-size:18px;color:#6B6B6B;">
+    <span>Felix Heinsius · Timo Menzel · Modellierung betrieblicher Informationssysteme · HSBA</span><span>14</span>
+  </div>
+</section>
+
+</x-import>
+</x-dc>
+</body>
+</html>

@@ -101,6 +101,107 @@
   nicht vollständig.
 - Offen: Zeittest am 31.08. durch Felix und den Abgabepartner.
 
+## 2026-08-24 — Marketing Management (Praxisbericht Spotify)
+
+- Zweite, unabhängige Fassung des Arbeitsstands erstellt und unter
+  `projekte/HSBA 2. Semester/marketing management/05_pruefungsleistung/`
+  als `Spotify_Praxisbericht_Arbeitsstand_1_Claude.docx` abgelegt. Sie
+  beantwortet denselben Auftrag wie `Spotify_Praxisbericht_Arbeitsstand_1.docx`
+  (Codex), wurde aber ohne Kenntnis von dessen Inhalt erarbeitet.
+- Vergleich beider Fassungen als `Vergleich_Arbeitsstand_1.md` im selben Ordner.
+  Ergebnis: Arbeitsstand 1 bleibt die Grundlage — er hat das echte
+  Forschungsdesign (H1–H4), die breitere Theoriebasis, die Claim-Source-Matrix
+  und die SEC-Filings als Primärquellen. Die zweite Fassung liefert die schärfere
+  These, den engeren Vorlesungsbezug und die Wettbewerbsdynamik.
+- Fünf Punkte zur Übernahme in Arbeitsstand 1 benannt: These in die
+  Forschungsfrage ziehen (H2, Wichtigkeitsabfrage und H3b messen genau die drei
+  Wettbewerbsvorteil-Kriterien nach Meffert et al.), Marktanteilsentwicklung
+  2024→2025 in Kapitel 3, Kaufverhaltenstyp nach Kotler/Armstrong ergänzen,
+  Preistabelle auf sechs Anbieter erweitern, Vorlesungsmodelle im 4P-Teil
+  benennen.
+- Fehler in der eigenen Fassung gefunden und korrigiert: Spotifys Abonnentenzahl
+  für 2024 lautet ≈ 263 Mio., nicht 236 Mio. (32,2 % von 818,3 Mio. nach MIDiA,
+  deckt sich mit dem Q4-2024-Bericht).
+- Ungeklärter Widerspruch zwischen beiden Fassungen: Einzelpreis Amazon Music
+  Unlimited (12,99 €/11,99 € gegen 10,99 €/9,99 €). `amazon.de` sperrt
+  automatisierte Abrufe, die About-Amazon-Seite steht auf Stand 08/2024. Muss im
+  eingeloggten Konto geprüft und als PDF archiviert werden.
+- Zwei Unklarheiten im Leitfaden übernommen, die Arbeitsstand 1 zuerst erkannt
+  hat: Cut-off nennt „drei Bewertungsbereiche“, der Bogen hat vier Blöcke; und
+  ob die 300-Wörter-Fazits in die 6.000-Wörter-Grenze zählen.
+- Hinweis: Der Prompt-Anhang muss beide Werkzeuge führen (Codex und Claude),
+  bisher steht dort nur der Codex-Auftrag.
+
+## 2026-08-15 — EOS Auslandseinsatz (Bewerbung)
+
+- Englisches Motivationsschreiben für den internen Auslandseinsatz erstellt:
+  `projekte/EOS Auslandseinsatz/motivation-letter_international-assignment.md`
+  (273 Wörter, länderneutral für Spanien/Rumänien, natürliches Business English).
+- Grundlage: EOS-Einsätze Sachbearbeitung, EOS Field Service, Cloud Services
+  (AWS + Daten), Finance (Prognosen); belegte EOS-Group-Aussage „more than
+  20 countries" (eos-solutions.com).
+- Korrektur nach Review: EOS Field Service ist Tochterunternehmen, nicht der
+  Arbeitgeber — Arbeitgeber ist EOS. In `context/felix.md` zu korrigieren.
+- Offen: Name der Ansprechpartnerin, ggf. Länderfassung, englischer CV.
+- Überarbeitete Endfassung (ca. 340 Wörter): Rücktransfer ergänzt (was EOS
+  nach der Rückkehr davon hat), Absatz zur interkulturellen Anpassung
+  konkretisiert, „patience" durch aktive Formulierung ersetzt, Dopplung
+  „case handling" entfernt, Gedankenstriche auf zwei reduziert.
+- Faktencheck bestanden: EPP-Studie 2025 nennt Spanien, Rumänien und Slowenien
+  als Vorreiter bei digitalisierten Mahnprozessen, Deutschland als Nachzügler;
+  „more than 20 countries" deckt sich mit Geschäftsbericht 2025/26.
+- Bewusst weggelassen: Wunschzeitraum/Dauer, Sprachkenntnisse (keine
+  Spanischkenntnisse vorhanden — Englisch-Argumentation trägt allein).
+- Semikolon-Aufzählung der vier Einsatzbereiche auf Kommas + Klammern
+  umgestellt (Cloud Services (AWS and data), Finance (forecasting)).
+- Länder-Nennung umformuliert: „Both countries under discussion, Spain and
+  Romania, …" — greift den Vorschlag der Ansprechpartnerin auf, statt eigene
+  Auswahl zu suggerieren; Flexibilität für beide Optionen bleibt erhalten.
+  Keine Präferenz genannt, da tatsächlich keine besteht.
+
+## 2026-08-15 — EOS Auslandseinsatz (englischer CV)
+
+- Englischen CV erstellt: `projekte/EOS Auslandseinsatz/Felix_Heinsius_CV_EN.docx`
+  (eine Seite, ATS-freundlich: keine Tabellen/Textboxen, Calibri, Standard-
+  Abschnittsnamen, Aufzählungen über echte Numbering-Definition).
+- Alter CV war vollständig veraltet (nannte weder HSBA noch EOS, führte Würzburg
+  als aktuelles Studium) und in sich widersprüchlich (Jura ab 10/2022 lag vor dem
+  Abitur 07/2023). Inhaltlich neu aufgebaut.
+- Chronologie bereinigt und bestätigt: Abitur 07/2023 → Botswana 09/2023 →
+  Jura Frankfurt 10/2023–09/2024 → WI Würzburg 10/2024–04/2025 → EOS ab 08/2025 →
+  HSBA ab 05.01.2026. Lücke 05/2025–07/2025 bewusst nicht kommentiert.
+- HSBA (Education) und EOS (Experience) bewusst getrennt geführt, dualer Charakter
+  in beiden Einträgen benannt — sonst verschwindet die Praxiserfahrung aus dem
+  Abschnitt, in dem ATS und Leser sie suchen.
+- Vier EOS-Rotationen unter einem Dachenttrag, ungleich gewichtet.
+- Auf Wunsch keinerlei Bezug zum Auslandseinsatz im CV — Argumentation bleibt
+  vollständig im Motivationsschreiben.
+- Bewusst weggelassen: SAP-Zertifikat (im Workspace nicht auffindbar, unbelegt),
+  SQL und Power BI (nie als eigene Anwendung bestätigt), Latinum (international
+  ohne Aussagekraft), Zeitungsausträger und Kanzleipraktikum.
+- Python nur als „basics, from personal projects" — Grundlage ist `context/felix.md`
+  (Stack Python/Streamlit/yfinance), nicht bestätigte Berufserfahrung.
+- AWS bewusst als „working basics from a hands-on rotation" formuliert, nicht als
+  produktive Erfahrung — entspricht Felix' eigener Einschätzung.
+- Offen: voraussichtliches Abschlussdatum HSBA, SAP-Zertifikat, Präzisierung der
+  Tätigkeit bei EOS Field Service.
+- Nachtrag: Voraussichtlicher Abschluss (Ende 2028) bestätigt und in der
+  HSBA-Metazeile ergänzt statt in der Datumsspalte — vermeidet Zeilenumbruch
+  bei langem Hochschulnamen. Verbleibend offen: SAP-Zertifikat, Präzisierung
+  der Tätigkeit bei EOS Field Service.
+- Umbau der EOS-Station nach Feedback: Zwischenüberschriften mit Einzelbullets
+  entfernt (wirkten zerstückelt). Jetzt: Einsatzorte als eine Zeile, darunter
+  Werkzeugliste mit ehrlicher Niveauangabe, darunter zusammenfassender Zweizeiler.
+- Separate Skills-Sektion aufgelöst, da die Werkzeuge nun unter Experience stehen —
+  sonst doppelte Nennung. Sprachen und Office als eigene Zeilen erhalten.
+- Werkzeugniveaus nach Felix' Selbsteinschätzung: Excel (Grundkurs), AWS
+  (Grundlagen + Bedrock), Git/GitHub (in Nutzung), Power BI (erste Versuche),
+  SQL/Python/DBeaver/Azure (nur kurz getestet). Bewusst gestaffelt formuliert
+  statt pauschal — schützt im Gespräch und wirkt selbstsicher statt aufgebläht.
+- Rückbau auf Wunsch: Die vier Abteilungen stehen wieder als einzelne fette
+  Überschriften untereinander, aber ohne Tätigkeitsbeschreibung — der Inhalt
+  ergibt sich aus dem EOS-Kontext. Werkzeugliste und Zusammenfassung bleiben.
+
 ## 2026-08-10
 
 - `MOBIS`-Prüfungsleistung Auflage 2 (UML-Klassendiagramme) bewertet. Befund:
