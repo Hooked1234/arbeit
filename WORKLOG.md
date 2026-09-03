@@ -261,6 +261,25 @@
   Auswahl zu suggerieren; Flexibilität für beide Optionen bleibt erhalten.
   Keine Präferenz genannt, da tatsächlich keine besteht.
 
+## 2026-08-14
+
+- Gruppenfallstudie „Kommunikationspolitik bei Waterdrop" (Abschnitt 3.3, S. 12–13
+  in `Gruppenfallstudien_Marketing.pdf`) beantwortet und als 9-seitige Präsentation
+  unter `projekte/HSBA 2. Semester/marketing management/04_aufgaben/
+  waterdrop_kommunikationspolitik/` abgelegt — je eine Folie pro Aufgabenfrage
+  (Ziele, Instrumente, Zielgruppe, Botschaft, Erfolgsmessung) plus Titel,
+  Ausgangslage, Fazit und Quellenfolie.
+- Fachliche Grundlage aus dem Vorlesungsfoliensatz (Folien 117–137) abgeleitet:
+  psychographische vs. ökonomische Kommunikationsziele, Instrumente der
+  Kommunikationspolitik, Online-Funnel-Kennzahlen. Vollbelege nach Chicago
+  Author-Date auf der Quellenfolie; Vorlesungsfolien nicht als alleinige Quelle.
+- Layout strikt nach `standards/praesentation-hsba.md` (Primär #002C58,
+  Sekundär #4779AE, 16:9, Titel als Aussagesatz, Fußzeilenbelege). Schrift
+  Calibri als zugelassener Fallback, da *Titillium Web* lokal nicht installiert
+  ist. Alle 9 Folien in PowerPoint gerendert und visuell geprüft.
+- Offen: HSBA-Logo über den Folienmaster ergänzen, Gruppenmitglieder und
+  Vortragsdatum auf der Titelfolie eintragen.
+
 ## 2026-08-10
 
 - `MOBIS`-Prüfungsleistung Auflage 2 (UML-Klassendiagramme) bewertet. Befund:
