@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-09-03
+
+### Geändert
+- MOBIS-Prüfungsleistung als **erbracht und abgegeben** vermerkt (Termin
+  02.09.2026). Statusblock in `05_pruefungsleistung/README.md`, „Aktueller
+  Stand" im Modul-README und `NEXT_STEPS.md` entsprechend nachgezogen.
+- `NEXT_STEPS.md` um einen Abschnitt „Erledigt" ergänzt; die abgeschlossenen
+  MOBIS-Punkte 4 und 4a dorthin verschoben.
+
+### Offen
+- Bewertung und Rückmeldung des Dozenten sind noch nicht dokumentiert.
+
 ## 2026-06-30
 
 ### Hinzugefügt

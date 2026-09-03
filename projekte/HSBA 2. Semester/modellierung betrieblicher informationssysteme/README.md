@@ -29,8 +29,12 @@ Prüfungsleistung des Moduls.
 
 - Modulordner angelegt
 - Lehrmaterial und Terminserie vorhanden
-- Bewertete Leistung bestätigt: Erstellung einer Übungsaufgabe nach dem Format
-  von `Aufgabe 5 – Reklamation`; 100 % der Modulnote
+- Bewertete Leistung: Erstellung einer Übungsaufgabe nach dem Format von
+  `Aufgabe 5 – Reklamation`; 100 % der Modulnote
 - Verbindliche Bestandteile: 2–3er-Gruppe, Musterlösung und Betreuung der
   bearbeitenden Gruppen
-- Thema, Termin, Bewertungsrubrik, Individualanteil und Abgabeformat noch offen
+- **Prüfungsleistung erbracht und abgegeben**; Termin 02.09.2026 hat
+  stattgefunden (Rückmeldung Felix, 03.09.2026). Stand und Umfang in
+  `05_pruefungsleistung/README.md`
+- Offen: Bewertung und Rückmeldung des Dozenten
+- Laufend: Vertiefungsübungen anderer Gruppen bearbeiten (`04_aufgaben/`)

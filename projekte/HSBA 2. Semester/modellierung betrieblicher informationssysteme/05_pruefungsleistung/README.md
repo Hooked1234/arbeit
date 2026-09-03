@@ -1,5 +1,19 @@
 # Prüfungsleistung · Übungsaufgabe
 
+## Status: erbracht und abgegeben
+
+- **Abgeschlossen.** Die Prüfungsleistung ist abgegeben und der Termin hat
+  stattgefunden (Rückmeldung Felix, 03.09.2026).
+- Zugehöriger Termin: Vertiefung **02.09.2026**, geplant in
+  `03_entwurf/2026-08-30_Umsetzungsplan_vertiefung.md`, Material unter
+  `05_abgabe/UML-Vertiefung_02-09/`.
+- Die Abgabe umfasst die Übungsaufgaben mit Musterlösung
+  (`05_abgabe/UML-Klassendiagramme_aufl.3/` und `05_abgabe/UML-Vertiefung_02-09/`).
+- **Noch nicht dokumentiert:** Bewertung, Note und Rückmeldung des Dozenten.
+  Sobald sie vorliegen, hier und in `04_feedback/` nachtragen.
+- Die Abschnitte unten geben den Planungsstand *vor* der Abgabe wieder und
+  bleiben als Nachweis stehen.
+
 ## Bestätigt
 
 - Die Erstellung der Übungsaufgabe bestimmt die vollständige Modulnote
