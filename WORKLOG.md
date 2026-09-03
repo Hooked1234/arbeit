@@ -1,5 +1,12 @@
 # Worklog
 
+## 2026-09-01
+
+- HSBA-Logo als lokales Asset abgelegt:
+  `.claude/skills/hsba-praesentation/assets/hsba-logo.png` (1313 × 452 px, PNG mit
+  Transparenz). Skill und `standards/praesentation-hsba.md` verweisen jetzt auf die
+  Datei statt nur auf die SVG-URL — Folien binden das Logo direkt ein.
+
 ## 2026-08-30
 
 - MOBIS-Vertiefungstermin 02.09.2026 geplant: `05_pruefungsleistung/03_entwurf/

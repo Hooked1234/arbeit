@@ -39,10 +39,14 @@ RASTER        16:9
 - Konsequente Ausrichtung am Raster, keine freischwebenden Elemente.
 
 ## Logo
+- **Datei (verbindlich):** `.claude/skills/hsba-praesentation/assets/hsba-logo.png`
+  — 1313 × 452 px, PNG mit Transparenz, Logofarbe #0C2950. Diese Datei einbinden,
+  nicht neu suchen oder nachbauen.
 - HSBA-Logo dezent **oben rechts**, einheitliche Größe — **nur über den
   Folienmaster**, nicht pro Folie einzeln.
+- Seitenverhältnis nie verzerren (2,9 : 1); Breite auf Folie ca. 3–4 cm.
 - Abschnitts-Trenner dürfen ohne Logo bleiben, wenn die Gestaltung sauber ist.
-- Quelle (SVG): https://www.hsba.de/typo3conf/ext/hsba_sitepackage/Resources/Public/Images/HsbaLogo/HSBA-Logo.svg
+- Originalquelle (SVG): https://www.hsba.de/typo3conf/ext/hsba_sitepackage/Resources/Public/Images/HsbaLogo/HSBA-Logo.svg
 
 ## Quellen / Zitation
 - **Stil:** Chicago **Author-Date**.
