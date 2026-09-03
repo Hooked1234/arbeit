@@ -1,5 +1,28 @@
 # Worklog
 
+## 2026-08-31
+
+- Abgabe-Präsentation zu den MOBIS-Übungsaufgaben 1 (Hochschulverwaltung) und 2
+  (Finanzbuchhaltung) erstellt: 14 Folien, 16:9, strikt nach den Design-Tokens
+  aus `standards/praesentation-hsba.md`. Da *Titillium Web* lokal nicht
+  installiert ist, wurde der im Standard hinterlegte Fallback Arial gesetzt.
+  Ablage unter `04_aufgaben/uml-klassendiagramme-aufgabe-1-2/`.
+- Beide Klassendiagramme als native, editierbare PowerPoint-Formen nachgebaut
+  (nicht als Bild): Klassenkästen mit drei Kompartimenten, gefüllte und offene
+  Rauten, Generalisierungsdreiecke, Multiplizitäten und Beziehungsnamen.
+- Alle 14 Folien mit PowerPoint nach PNG exportiert und visuell geprüft; drei
+  Befunde korrigiert (zwei umbrechende Folientitel, ein überlaufender
+  Hinweiskasten) und die Textmenge auf zwei Folien auf die Standardgrenze von
+  rund 40 Wörtern zurückgeführt.
+- Fünf Abweichungen zwischen Aufgabentext 2 und dem gezeichneten Modell
+  dokumentiert (Zahlung 1..*, Buchungsposition 2..*, Buchungsperiode 0..1:0..*,
+  fehlender {xor}-Constraint, redundante Fremdschlüsselattribute). Das Modell
+  wurde bewusst unverändert dargestellt und die Punkte auf einer eigenen
+  Prüfpunkte-Folie ausgewiesen.
+- Prompt für Claude Design ergänzt (`claude-design-prompt.md`), der Kontext,
+  Designsystem, Folienstruktur, beide Diagrammspezifikationen und die
+  fachlichen Kernaussagen für einen Neuaufbau der Abgabe bündelt.
+
 ## 2026-08-04
 
 - Die Module `principles of finance` und `marketing management` unter
