@@ -9,7 +9,8 @@
 | Lehrender | Prof. Dr. habil. Stefan Prigge |
 | Lehr- und Prüfungssprache | Englisch |
 | Umfang | 6 ECTS |
-| Prüfungsform | Schriftliche Klausur; Dauer noch offen |
+| Prüfungsform | Schriftliche Klausur auf Englisch, 90 Minuten; Formelanhang wird gestellt |
+| Notenverbesserung | Optionale Buchpräsentation: Gutschrift von 0,3 Notenpunkten (Kursinformation 04.08.2026) |
 
 Das Pflichtmodul vermittelt finanzwirtschaftliche Entscheidungsgrundlagen und
 verbindet sechs Themenblöcke mit Readern, Übungen und Flipped-Classroom-Phasen.
@@ -41,7 +42,11 @@ verbindet sechs Themenblöcke mit Readern, Übungen und Flipped-Classroom-Phasen
 - Die vier ZIP-Archive bleiben gemäß der bestehenden Regel `*.zip` nur lokal;
   ihre 16 entpackten PDF-Inhalte und die Modulbeschreibung werden im
   Git-Repository versioniert.
-- Klausurdatum, Klausurdauer und Gewichtung noch offen
+- Klausurdatum, weitere Hilfsmittel und Rahmen der optionalen Buchpräsentation
+  noch offen
+- Der Juli–September-Terminplan ist für den B-Track sehr wahrscheinlich
+  maßgeblich; der im Foliensatz verbliebene April–Juni-Plan gehört nicht zu
+  einer separaten Präsentationsleistung und muss formal zugeordnet werden.
 
 ## Arbeitsregeln
 
