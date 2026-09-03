@@ -49,12 +49,14 @@ Arbeitsgrundlage ist `Spotify_Praxisbericht_Arbeitsstand_2.docx`.
 ### MOBIS
 
 - Bewertung und Rückmeldung des Dozenten zur erbrachten Prüfungsleistung
-  erfassen und in `05_pruefungsleistung/04_feedback/` ablegen.
+  erfassen und unter `05_pruefungsleistung/04_feedback/` ablegen — der Ordner
+  ist noch anzulegen.
 - Use-Case-Vertiefungsübung Aufgabe 1 „TherapistHive" fertigstellen:
   Mehr-Agenten-Lauf ab der Synthesestufe fortsetzen (Rohmaterial in
   `04_aufgaben/aufgabe-uc-01-therapisthive/arbeitsstand/entwuerfe.json`), danach
-  das Diagramm bauen und nach `abgabe/` legen. Vorab zu entscheiden: Werkzeug —
-  Folie 2 empfiehlt Visual Paradigm Online, das Repo nutzt bisher `.drawio`.
+  das Diagramm bauen und in einem noch anzulegenden `abgabe/` ablegen. Vorab zu
+  entscheiden: Werkzeug — Folie 2 empfiehlt Visual Paradigm Online, das Repo
+  nutzt bisher `.drawio`.
 - Aufgabe 2 „CNC-Onlineshop" derselben Vertiefungsübung ist noch offen.
 - Die sechs offenen Punkte aus
   `05_pruefungsleistung/06_aufgabe3/2026-09-02_Pruefbericht_finale-Abgabe.md`
