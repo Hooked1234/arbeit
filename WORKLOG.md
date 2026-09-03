@@ -163,6 +163,41 @@
   `SaveAs2` mit Format 17 funktioniert. Bei hängendem Word hilft das Löschen
   des Resiliency-Schlüssels. Das erklärt auch den entsprechenden Befund in der
   Qualitätsprüfung der Auflage 2.
+## 2026-08-07
+
+- Für den ersten MOBIS-Prüfungstermin am 12.08.2026 drei progressive
+  20-Minuten-Übungen zum UML-Klassendiagramm im Fall „Onlinehandel“ erstellt:
+  Klassenabgrenzung und Generalisierung, Multiplizitäten in beide Richtungen
+  sowie die fachlich begründete Modellierung von `Bestellposition`.
+- Eine sieben Folien umfassende Aufgabenpräsentation im Stil der vorhandenen EPK-
+  Übungsfolien sowie eine elfseitige Lösungs- und Moderationshilfe als
+  bearbeitbare DOCX und inhaltsgleiche PDF unter
+  `modellierung betrieblicher informationssysteme/05_pruefungsleistung/05_abgabe/`
+  abgelegt. Der zweite Prüfungstermin am 02.09.2026 ist bewusst nicht enthalten.
+- Alle sieben Folien und elf Dokumentseiten vollständig gerendert und visuell
+  geprüft. Die Präsentation besteht den Canvas- und Vorlagenabgleich; DOCX und
+  PDF stimmen in Inhalt und Seitenfolge überein und der Dokumentaudit meldet
+  keine Barrierefreiheitsbefunde.
+
+## 2026-08-06
+
+- Ein englisches `Software Engineering Course Map & Reference Handbook` in
+  einer eigenständigen, für das Modul passenden Nachschlagewerk-Struktur
+  erstellt; bewusst ohne die Struktur der 1,0-Lernzettel-Vorlage.
+- Die 11 lokal vorhandenen Kurs-PDFs vollständig ausgewertet und die
+  Lernlogik als Rückkopplungssystem dargestellt: Grundlagen → Qualität und
+  Anforderungen → Organisation und Prozess → System- und Softwarearchitektur
+  → Design, Implementierung und Tests → Build und Release → Betrieb und
+  Wartung → Feedback in frühere Entscheidungen.
+- 51-seitige PDF und bearbeitbare DOCX unter
+  `projekte/HSBA 2. Semester/software engineering/03_notizen/` abgelegt. Das
+  Handbuch enthält Fragennavigator, 11 Quellenkapitel einschließlich der
+  sichtbaren Lücke von Deck 04, MentorHive-End-to-End-Fall, Vergleichstabellen,
+  Video-Club-Zuordnung, alphabetisches Glossar und Quellenkarte.
+- Alle 51 PDF-Seiten visuell geprüft. Inhaltsverzeichnis und PDF-Lesezeichen
+  funktionieren; 431 Tabellenzeilen bleiben ungeteilt. Abschließende Prüfungen
+  melden 0 Barrierefreiheitsbefunde, konsistente Tabellengeometrie, keine
+  Leerseiten, durchsuchbaren Text und eine getaggte PDF ohne Autorenmetadaten.
 
 ## 2026-08-04
 

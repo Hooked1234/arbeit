@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-08-10T00:00:00.000Z" agent="Codex" version="24.7.17" pages="3">
+  <diagram id="aufgabe_1_onlineshop" name="Aufgabe 1">
+    <mxGraphModel dx="1240" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="790" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aufgabe_1_onlineshop_title" value="Aufgabe 1 - Bestellsystem eines Onlineshops" style="text;html=1;strokeColor=none;fillColor=#173B57;fontColor=#FFFFFF;fontFamily=Arial;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1240" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_sortiment" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Sortiment&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-sortimentsnummer: String&lt;br&gt;-name: String&lt;br&gt;-gültigAb: Date&lt;br&gt;-aktiv: Boolean&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+produktAufnehmen(produkt: Produkt): Boolean&lt;br&gt;+produktEntfernen(produktnummer: String): Boolean&lt;br&gt;+produktSuchen(produktnummer: String): Produkt [0..1]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="900" y="55" width="280" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_kunde" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Kunde&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-kundennummer: String&lt;br&gt;-name: String&lt;br&gt;-adresse: String&lt;br&gt;-eMailAdresse: String&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+adresseÄndern(neueAdresse: String): void&lt;br&gt;+bestellungenAbrufen(): Bestellung [0..*]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="25" y="325" width="240" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_bestellung" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Bestellung&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-bestellnummer: String&lt;br&gt;-bestelldatum: Date&lt;br&gt;-status: Bestellstatus&lt;br&gt;-lieferadresse: String&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+positionHinzufügen(produkt: Produkt, menge: Integer): Bestellposition&lt;br&gt;+positionEntfernen(positionsnummer: Integer): Boolean&lt;br&gt;+stornieren(): Boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="300" y="315" width="270" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_position" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Bestellposition&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-positionsnummer: Integer&lt;br&gt;-menge: Integer&lt;br&gt;-einzelpreis: Decimal&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+mengeÄndern(neueMenge: Integer): void&lt;br&gt;+positionsbetragBerechnen(): Decimal&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="645" y="330" width="235" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_produkt" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;Produkt {abstract}&lt;/i&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-produktnummer: String&lt;br&gt;-bezeichnung: String&lt;br&gt;-aktuellerPreis: Decimal&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+preisÄndern(neuerPreis: Decimal): void&lt;br&gt;+verfügbarkeitPrüfen(menge: Integer): Boolean {abstract}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="985" y="315" width="240" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_physisch" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;PhysischesProdukt&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-gewichtInKg: Decimal&lt;br&gt;-lagerbestand: Integer&lt;br&gt;-mindestbestand: Integer&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+verfügbarkeitPrüfen(menge: Integer): Boolean&lt;br&gt;+lagerbestandÄndern(delta: Integer): void&lt;br&gt;+nachbestellungErforderlich(): Boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="690" y="575" width="260" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_digital" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;DigitalesProdukt&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-dateigrößeInByte: Long&lt;br&gt;-dateityp: String&lt;br&gt;-downloadUrl: String&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+verfügbarkeitPrüfen(menge: Integer): Boolean&lt;br&gt;+dateiAktualisieren(url: String, größe: Long): void&lt;br&gt;+downloadLinkErzeugen(): String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="970" y="575" width="255" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_1_onlineshop_kunde" target="aufgabe_1_onlineshop_bestellung">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_1_name" value="gibt auf" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="215" y="392" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_1_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="244" y="372" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_1_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="272" y="372" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;startArrow=diamond;startFill=1;startSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_1_onlineshop_bestellung" target="aufgabe_1_onlineshop_position">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_2_name" value="besteht aus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="550" y="392" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_2_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="557" y="372" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_2_tm" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="614" y="372" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_1_onlineshop_position" target="aufgabe_1_onlineshop_produkt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_3_name" value="bezieht sich auf" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="867" y="395" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_3_sm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="868" y="375" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_3_tm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="953" y="375" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;startArrow=diamond;startFill=0;startSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_1_onlineshop_sortiment" target="aufgabe_1_onlineshop_produkt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_4_name" value="führt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1007" y="267" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_4_sm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="240" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_4_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="290" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;endArrow=block;endFill=0;endSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.35;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_1_onlineshop_physisch" target="aufgabe_1_onlineshop_produkt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="545" />
+              <mxPoint x="1069" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_edge_6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;endArrow=block;endFill=0;endSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.68;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_1_onlineshop_digital" target="aufgabe_1_onlineshop_produkt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1098" y="545" />
+              <mxPoint x="1148" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_note_1" value="{disjoint, complete}&amp;lt;br&amp;gt;Generalisierungsmenge Produktarten" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#FFF7DD;strokeColor=#C7A84D;fontFamily=Arial;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="725" y="485" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_1_onlineshop_note_2" value="Nebenbedingungen: menge &amp;gt;= 1; aktuellerPreis &amp;gt;= 0; einzelpreis &amp;gt;= 0; die letzte Position darf nicht entfernt werden.&amp;lt;br&amp;gt;Preissnapshot: Bestellposition.einzelpreis bleibt bei spaeteren Preisupdates unverändert." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#FFF7DD;strokeColor=#C7A84D;fontFamily=Arial;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="25" y="690" width="650" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aufgabe_2_hotelverwaltung" name="Aufgabe 2">
+    <mxGraphModel dx="1400" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1080" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aufgabe_2_hotelverwaltung_title" value="Aufgabe 2 - Hotelverwaltung" style="text;html=1;strokeColor=none;fillColor=#173B57;fontColor=#FFFFFF;fontFamily=Arial;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1400" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_hotel" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Hotel&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-hotelnummer: String&lt;br&gt;-name: String&lt;br&gt;-adresse: String&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+auslastungBerechnen(von: Date, bis: Date): Decimal&lt;br&gt;+zimmerHinzufügen(zimmer: Zimmer): void&lt;br&gt;+mitarbeiterZuordnen(mitarbeiter: Mitarbeiter): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="30" y="55" width="255" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_mitarbeiter" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Mitarbeiter&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-personalnummer: String&lt;br&gt;-name: String&lt;br&gt;-rolle: MitarbeiterRolle&lt;br&gt;-aktiv: Boolean&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+reservierungBearbeiten(reservierung: Reservierung): void&lt;br&gt;+gastEinchecken(reservierung: Reservierung): void&lt;br&gt;+gastAuschecken(reservierung: Reservierung): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="330" y="55" width="285" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_zahlung" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Zahlung&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-zahlungsnummer: String&lt;br&gt;-betrag: Money&lt;br&gt;-zahlungszeitpunkt: DateTime&lt;br&gt;-status: Zahlungsstatus&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+ausführen(): Boolean&lt;br&gt;+erstatten(): Boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="610" width="255" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_gast" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Gast&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-gastnummer: String&lt;br&gt;-name: String&lt;br&gt;-eMailAdresse: String&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+reservierungAnlegen(anreise: Date, abreise: Date): Reservierung&lt;br&gt;+kontaktdatenÄndern(eMailAdresse: String): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="55" width="270" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_reservierung" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Reservierung&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-reservierungsnummer: String&lt;br&gt;-anreise: Date&lt;br&gt;-abreise: Date&lt;br&gt;-status: Reservierungsstatus&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+gesamtpreisBerechnen(): Money&lt;br&gt;+bestätigen(): Boolean&lt;br&gt;+stornieren(): Boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="165" y="350" width="270" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_buchungsposition" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Buchungsposition&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-positionsnummer: Integer&lt;br&gt;-anzahl: Integer&lt;br&gt;-einzelpreis: Money&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+positionspreisBerechnen(): Money&lt;br&gt;+mengeÄndern(anzahl: Integer): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="365" width="270" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_leistung" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;BuchbareLeistung {abstract}&lt;/i&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-leistungsnummer: String&lt;br&gt;-bezeichnung: String&lt;br&gt;-grundpreis: Money&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+istVerfügbar(von: Date, bis: Date): Boolean {abstract}&lt;br&gt;+preisBerechnen(von: Date, bis: Date): Money {abstract}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="850" y="350" width="320" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_zimmer" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Zimmer&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-zimmernummer: String&lt;br&gt;-etage: Integer&lt;br&gt;-betriebsstatus: Zimmerstatus&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+istVerfügbar(von: Date, bis: Date): Boolean&lt;br&gt;+preisBerechnen(von: Date, bis: Date): Money&lt;br&gt;+freigeben(): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="710" y="610" width="285" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_zusatzleistung" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Zusatzleistung&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-kategorie: Leistungskategorie&lt;br&gt;-dauerInMinuten: Integer&lt;br&gt;-verfügbarAb: Date&lt;br&gt;-verfügbarBis: Date&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+istVerfügbar(von: Date, bis: Date): Boolean&lt;br&gt;+preisBerechnen(von: Date, bis: Date): Money&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="610" width="300" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_standard" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Standardzimmer&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-anzahlBetten: Integer&lt;br&gt;-balkonVorhanden: Boolean&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+eignetSichFuer(personen: Integer): Boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="575" y="865" width="250" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_suite" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Suite&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-wohnflaecheQuadratmeter: Decimal&lt;br&gt;-whirlpoolVorhanden: Boolean&lt;br&gt;-maximaleBelegung: Integer&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+eignetSichFuer(personen: Integer): Boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="855" y="850" width="270" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;startArrow=diamond;startFill=0;startSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_2_hotelverwaltung_hotel" target="aufgabe_2_hotelverwaltung_mitarbeiter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_1_name" value="beschäftigt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="241" y="120" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_1_sm" value="0..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="270" y="100" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_1_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="294" y="100" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;startArrow=diamond;startFill=1;startSize=14;exitX=0;exitY=0.72;exitDx=0;exitDy=0;entryX=0;entryY=0.52;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_2_hotelverwaltung_hotel" target="aufgabe_2_hotelverwaltung_zimmer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="12" y="171" />
+              <mxPoint x="12" y="820" />
+              <mxPoint x="680" y="820" />
+              <mxPoint x="680" y="694" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_2_name" value="umfasst" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="801" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_2_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="145" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_2_tm" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="666" y="672" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.85;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_2_hotelverwaltung_gast" target="aufgabe_2_hotelverwaltung_reservierung">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1215" y="285" />
+              <mxPoint x="395" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_3_name" value="tätigt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="740" y="268" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_3_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1173" y="260" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_3_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="388" y="305" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=0.45;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_2_hotelverwaltung_mitarbeiter" target="aufgabe_2_hotelverwaltung_reservierung">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_4_name" value="bearbeitet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="285" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_4_sm" value="0..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="418" y="250" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_4_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="278" y="325" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_2_hotelverwaltung_reservierung" target="aufgabe_2_hotelverwaltung_zahlung">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="565" />
+              <mxPoint x="378" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_5_name" value="wird beglichen durch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="274" y="547" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_5_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="263" y="532" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_5_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="370" y="586" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;startArrow=diamond;startFill=1;startSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_2_hotelverwaltung_reservierung" target="aufgabe_2_hotelverwaltung_buchungsposition">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_6_name" value="besteht aus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="403" y="428" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_6_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="423" y="407" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_6_tm" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="460" y="407" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_2_hotelverwaltung_buchungsposition" target="aufgabe_2_hotelverwaltung_leistung">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_7_name" value="bezieht sich auf" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="745" y="428" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_7_sm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="758" y="407" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_7_tm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="813" y="407" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;endArrow=block;endFill=0;endSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.32;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_2_hotelverwaltung_zimmer" target="aufgabe_2_hotelverwaltung_leistung">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="852" y="575" />
+              <mxPoint x="952" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;endArrow=block;endFill=0;endSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.72;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_2_hotelverwaltung_zusatzleistung" target="aufgabe_2_hotelverwaltung_leistung">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="575" />
+              <mxPoint x="1080" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;endArrow=block;endFill=0;endSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.34;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_2_hotelverwaltung_standard" target="aufgabe_2_hotelverwaltung_zimmer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="830" />
+              <mxPoint x="807" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_edge_11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;endArrow=block;endFill=0;endSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_2_hotelverwaltung_suite" target="aufgabe_2_hotelverwaltung_zimmer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="820" />
+              <mxPoint x="910" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_note_1" value="Zeitregel: Ein Zimmer ist nur verfügbar, wenn betriebsstatus = BETRIEBSBEREIT gilt und keine bestätigte oder eingecheckte Reservierung den Zeitraum [anreise, abreise) überlappt. Fuer eine Zimmerposition gilt anzahl = 1." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#FFF7DD;strokeColor=#C7A84D;fontFamily=Arial;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="850" width="225" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_note_2" value="Generalisierung Zimmer: {disjoint, incomplete}. Weitere Zimmerarten sind zulässig." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#FFF7DD;strokeColor=#C7A84D;fontFamily=Arial;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="25" y="970" width="520" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_2_hotelverwaltung_note_3" value="Leistungsarten: {disjoint, incomplete}" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#FFF7DD;strokeColor=#C7A84D;fontFamily=Arial;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="650" y="520" width="180" height="42" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aufgabe_3_veranstaltungsmanagement" name="Aufgabe 3">
+    <mxGraphModel dx="1400" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1080" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_title" value="Aufgabe 3 - Veranstaltungsmanagement" style="text;html=1;strokeColor=none;fillColor=#173B57;fontColor=#FFFFFF;fontFamily=Arial;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1400" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_veranstalter" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Veranstalter&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-veranstalterId: UUID&lt;br&gt;-name: String&lt;br&gt;-kontaktEmail: String&lt;br&gt;-telefon: String&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+veranstaltungAufnehmen(veranstaltung: Veranstaltung): void&lt;br&gt;+veranstaltungEntfernen(veranstaltungsId: UUID): Boolean&lt;br&gt;+mitarbeiterAufnehmen(mitarbeiter: Mitarbeiter): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="25" y="55" width="310" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_mitarbeiter" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Mitarbeiter&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-mitarbeiterId: UUID&lt;br&gt;-name: String&lt;br&gt;-eMailAdresse: String&lt;br&gt;-rolle: Mitarbeiterrolle&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+veranstaltungÜbernehmen(veranstaltung: Veranstaltung): void&lt;br&gt;+rolleÄndern(rolle: Mitarbeiterrolle): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="385" y="55" width="310" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_teilnehmer" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Teilnehmer&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-teilnehmerId: UUID&lt;br&gt;-name: String&lt;br&gt;-eMailAdresse: String&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+buchen(veranstaltung: Veranstaltung, anzahlTickets: Integer): Buchung&lt;br&gt;+kontaktdatenÄndern(eMail: String): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="800" y="55" width="290" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_zahlung" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Zahlung&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-zahlungsId: UUID&lt;br&gt;-betrag: Money&lt;br&gt;-zahlungsart: Zahlungsart&lt;br&gt;-status: Zahlungsstatus&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+ausführen(): Boolean&lt;br&gt;+erstatten(): Boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="55" width="250" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_veranstaltung" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;i&gt;Veranstaltung {abstract}&lt;/i&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-veranstaltungsId: UUID&lt;br&gt;-titel: String&lt;br&gt;-zeitraum: Zeitraum&lt;br&gt;-status: Veranstaltungsstatus&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+anmeldungÖffnen(): Boolean&lt;br&gt;+absagen(grund: String): void&lt;br&gt;+programmpunktHinzufügen(programmpunkt: Programmpunkt): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="320" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_buchung" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Buchung&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-buchungsId: UUID&lt;br&gt;-gebuchtAm: DateTime&lt;br&gt;-status: Buchungsstatus&lt;br&gt;-/gesamtbetrag: Money&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+ticketHinzufügen(name: String, preis: Money): Ticket&lt;br&gt;+gesamtbetragBerechnen(): Money&lt;br&gt;+stornieren(): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="770" y="360" width="290" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_ticket" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Ticket&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-ticketCode: String&lt;br&gt;-inhaberName: String&lt;br&gt;-preis: Money&lt;br&gt;-status: Ticketstatus&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+entwerten(): Boolean&lt;br&gt;+übertragen(neuerInhaberName: String): void&lt;br&gt;+istGültig(): Boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="365" width="250" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_praesenz" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Präsenzveranstaltung&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-maxPlätze: Integer&lt;br&gt;-einlassAb: DateTime&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+ortFestlegen(ort: Veranstaltungsort): void&lt;br&gt;+freiePlätzeErmitteln(): Integer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="650" width="285" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_online" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Onlineveranstaltung&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-plattform: String&lt;br&gt;-zugangsUrl: URL&lt;br&gt;-maxZugänge: Integer&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+zugangsdatenAktualisieren(url: URL): void&lt;br&gt;+freieZugängeErmitteln(): Integer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="385" y="650" width="285" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_programmpunkt" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Programmpunkt&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-programmpunktId: UUID&lt;br&gt;-titel: String&lt;br&gt;-start: DateTime&lt;br&gt;-dauer: Duration&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+verschieben(neuerStart: DateTime): void&lt;br&gt;+dauerÄndern(neueDauer: Duration): void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="740" y="670" width="285" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_ort" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;Veranstaltungsort&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;-ortId: UUID&lt;br&gt;-name: String&lt;br&gt;-adresse: String&lt;br&gt;-kapazität: Integer&lt;/div&gt;&lt;hr&gt;&lt;div&gt;+verfügbarkeitPrüfen(zeitraum: Zeitraum): Boolean&lt;br&gt;+reservieren(veranstaltung: Präsenzveranstaltung): Boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;fontFamily=Arial;fontSize=10;fillColor=#FFFFFF;strokeColor=#173B57;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="670" width="300" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;startArrow=diamond;startFill=0;startSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_3_veranstaltungsmanagement_veranstalter" target="aufgabe_3_veranstaltungsmanagement_mitarbeiter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_1_name" value="beschäftigt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="290" y="127" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_1_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="318" y="105" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_1_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="348" y="105" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=0.55;exitY=1;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_3_veranstaltungsmanagement_veranstalter" target="aufgabe_3_veranstaltungsmanagement_veranstaltung">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="300" />
+              <mxPoint x="435" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_2_name" value="organisiert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="282" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_2_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="183" y="270" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_2_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="423" y="328" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=0.55;exitY=1;exitDx=0;exitDy=0;entryX=0.65;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_3_veranstaltungsmanagement_mitarbeiter" target="aufgabe_3_veranstaltungsmanagement_veranstaltung">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_3_name" value="betreut" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="480" y="282" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_3_sm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="538" y="265" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_3_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="553" y="328" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=0.55;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_3_veranstaltungsmanagement_teilnehmer" target="aufgabe_3_veranstaltungsmanagement_buchung">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_4_name" value="tätigt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="870" y="282" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_4_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="928" y="260" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_4_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="898" y="330" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=0.85;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_3_veranstaltungsmanagement_buchung" target="aufgabe_3_veranstaltungsmanagement_zahlung">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1017" y="300" />
+              <mxPoint x="1260" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_5_name" value="wird beglichen durch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1073" y="282" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_5_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="330" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_5_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1248" y="260" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_3_veranstaltungsmanagement_veranstaltung" target="aufgabe_3_veranstaltungsmanagement_buchung">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_6_name" value="ist Gegenstand von" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="665" y="435" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_6_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="683" y="413" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_6_tm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="738" y="413" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;startArrow=diamond;startFill=1;startSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_3_veranstaltungsmanagement_buchung" target="aufgabe_3_veranstaltungsmanagement_ticket">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_7_name" value="umfasst" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1037" y="440" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_7_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="418" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_7_tm" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1101" y="418" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;startArrow=diamond;startFill=1;startSize=14;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0.35;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_3_veranstaltungsmanagement_veranstaltung" target="aufgabe_3_veranstaltungsmanagement_programmpunkt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="626" y="610" />
+              <mxPoint x="840" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_8_name" value="besteht aus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="670" y="590" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_8_sm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="618" y="580" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_8_tm" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="828" y="640" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;endArrow=block;endFill=0;endSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.3;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_3_veranstaltungsmanagement_praesenz" target="aufgabe_3_veranstaltungsmanagement_veranstaltung">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="202" y="610" />
+              <mxPoint x="466" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;endArrow=block;endFill=0;endSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.68;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_3_veranstaltungsmanagement_online" target="aufgabe_3_veranstaltungsmanagement_veranstaltung">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="527" y="610" />
+              <mxPoint x="588" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#173B57;strokeWidth=1.5;endArrow=none;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aufgabe_3_veranstaltungsmanagement_praesenz" target="aufgabe_3_veranstaltungsmanagement_ort">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="202" y="910" />
+              <mxPoint x="1225" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_11_name" value="findet statt an" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="650" y="890" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_11_sm" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="198" y="880" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_edge_11_tm" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1183" y="880" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_note_1" value="{disjoint, complete}&amp;lt;br&amp;gt;Generalisierungsmenge Durchführungsform" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#FFF7DD;strokeColor=#C7A84D;fontFamily=Arial;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="250" y="555" width="250" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_note_2" value="Preis- und Zahlungsregeln: /gesamtbetrag = Summe(Ticket.preis). Bei vollständiger Bezahlung entspricht die Summe erfolgreicher, nicht erstatteter Zahlungen dem Gesamtbetrag." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#FFF7DD;strokeColor=#C7A84D;fontFamily=Arial;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="25" y="930" width="620" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="aufgabe_3_veranstaltungsmanagement_note_3" value="Zeit- und Kapazitätsregeln: Programmpunkte liegen im Veranstaltungszeitraum; Veranstaltungen am selben Ort dürfen sich zeitlich nicht überschneiden; die Anzahl gültiger Tickets darf die Kapazität nicht überschreiten." style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#FFF7DD;strokeColor=#C7A84D;fontFamily=Arial;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="690" y="930" width="685" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

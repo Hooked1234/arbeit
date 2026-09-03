@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1400" height="1080" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1400 1080" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1400" height="1080"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-1080)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1400" height="1080" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="1038" width="1400" height="42" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,23%,34%); fill-rule: evenodd;"/>
+			<text x="24" y="1053" style="font-family: Arial-Bold; font-size: 16px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,2106) scale(1,-1)">Aufgabe 2 - Hotelverwaltung</text>
+			<text x="1271.9462890625" y="1053" style="font-family: Arial; font-size: 9px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,2106) scale(1,-1)">Teilgeführte Musterlösung</text>
+			<path d="M 285,944.5 L 330,935.5 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<polygon points="285 944.5, 291.9621 935.9689, 301.6699 941.166, 294.7077 949.6971" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="280.6640625" y="945" width="50.671875" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="284.6640625" y="950" style="font-family: Arial-Bold; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1900) scale(1,-1)">beschäftigt</text>
+			<rect x="281.66171875" y="965" width="20.67656249999999" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="285.66171875" y="970" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1940) scale(1,-1)">0..1</text>
+			<rect x="306.2962890625" y="965" width="19.40742187500001" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="310.2962890625" y="970" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1940) scale(1,-1)">0..*</text>
+			<path d="M 30,909.08 L 12,909 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 12,909 L 12,260 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 12,260 L 680,260 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 680,260 L 680,386 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 680,386 L 710,386.28 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<polygon points="30 909.08, 21.46897 916.0422, 13.00017 909.0044, 21.53119 902.0423" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.6; fill: rgb(9%,23%,34%); fill-rule: evenodd;"/>
+			<rect x="85.662109375" y="264" width="38.67578125" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="89.662109375" y="269" style="font-family: Arial-Bold; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,538) scale(1,-1)">umfasst</text>
+			<rect x="11.88662109375" y="920" width="12.226757812499999" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="15.88662109375" y="925" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1850) scale(1,-1)">1</text>
+			<rect x="678.2962890625" y="393" width="19.407421874999955" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="682.2962890625" y="398" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,796) scale(1,-1)">1..*</text>
+			<path d="M 1215,882 L 1215,795 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 1215,795 L 395,795 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 395,795 L 394.5,730 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<rect x="791.224609375" y="797" width="27.55078125" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="795.224609375" y="802" style="font-family: Arial-Bold; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1604) scale(1,-1)">tätigt</text>
+			<rect x="1188.88662109375" y="805" width="12.226757812499955" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="1192.88662109375" y="810" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1620) scale(1,-1)">1</text>
+			<rect x="400.2962890625" y="760" width="19.40742187500001" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="404.2962890625" y="765" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1530) scale(1,-1)">0..*</text>
+			<path d="M 458.25,846 L 286.5,730 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<rect x="381.8828125" y="780" width="46.234375" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="385.8828125" y="785" style="font-family: Arial-Bold; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1570) scale(1,-1)">bearbeitet</text>
+			<rect x="429.66171875" y="815" width="20.67656249999999" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="433.66171875" y="820" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1640) scale(1,-1)">0..1</text>
+			<rect x="290.2962890625" y="740" width="19.40742187500001" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="294.2962890625" y="745" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1490) scale(1,-1)">0..*</text>
+			<path d="M 300,551 L 300,515 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 300,515 L 378,515 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 378,515 L 377.5,470 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<rect x="294.7734375" y="518" width="88.453125" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="298.7734375" y="523" style="font-family: Arial-Bold; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1046) scale(1,-1)">wird beglichen durch</text>
+			<rect x="278.88662109375" y="533" width="12.226757812500011" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="282.88662109375" y="538" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1076) scale(1,-1)">1</text>
+			<rect x="382.2962890625" y="479" width="19.40742187500001" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="386.2962890625" y="484" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,968) scale(1,-1)">0..*</text>
+			<path d="M 435,640.5 L 500,643.5 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<polygon points="435 640.5, 443.8137 633.8993, 451.9819 641.2838, 443.1682 647.8844" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.6; fill: rgb(9%,23%,34%); fill-rule: evenodd;"/>
+			<rect x="441.771484375" y="637" width="52.45703125" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="445.771484375" y="642" style="font-family: Arial-Bold; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1284) scale(1,-1)">besteht aus</text>
+			<rect x="438.88662109375" y="658" width="12.226757812500011" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="442.88662109375" y="663" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1326) scale(1,-1)">1</text>
+			<rect x="472.2962890625" y="658" width="19.40742187500001" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="476.2962890625" y="663" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1326) scale(1,-1)">1..*</text>
+			<path d="M 770,643.5 L 850,658.5 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<rect x="775.994140625" y="637" width="68.01171875" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="779.994140625" y="642" style="font-family: Arial-Bold; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1284) scale(1,-1)">bezieht sich auf</text>
+			<rect x="770.2962890625" y="658" width="19.407421874999955" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="774.2962890625" y="663" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1326) scale(1,-1)">0..*</text>
+			<rect x="828.88662109375" y="658" width="12.226757812499955" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="832.88662109375" y="663" style="font-family: Arial; font-size: 7.6px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1326) scale(1,-1)">1</text>
+			<path d="M 852.5,470 L 852,505 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 852,505 L 952,505 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 952,505 L 952.4,587 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<polygon points="952.4 587, 944.3123 569.0392, 960.3121 568.9612" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 1200,470 L 1200,505 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 1200,505 L 1080,505 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 1080,505 L 1080.4,587 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<polygon points="1080.4 587, 1072.312 569.0392, 1088.312 568.9612" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 700,215 L 700,250 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 700,250 L 807,250 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 807,250 L 806.9,309 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<polygon points="806.9 309, 798.9305 290.9865, 814.9305 291.0136" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 990,230 L 990,260 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 990,260 L 910,260 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<path d="M 910,260 L 909.5,309 Z" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.55;"/>
+			<polygon points="909.5 309, 901.6841 290.9193, 917.6832 291.0826" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="30" y="864" width="255" height="161" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="30" y="994" width="255" height="31" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="144.375" y="1004" style="font-family: Arial-Bold; font-size: 10.5px;fill: rgb(9%,23%,34%); stroke:none;" transform="translate(0,2008) scale(1,-1)">Hotel</text>
+			<text x="37" y="980" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1960) scale(1,-1)">-hotelnummer: String</text>
+			<text x="37" y="962" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1924) scale(1,-1)">-name: String</text>
+			<text x="37" y="944" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1888) scale(1,-1)">-adresse: String</text>
+			<path d="M 30,933 L 285,933 Z" style="stroke: rgb(72%,77%,80%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="37" y="918" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1836) scale(1,-1)">+auslastungBerechnen(von: Date, bis: Date): Decimal</text>
+			<text x="37" y="900" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1800) scale(1,-1)">+zimmerHinzufügen(zimmer: Zimmer): void</text>
+			<text x="37" y="882" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1764) scale(1,-1)">+mitarbeiterZuordnen(mitarbeiter: Mitarbeiter): void</text>
+			<rect x="330" y="846" width="285" height="179" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="330" y="994" width="285" height="31" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="445.660400390625" y="1004" style="font-family: Arial-Bold; font-size: 10.5px;fill: rgb(9%,23%,34%); stroke:none;" transform="translate(0,2008) scale(1,-1)">Mitarbeiter</text>
+			<text x="337" y="980" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1960) scale(1,-1)">-personalnummer: String</text>
+			<text x="337" y="962" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1924) scale(1,-1)">-name: String</text>
+			<text x="337" y="944" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1888) scale(1,-1)">-rolle: MitarbeiterRolle</text>
+			<text x="337" y="926" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1852) scale(1,-1)">-aktiv: Boolean</text>
+			<path d="M 330,915 L 615,915 Z" style="stroke: rgb(72%,77%,80%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="337" y="900" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1800) scale(1,-1)">+reservierungBearbeiten(reservierung: Reservierung): void</text>
+			<text x="337" y="882" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1764) scale(1,-1)">+gastEinchecken(reservierung: Reservierung): void</text>
+			<text x="337" y="864" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1728) scale(1,-1)">+gastAuschecken(reservierung: Reservierung): void</text>
+			<rect x="250" y="309" width="255" height="161" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="250" y="439" width="255" height="31" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="357.0870361328125" y="449" style="font-family: Arial-Bold; font-size: 10.5px;fill: rgb(9%,23%,34%); stroke:none;" transform="translate(0,898) scale(1,-1)">Zahlung</text>
+			<text x="257" y="425" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,850) scale(1,-1)">-zahlungsnummer: String</text>
+			<text x="257" y="407" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,814) scale(1,-1)">-betrag: Money</text>
+			<text x="257" y="389" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,778) scale(1,-1)">-zahlungszeitpunkt: DateTime</text>
+			<text x="257" y="371" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,742) scale(1,-1)">-status: Zahlungsstatus</text>
+			<path d="M 250,360 L 505,360 Z" style="stroke: rgb(72%,77%,80%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="257" y="345" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,690) scale(1,-1)">+ausführen(): Boolean</text>
+			<text x="257" y="327" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,654) scale(1,-1)">+erstatten(): Boolean</text>
+			<rect x="1080" y="882" width="270" height="143" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="1080" y="994" width="270" height="31" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="1203.3284912109375" y="1004" style="font-family: Arial-Bold; font-size: 10.5px;fill: rgb(9%,23%,34%); stroke:none;" transform="translate(0,2008) scale(1,-1)">Gast</text>
+			<text x="1087" y="980" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1960) scale(1,-1)">-gastnummer: String</text>
+			<text x="1087" y="962" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1924) scale(1,-1)">-name: String</text>
+			<text x="1087" y="944" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1888) scale(1,-1)">-eMailAdresse: String</text>
+			<path d="M 1080,933 L 1350,933 Z" style="stroke: rgb(72%,77%,80%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="1087" y="918" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1836) scale(1,-1)">+reservierungAnlegen(anreise: Date, abreise: Date): Reservierung</text>
+			<text x="1087" y="900" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1800) scale(1,-1)">+kontaktdatenÄndern(eMailAdresse: String): void</text>
+			<rect x="165" y="551" width="270" height="179" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="165" y="699" width="270" height="31" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="266.444091796875" y="709" style="font-family: Arial-Bold; font-size: 10.5px;fill: rgb(9%,23%,34%); stroke:none;" transform="translate(0,1418) scale(1,-1)">Reservierung</text>
+			<text x="172" y="685" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1370) scale(1,-1)">-reservierungsnummer: String</text>
+			<text x="172" y="667" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1334) scale(1,-1)">-anreise: Date</text>
+			<text x="172" y="649" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1298) scale(1,-1)">-abreise: Date</text>
+			<text x="172" y="631" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1262) scale(1,-1)">-status: Reservierungsstatus</text>
+			<path d="M 165,620 L 435,620 Z" style="stroke: rgb(72%,77%,80%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="172" y="605" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1210) scale(1,-1)">+gesamtpreisBerechnen(): Money</text>
+			<text x="172" y="587" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1174) scale(1,-1)">+bestätigen(): Boolean</text>
+			<text x="172" y="569" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1138) scale(1,-1)">+stornieren(): Boolean</text>
+			<rect x="500" y="572" width="270" height="143" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="500" y="684" width="270" height="31" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="588.9215087890625" y="694" style="font-family: Arial-Bold; font-size: 10.5px;fill: rgb(9%,23%,34%); stroke:none;" transform="translate(0,1388) scale(1,-1)">Buchungsposition</text>
+			<text x="507" y="670" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1340) scale(1,-1)">-positionsnummer: Integer</text>
+			<text x="507" y="652" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1304) scale(1,-1)">-anzahl: Integer</text>
+			<text x="507" y="634" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1268) scale(1,-1)">-einzelpreis: Money</text>
+			<path d="M 500,623 L 770,623 Z" style="stroke: rgb(72%,77%,80%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="507" y="608" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1216) scale(1,-1)">+positionspreisBerechnen(): Money</text>
+			<text x="507" y="590" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1180) scale(1,-1)">+mengeÄndern(anzahl: Integer): void</text>
+			<rect x="850" y="587" width="320" height="143" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="850" y="699" width="320" height="31" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="944.03662109375" y="709" style="font-family: Arial-Italic; font-size: 10.5px;fill: rgb(9%,23%,34%); stroke:none;" transform="translate(0,1418) scale(1,-1)">BuchbareLeistung {abstract}</text>
+			<text x="857" y="685" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1370) scale(1,-1)">-leistungsnummer: String</text>
+			<text x="857" y="667" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1334) scale(1,-1)">-bezeichnung: String</text>
+			<text x="857" y="649" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1298) scale(1,-1)">-grundpreis: Money</text>
+			<path d="M 850,638 L 1170,638 Z" style="stroke: rgb(72%,77%,80%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="857" y="623" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1246) scale(1,-1)">+istVerfügbar(von: Date, bis: Date): Boolean {abstract}</text>
+			<text x="857" y="605" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1210) scale(1,-1)">+preisBerechnen(von: Date, bis: Date): Money {abstract}</text>
+			<rect x="710" y="309" width="285" height="161" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="710" y="439" width="285" height="31" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="833.535400390625" y="449" style="font-family: Arial-Bold; font-size: 10.5px;fill: rgb(9%,23%,34%); stroke:none;" transform="translate(0,898) scale(1,-1)">Zimmer</text>
+			<text x="717" y="425" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,850) scale(1,-1)">-zimmernummer: String</text>
+			<text x="717" y="407" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,814) scale(1,-1)">-etage: Integer</text>
+			<text x="717" y="389" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,778) scale(1,-1)">-betriebsstatus: Zimmerstatus</text>
+			<path d="M 710,378 L 995,378 Z" style="stroke: rgb(72%,77%,80%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="717" y="363" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,726) scale(1,-1)">+istVerfügbar(von: Date, bis: Date): Boolean</text>
+			<text x="717" y="345" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,690) scale(1,-1)">+preisBerechnen(von: Date, bis: Date): Money</text>
+			<text x="717" y="327" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,654) scale(1,-1)">+freigeben(): void</text>
+			<rect x="1050" y="309" width="300" height="161" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="1050" y="439" width="300" height="31" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="1163.2474365234375" y="449" style="font-family: Arial-Bold; font-size: 10.5px;fill: rgb(9%,23%,34%); stroke:none;" transform="translate(0,898) scale(1,-1)">Zusatzleistung</text>
+			<text x="1057" y="425" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,850) scale(1,-1)">-kategorie: Leistungskategorie</text>
+			<text x="1057" y="407" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,814) scale(1,-1)">-dauerInMinuten: Integer</text>
+			<text x="1057" y="389" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,778) scale(1,-1)">-verfügbarAb: Date</text>
+			<text x="1057" y="371" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,742) scale(1,-1)">-verfügbarBis: Date</text>
+			<path d="M 1050,360 L 1350,360 Z" style="stroke: rgb(72%,77%,80%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="1057" y="345" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,690) scale(1,-1)">+istVerfügbar(von: Date, bis: Date): Boolean</text>
+			<text x="1057" y="327" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,654) scale(1,-1)">+preisBerechnen(von: Date, bis: Date): Money</text>
+			<rect x="575" y="108" width="250" height="107" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="575" y="184" width="250" height="31" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="658.8638916015625" y="194" style="font-family: Arial-Bold; font-size: 10.5px;fill: rgb(9%,23%,34%); stroke:none;" transform="translate(0,388) scale(1,-1)">Standardzimmer</text>
+			<text x="582" y="170" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,340) scale(1,-1)">-anzahlBetten: Integer</text>
+			<text x="582" y="152" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,304) scale(1,-1)">-balkonVorhanden: Boolean</text>
+			<path d="M 575,141 L 825,141 Z" style="stroke: rgb(72%,77%,80%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="582" y="126" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,252) scale(1,-1)">+eignetSichFuer(personen: Integer): Boolean</text>
+			<rect x="855" y="105" width="270" height="125" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="855" y="199" width="270" height="31" style="stroke: rgb(9%,23%,34%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<text x="977.1646728515625" y="209" style="font-family: Arial-Bold; font-size: 10.5px;fill: rgb(9%,23%,34%); stroke:none;" transform="translate(0,418) scale(1,-1)">Suite</text>
+			<text x="862" y="185" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,370) scale(1,-1)">-wohnflaecheQuadratmeter: Decimal</text>
+			<text x="862" y="167" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,334) scale(1,-1)">-whirlpoolVorhanden: Boolean</text>
+			<text x="862" y="149" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,298) scale(1,-1)">-maximaleBelegung: Integer</text>
+			<path d="M 855,138 L 1125,138 Z" style="stroke: rgb(72%,77%,80%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="862" y="123" style="font-family: Arial; font-size: 8.0px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,246) scale(1,-1)">+eignetSichFuer(personen: Integer): Boolean</text>
+			<rect x="1150" y="80" width="225" height="150" rx="5" ry="5" style="stroke: rgb(78%,65%,30%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,96%,86%); fill-rule: evenodd;"/>
+			<text x="1159" y="215" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,430) scale(1,-1)">Zeitregel: Ein Zimmer ist nur verfügbar, wenn</text>
+			<text x="1159" y="204" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,408) scale(1,-1)">betriebsstatus = BETRIEBSBEREIT gilt und keine</text>
+			<text x="1159" y="193" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,386) scale(1,-1)">bestätigte oder eingecheckte Reservierung den Zeitraum</text>
+			<text x="1159" y="182" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,364) scale(1,-1)">[anreise, abreise) überlappt. Fuer eine Zimmerposition</text>
+			<text x="1159" y="171" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,342) scale(1,-1)">gilt anzahl = 1.</text>
+			<rect x="25" y="55" width="520" height="55" rx="5" ry="5" style="stroke: rgb(78%,65%,30%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,96%,86%); fill-rule: evenodd;"/>
+			<text x="34" y="95" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,190) scale(1,-1)">Generalisierung Zimmer: {disjoint, incomplete}. Weitere Zimmerarten sind zulässig.</text>
+			<rect x="650" y="518" width="180" height="42" rx="5" ry="5" style="stroke: rgb(78%,65%,30%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,96%,86%); fill-rule: evenodd;"/>
+			<text x="659" y="545" style="font-family: Arial; font-size: 8.2px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1090) scale(1,-1)">Leistungsarten: {disjoint, incomplete}</text>
+		</g>
+	</g>
+</svg>

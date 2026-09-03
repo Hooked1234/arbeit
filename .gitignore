@@ -5,11 +5,19 @@ _git/
 _unzipped/
 *.zip
 .claude/settings.local.json
+.claude/scratch_case.txt
+
+# Arbeitsverzeichnisse der Build-Laeufe (regenerierbar, enthalten node_modules)
+.tmp/
+tmp/
+.tmp_*/
+
 # Office-Sperrdateien
 ~$*
 
 # Python-Bytecode der Generatoren
 __pycache__/
 *.pyc
+
 # Kontrollbilder der Diagrammgeneratoren, keine Abgabeartefakte
 preview_*.png

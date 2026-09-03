@@ -3,6 +3,13 @@
 Verbindliche Festlegungen für den Workspace. Neueste oben.
 Format: Datum · Entscheidung · Begründung.
 
+- 2026-08-07 · Den MOBIS-Termin am 12.08.2026 als drei progressive
+  20-Minuten-Übungen zum UML-Klassendiagramm im durchgehenden Onlinehandel-Fall
+  umgesetzt; die Vertiefungsleistung am 02.09.2026 bleibt getrennt. UML-
+  Detailnotation ist als allgemeines Fachwissen gekennzeichnet, `Produkt` bleibt
+  aufgrund des offenen Falltexts konkret und die geteilte Aggregation wird nur
+  als konventionsabhängige Alternative diskutiert. · Verhindert erfundene
+  Prüfungsvorgaben und hält das Modell fachlich eindeutig.
 - 2026-06-30 · HSBA-Design-Tokens aus der Webmarke gesetzt (Primär `#002C58`,
   Sekundär `#4779AE`, Logo `#0C2950`, Schrift *Titillium Web*, Logo-SVG verlinkt).
   · Keine offizielle HSBA-PPT-Richtlinie auffindbar; web-abgeleitet, Prüfervorgaben
